@@ -14,7 +14,7 @@ export default function Navbar() {
       <div className="relative">
         <div className="flex justify-center items-center bg-white shadow">
           <div className="w-2/12 px-9 flex justify-center items-center cursor-pointer container">
-            <div className="relative z-2 font-bold text-[20px] text-[#0273ba] tracking-widest text-stroke">
+            <div className="relative z-2 font-bold text-[20px] text-[#0273ba] tracking-wider text-stroke">
               GuitarStore
             {/* <div className="h-2 bottom-1 inset-2 z-1 absolute w-full bg-red-600 rounded-md"></div> */}
             </div>
