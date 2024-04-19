@@ -8,16 +8,19 @@ export default function SecondNavbar() {
     return (
       <div className="flex justify-center shadow ">
         <div className="text-[12px] font-medium py-2 px-9 hover:bg-gray-100 hover:text-blue-500 cursor-pointer">
-          Shop By Category <FontAwesomeIcon icon={faChevronDown} className=" ml-1" />
+          Shop By Category
+          <FontAwesomeIcon icon={faChevronDown} className=" ml-2" />
         </div>
         <div className="text-[12px] font-medium py-2 px-9 hover:bg-gray-100 hover:text-blue-500 cursor-pointer">
           What's New
         </div>
         <div className="text-[12px] font-medium py-2 px-9 hover:bg-gray-100 hover:text-blue-500 cursor-pointer">
-          Deals <FontAwesomeIcon icon={faChevronDown} className=" ml-1" />
+          Deals
+          <FontAwesomeIcon icon={faChevronDown} className=" ml-2" />
         </div>
         <div className="text-[12px] font-medium py-2 px-9 hover:bg-gray-100 hover:text-blue-500 cursor-pointer">
-          Used Gear <FontAwesomeIcon icon={faChevronDown} className=" ml-1" />
+          Used Gear
+          <FontAwesomeIcon icon={faChevronDown} className=" ml-2" />
         </div>
         <div className="text-[12px] font-medium py-2 px-9 hover:bg-gray-100 hover:text-blue-500 cursor-pointer">
           Rentals
