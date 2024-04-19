@@ -2,62 +2,77 @@ import React from "react";
 
 export default function GetMore() {
     return (
-      <div className="text-center py-3 relative">
-        <div className="text-[28px] font-semibold">Get More at GuitarStore</div>
+      <div className="text-center py-2 relative">
+        <div className="text-[30px] font-semibold tracking-wide">
+          Get More at GuitarStore
+        </div>
         <div className="flex w-[80%] m-auto pt-10">
-          <div className="border rounded border-gray-200 pt-3 px-4 pb-9 w-full mx-1 relative cursor-pointer">
-            <div className="w-[55px] h-[55px] border-gray-200 border bg-white rounded-full absolute -top-8 right-[3.7rem]"></div>
-            <div className="text-[12px] text-blue-600 pt-6 px-2 pb-1">
+          <div className="border rounded border-gray-200 pt-3 px-4 pb-8 w-full mx-1 relative cursor-pointer hover:border-blue-700 hover:shadow-lg hover:scale-105 hover:duration-150">
+            <div className="w-[55px] h-[55px] border-gray-200 border bg-white rounded-full absolute -top-8 right-[3.7rem] hover:border-blue-700 "></div>
+            <div className="text-[12px] text-[#0273ba] pt-5 px-2 pb-1">
               Dedicated Sales Engineer
             </div>
             <div className="text-[9px] px-1">
-              Helping you buy music hear with confidence
+              Helping you buy music hear with confidence.
+            </div>
+            <div className="text-[#0273ba] text-[10px] font-bold absolute bottom-1 left-[3.6rem] text-center pb-1">
+              Learn More
             </div>
           </div>
-          <div className="border rounded border-gray-200 pt-3 px-4 pb-9 w-full mx-1 relative cursor-pointer">
-            <div className="w-[55px] h-[55px] border-gray-200 border bg-white rounded-full absolute -top-8 right-[3.7rem]"></div>
-            <div className="text-[12px] text-blue-600 pt-6 px-2 pb-1">
-              Dedicated Sales Engineer
+          <div className="border rounded border-gray-200 pt-3 px-4 pb-8 w-full mx-1 relative cursor-pointer hover:border-blue-700 hover:shadow-lg hover:scale-105 hover:duration-150">
+            <div className="w-[55px] h-[55px] border-gray-200 border bg-white rounded-full absolute -top-8 right-[3.7rem] hover:border-blue-700 "></div>
+            <div className="text-[12px] text-[#0273ba] pt-5 px-2 pb-1">
+              55-point Guitar Inpsection
             </div>
             <div className="text-[9px] px-1">
-              Helping you buy music hear with confidence
+              Guitar perfection right out of the box.
+            </div>
+            <div className="text-[#0273ba] text-[10px] font-bold absolute bottom-1 left-[3.6rem] text-center pb-1">
+              Learn More
             </div>
           </div>
-          <div className="border rounded border-gray-200 pt-3 px-4 pb-9 w-full mx-1 relative cursor-pointer">
-            <div className="w-[55px] h-[55px] border-gray-200 border bg-white rounded-full absolute -top-8 right-[3.7rem]"></div>
-            <div className="text-[12px] text-blue-600 pt-6 px-2 pb-1">
-              Dedicated Sales Engineer
+          <div className="border rounded border-gray-200 pt-3 px-4 pb-8 w-full mx-1 relative cursor-pointer hover:border-blue-700 hover:shadow-lg hover:scale-105 hover:duration-150">
+            <div className="w-[55px] h-[55px] border-gray-200 border bg-white rounded-full absolute -top-8 right-[3.7rem] hover:border-blue-700 "></div>
+            <div className="text-[12px] text-[#0273ba] pt-5 px-2 pb-1">
+              Fast, FREE Shipping
             </div>
-            <div className="text-[9px] px-1">
-              Helping you buy music hear with confidence
-            </div>
-          </div>
-          <div className="border rounded border-gray-200 pt-3 px-4 pb-9 w-full mx-1 relative cursor-pointer">
-            <div className="w-[55px] h-[55px] border-gray-200 border bg-white rounded-full absolute -top-8 right-[3.7rem]"></div>
-            <div className="text-[12px] text-blue-600 pt-6 px-2 pb-1">
-              Dedicated Sales Engineer
-            </div>
-            <div className="text-[9px] px-1">
-              Helping you buy music hear with confidence
+            <div className="text-[9px] px-1">Even on the small stuff.</div>
+            <div className="text-[#0273ba] text-[10px] font-bold absolute bottom-1 left-[3.6rem] text-center pb-1">
+              Learn More
             </div>
           </div>
-          <div className="border rounded border-gray-200 w-full pt-3 px-4 pb-9 mx-1 relative cursor-pointer">
-            <div className="w-[55px] h-[55px] border-gray-200 border bg-white rounded-full absolute -top-8 right-[3.7rem]"></div>
-            <div className="text-[12px] text-blue-600 pt-6 px-2 pb-1">
-              Dedicated Sales Engineer
+          <div className="border rounded border-gray-200 pt-3 px-4 pb-8 w-full mx-1 relative cursor-pointer hover:border-blue-700 hover:shadow-lg hover:scale-105 hover:duration-150">
+            <div className="w-[55px] h-[55px] border-gray-200 border bg-white rounded-full absolute -top-8 right-[3.7rem] hover:border-blue-700 "></div>
+            <div className="text-[12px] text-[#0273ba] pt-5 px-2 pb-1">
+              FREE GuitarStore Support
             </div>
             <div className="text-[9px] px-1">
-              Helping you buy music hear with confidence
+              Got a question? We're here to help.
+            </div>
+            <div className="text-[#0273ba] text-[10px] font-bold absolute bottom-1 left-[3.6rem] text-center pb-1">
+              Learn More
             </div>
           </div>
-          <div className="border rounded border-gray-200 pt-3 px-4 pb-9 w-full mx-1 relative cursor-pointer">
-            <div className="w-[55px] h-[55px] border-gray-200 border bg-white rounded-full absolute -top-8 right-[3.7rem]"></div>
-            <div className="text-[12px] text-blue-600 pt-6 px-2 pb-1">
-              Dedicated Sales Engineer
+          <div className="border rounded border-gray-200 w-full pt-3 px-4 pb-8 mx-1 relative cursor-pointer hover:border-blue-700 hover:shadow-lg hover:scale-105 hover:duration-150">
+            <div className="w-[55px] h-[55px] border-gray-200 border bg-white rounded-full absolute -top-8 right-[3.7rem] hover:border-blue-700 "></div>
+            <div className="text-[12px] text-[#0273ba] pt-5 px-2 pb-1">
+              FREE 2-year Warranty
             </div>
-            <div className="text-[9px] px-1">
-              Helping you buy music hear with confidence
+            <div className="text-[9px] px-1">Buy with confidence.</div>
+            <div className="text-[#0273ba] text-[10px] font-bold absolute bottom-1 left-[3.6rem] text-center pb-1">
+              Learn More
             </div>
+          </div>
+          <div className="border rounded border-gray-200 pt-3 px-4 pb-8 w-full mx-1 relative cursor-pointer hover:border-blue-700 hover:shadow-lg hover:scale-105 hover:duration-150">
+            <div className="w-[55px] h-[55px] border-gray-200 border bg-white rounded-full absolute -top-8 right-[3.7rem] hover:border-blue-700 "></div>
+            <div className="text-[12px] text-[#0273ba] pt-5 px-2 pb-1">
+              Easy Payments
+            </div>
+            <div className="text-[#0273ba] text-[10px] font-bold absolute bottom-1 left-[3.6rem] text-center pb-1">
+              Learn More
+            </div>
+
+            <div className="text-[9px] px-1">Up to 48 Months.</div>
           </div>
         </div>
       </div>
