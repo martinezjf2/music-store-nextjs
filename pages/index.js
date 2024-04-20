@@ -5,6 +5,7 @@ import SecondNavbar from "@/components/SecondNavbar";
 import Header from "@/components/Header";
 import GetMore from "@/components/GetMore";
 import PopularCategories from "@/components/PopularCategories"
+import Footer from "@/components/Footer"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,6 +17,7 @@ export default function Home() {
       <Header />
       <GetMore />
       <PopularCategories />
+      <Footer />
     </>
   );
 }
