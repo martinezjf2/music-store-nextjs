@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <>
       <section className=" relative overflow-hidden bg-[#07629c] bg-opacity-150">
-        <div className="bg-[url(https://media.sweetwater.com/m/include/footer/images/new-gear-day/gear-pattern-optimized-700x700.png?format=webp)] h-[170px] w-full  bg-fixed bg-contain flex justify-center items-center">
+        <div className="bg-[url(https://media.sweetwater.com/m/include/footer/images/new-gear-day/gear-pattern-optimized-700x700.png?format=webp)] h-[170px] w-full bg-repeat bg-fixed flex justify-center items-center">
           <div className="flex justify-center items-center p-7">
             <div className="bg-gray-200 hover:opacity-100 opacity-85 hover:scale-110 hover:duration-200 h-[120px] w-[135px] border-blue-500 border-4 rounded-full relative overflow-hidden mr-3">
               <img
@@ -71,7 +71,7 @@ export default function Footer() {
 
       <section className="bg-gray-100">
         <div className="flex md:w-[80%] mx-auto pt-1 pb-8">
-          <div className="border-r-2 py-5 px-2 relative">
+          <div className="border-r-2 py-5 px-5 relative">
             <div className="text-[24px] font-bold tracking-wider leading-none">
               GEAR
             </div>
@@ -108,7 +108,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="border-l-2 py-5 px-2 relative">
+          <div className="border-l-2 py-5 px-5 relative">
             <div className="font-bold text-[17px]">SPECIAL FINANCING!</div>
             <div className="text-[12px] font-light relative">
               <div className="absolute">
