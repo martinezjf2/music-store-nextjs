@@ -130,99 +130,115 @@ export default function Footer() {
       </section>
 
       <section className="bg-blue-100 relative">
-        <div className="flex justify-around items-center p-5">
-          <div className="relative">
+        <div className="flex justify-around pt-9 px-7 pb-7">
+          <div className="relative border-r-2 border-gray-700 px-9">
             <div className="flex">
               <div>IMAGE HERE</div>
-              <div>Need Help?</div>
+              <div>
+                <div>NEED HELP?</div>
+                <div>Call your Sales Engineer</div>
+                <div>What is a Sales Engineer?</div>
+                <div>(800) 222- 4700</div>
+                <div>Email Us</div>
+              </div>
             </div>
             <div>Here come the media icons on the bottom</div>
           </div>
-          <div>
-            <div>ABOUT GUITARSTORE</div>
+
+          <div className="px-9">
+            <div className="font-bold text-[14px] pb-2">ABOUT GUITARSTORE</div>
             <div>
               <a href="/">Careers</a>
             </div>
             <div>
-              <a href="/">Careers</a>
+              <a href="/">Environmental & Social Responsibility</a>
             </div>
             <div>
-              <a href="/">Careers</a>
+              <a href="/">Our Sales Engineers</a>
             </div>
             <div>
-              <a href="/">Careers</a>
+              <a href="/">Why Choose GuitarStore?</a>
             </div>
             <div>
-              <a href="/">Careers</a>
+              <a href="/">Tour Our Campus</a>
             </div>
             <div>
-              <a href="/">Careers</a>
+              <a href="/">Press Releases</a>
             </div>
           </div>
 
-          <div>
-            <div>ABOUT GUITARSTORE</div>
+          <div className="px-9">
+            <div className="font-bold text-[14px] pb-2">CUSTOMER SERVICE</div>
             <div>
-              <a href="/">Careers</a>
+              <a href="/">Free Shipping Policy</a>
             </div>
             <div>
-              <a href="/">Careers</a>
+              <a href="/">Order Status</a>
             </div>
             <div>
-              <a href="/">Careers</a>
+              <a href="/">Return Policy</a>
             </div>
             <div>
-              <a href="/">Careers</a>
+              <a href="/">Sales and Use Tax Policy</a>
             </div>
             <div>
-              <a href="/">Careers</a>
+              <a href="/">SweetCare Remote</a>
             </div>
             <div>
-              <a href="/">Careers</a>
-            </div>
-          </div>
-
-          <div>
-            <div>ABOUT GUITARSTORE</div>
-            <div>
-              <a href="/">Careers</a>
+              <a href="/">GuitarStore Support Articles</a>
             </div>
             <div>
-              <a href="/">Careers</a>
+              <a href="/">FAQ</a>
             </div>
             <div>
-              <a href="/">Careers</a>
-            </div>
-            <div>
-              <a href="/">Careers</a>
-            </div>
-            <div>
-              <a href="/">Careers</a>
-            </div>
-            <div>
-              <a href="/">Careers</a>
+              <a href="/">Contact Us</a>
             </div>
           </div>
 
-          <div>
-            <div>ABOUT GUITARSTORE</div>
+          <div className="px-9">
+            <div className="font-bold text-[14px] pb-2">ORDERING</div>
             <div>
-              <a href="/">Careers</a>
+              <a href="/">Free Catalog</a>
             </div>
             <div>
-              <a href="/">Careers</a>
+              <a href="/">Gift Cards</a>
             </div>
             <div>
-              <a href="/">Careers</a>
+              <a href="/">Bonus Bucks</a>
             </div>
             <div>
-              <a href="/">Careers</a>
+              <a href="/">Payment Options</a>
             </div>
             <div>
-              <a href="/">Careers</a>
+              <a href="/">Shipping and Delivery Times</a>
             </div>
             <div>
-              <a href="/">Careers</a>
+              <a href="/">Gear Exchange</a>
+            </div>
+          </div>
+
+          <div className="px-9">
+            <div className="font-bold text-[14px] pb-2">SERVICES</div>
+            <div>
+              <a href="/">Guitar Workshop</a>
+            </div>
+            <div>
+              <a href="/">Electronic Repairs Workshop</a>
+            </div>
+            <div>
+              <a href="/">Music Store</a>
+            </div>
+            <div>
+              <a href="/">Events and Workshops</a>
+            </div>
+            <div>
+              <a href="/">Guitar Showroom</a>
+            </div>
+            <div>
+              <a href="/">Music Lessons</a>
+            </div>
+            <div>
+              <a href="/">Recording Studio</a>
             </div>
           </div>
         </div>
