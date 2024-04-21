@@ -128,6 +128,105 @@ export default function Footer() {
           </div>
         </div>
       </section>
+
+      <section className="bg-blue-100 relative">
+        <div className="flex justify-around items-center p-5">
+          <div className="relative">
+            <div className="flex">
+              <div>IMAGE HERE</div>
+              <div>Need Help?</div>
+            </div>
+            <div>Here come the media icons on the bottom</div>
+          </div>
+          <div>
+            <div>ABOUT GUITARSTORE</div>
+            <div>
+              <a href="/">Careers</a>
+            </div>
+            <div>
+              <a href="/">Careers</a>
+            </div>
+            <div>
+              <a href="/">Careers</a>
+            </div>
+            <div>
+              <a href="/">Careers</a>
+            </div>
+            <div>
+              <a href="/">Careers</a>
+            </div>
+            <div>
+              <a href="/">Careers</a>
+            </div>
+          </div>
+
+          <div>
+            <div>ABOUT GUITARSTORE</div>
+            <div>
+              <a href="/">Careers</a>
+            </div>
+            <div>
+              <a href="/">Careers</a>
+            </div>
+            <div>
+              <a href="/">Careers</a>
+            </div>
+            <div>
+              <a href="/">Careers</a>
+            </div>
+            <div>
+              <a href="/">Careers</a>
+            </div>
+            <div>
+              <a href="/">Careers</a>
+            </div>
+          </div>
+
+          <div>
+            <div>ABOUT GUITARSTORE</div>
+            <div>
+              <a href="/">Careers</a>
+            </div>
+            <div>
+              <a href="/">Careers</a>
+            </div>
+            <div>
+              <a href="/">Careers</a>
+            </div>
+            <div>
+              <a href="/">Careers</a>
+            </div>
+            <div>
+              <a href="/">Careers</a>
+            </div>
+            <div>
+              <a href="/">Careers</a>
+            </div>
+          </div>
+
+          <div>
+            <div>ABOUT GUITARSTORE</div>
+            <div>
+              <a href="/">Careers</a>
+            </div>
+            <div>
+              <a href="/">Careers</a>
+            </div>
+            <div>
+              <a href="/">Careers</a>
+            </div>
+            <div>
+              <a href="/">Careers</a>
+            </div>
+            <div>
+              <a href="/">Careers</a>
+            </div>
+            <div>
+              <a href="/">Careers</a>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
