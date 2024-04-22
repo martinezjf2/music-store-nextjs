@@ -69,7 +69,7 @@ export default function Footer() {
         </div>
       </section>
 
-      <section className="bg-gray-100">
+      <section className="bg-gray-100 shadow-lg">
         <div className="flex md:w-[80%] mx-auto pt-1 pb-8">
           <div className="border-r-2 py-5 px-5 relative">
             <div className="text-[24px] font-bold tracking-wider leading-none">
@@ -129,8 +129,8 @@ export default function Footer() {
         </div>
       </section>
 
-      <section className="bg-blue-100 relative">
-        <div className="flex justify-around pt-9 px-7 pb-7">
+      <section className="bg-blue-100 relative mt-1">
+        <div className="flex justify-around pt-9 px-10 pb-7">
           <div className="relative border-r-2 border-gray-700 px-9">
             <div className="flex">
               <div>IMAGE HERE</div>
@@ -147,97 +147,97 @@ export default function Footer() {
 
           <div className="px-9">
             <div className="font-bold text-[14px] pb-2">ABOUT GUITARSTORE</div>
-            <div>
+            <div className="text-sm">
               <a href="/">Careers</a>
             </div>
-            <div>
+            <div className="text-sm">
               <a href="/">Environmental & Social Responsibility</a>
             </div>
-            <div>
+            <div className="text-sm">
               <a href="/">Our Sales Engineers</a>
             </div>
-            <div>
+            <div className="text-sm">
               <a href="/">Why Choose GuitarStore?</a>
             </div>
-            <div>
+            <div className="text-sm">
               <a href="/">Tour Our Campus</a>
             </div>
-            <div>
+            <div className="text-sm">
               <a href="/">Press Releases</a>
             </div>
           </div>
 
           <div className="px-9">
             <div className="font-bold text-[14px] pb-2">CUSTOMER SERVICE</div>
-            <div>
+            <div className="text-sm">
               <a href="/">Free Shipping Policy</a>
             </div>
-            <div>
+            <div className="text-sm">
               <a href="/">Order Status</a>
             </div>
-            <div>
+            <div className="text-sm">
               <a href="/">Return Policy</a>
             </div>
-            <div>
+            <div className="text-sm">
               <a href="/">Sales and Use Tax Policy</a>
             </div>
-            <div>
+            <div className="text-sm">
               <a href="/">SweetCare Remote</a>
             </div>
-            <div>
+            <div className="text-sm">
               <a href="/">GuitarStore Support Articles</a>
             </div>
-            <div>
+            <div className="text-sm">
               <a href="/">FAQ</a>
             </div>
-            <div>
+            <div className="text-sm">
               <a href="/">Contact Us</a>
             </div>
           </div>
 
           <div className="px-9">
             <div className="font-bold text-[14px] pb-2">ORDERING</div>
-            <div>
+            <div className="text-sm">
               <a href="/">Free Catalog</a>
             </div>
-            <div>
+            <div className="text-sm">
               <a href="/">Gift Cards</a>
             </div>
-            <div>
+            <div className="text-sm">
               <a href="/">Bonus Bucks</a>
             </div>
-            <div>
+            <div className="text-sm">
               <a href="/">Payment Options</a>
             </div>
-            <div>
+            <div className="text-sm">
               <a href="/">Shipping and Delivery Times</a>
             </div>
-            <div>
+            <div className="text-sm">
               <a href="/">Gear Exchange</a>
             </div>
           </div>
 
           <div className="px-9">
             <div className="font-bold text-[14px] pb-2">SERVICES</div>
-            <div>
+            <div className="text-sm">
               <a href="/">Guitar Workshop</a>
             </div>
-            <div>
+            <div className="text-sm">
               <a href="/">Electronic Repairs Workshop</a>
             </div>
-            <div>
+            <div className="text-sm">
               <a href="/">Music Store</a>
             </div>
-            <div>
+            <div className="text-sm">
               <a href="/">Events and Workshops</a>
             </div>
-            <div>
+            <div className="text-sm">
               <a href="/">Guitar Showroom</a>
             </div>
-            <div>
+            <div className="text-sm">
               <a href="/">Music Lessons</a>
             </div>
-            <div>
+            <div className="text-sm">
               <a href="/">Recording Studio</a>
             </div>
           </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function PopularCategories() {
     return (
-      <div className="my-4 relative">
+      <div className="my-4 relative pb-7">
         <div className="text-center text-[28px] font-semibold p-2 tracking-wide">
           Popular Categories
         </div>
