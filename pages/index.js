@@ -1,23 +1,20 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import Navbar from "@/components/Navbar";
-import SecondNavbar from "@/components/SecondNavbar";
+import HomePage from "@/components/pages/HomePage";
 import Header from "@/components/Header";
+import PopularCategories from "@/components/PopularCategories";
 import GetMore from "@/components/GetMore";
-import PopularCategories from "@/components/PopularCategories"
-import Footer from "@/components/Footer"
+
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <>
-      <Navbar />
-      <SecondNavbar />
+    
+    <HomePage>
       <Header />
       <GetMore />
       <PopularCategories />
-      <Footer />
-    </>
+    </HomePage>
   );
 }
