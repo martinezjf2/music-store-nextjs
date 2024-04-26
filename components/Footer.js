@@ -5,7 +5,7 @@ import React from "react";
 export default function Footer() {
   return (
     <>
-      <section className=" relative overflow-hidden bg-[#07629c] bg-opacity-150">
+      <section className="relative overflow-hidden bg-[#07629c] bg-opacity-150">
         <div className="bg-[url(https://media.sweetwater.com/m/include/footer/images/new-gear-day/gear-pattern-optimized-700x700.png?format=webp)] h-[170px] w-full bg-repeat bg-fixed flex justify-center items-center">
           <div className="flex justify-center items-center p-7">
             <div className="bg-gray-200 hover:opacity-100 opacity-85 hover:scale-110 hover:duration-200 h-[120px] w-[135px] border-blue-500 border-4 rounded-full relative overflow-hidden mr-3">
@@ -133,7 +133,14 @@ export default function Footer() {
         <div className="flex justify-around pt-5 px-10 pb-7 w-[80%] mx-auto">
           <div className="relative border-r-2 border-[#d1d0cf] px-5">
             <div className="flex">
-              <div>IMAGE HERE</div>
+              <div className="bg-white w-[80px] h-[80px] rounded-full relative overflow-hidden">
+                <div className=" absolute bottom-0">
+                  <img
+                    src="https://media.sweetwater.com/api/i/w-180__q-50/include/ses/left/tim-holsinger.png"
+                    className=""
+                  />
+                </div>
+              </div>
               <div className="px-4 pb-3">
                 <div className="font-extrabold tracking-wide">NEED HELP?</div>
                 <div className="text-[13px]">Call your Sales Engineer</div>
@@ -147,7 +154,14 @@ export default function Footer() {
               </div>
             </div>
             <div className="border-[#d1d0cf] border-t-2"></div>
-            <div className="pt-2">Here come the media icons on the bottom</div>
+            <div className="pt-2 relative">
+              <div className="flex justify-center items-center">
+                <div className="w-[32px] h-[32px] rounded-full border-2 border-gray-700 mx-1"></div>
+                <div className="w-[32px] h-[32px] rounded-full border-2 border-gray-700 mx-1"></div>
+                <div className="w-[32px] h-[32px] rounded-full border-2 border-gray-700 mx-1"></div>
+                <div className="w-[32px] h-[32px] rounded-full border-2 border-gray-700 mx-1"></div>
+              </div>
+            </div>
           </div>
 
           <div className="pl-6 pr-1">
@@ -289,8 +303,11 @@ export default function Footer() {
               If you have any questions, please call us at (123) 456-7890
             </div>
           </div>
+
           <div className="relative text-center pb-7">
-            <div className="text-[8px] font-light">© 2024 GuitarCenter - All Rights Reserved</div>
+            <div className="text-[8px] font-light">
+              © 2024 GuitarCenter - All Rights Reserved
+            </div>
           </div>
         </div>
       </section>
