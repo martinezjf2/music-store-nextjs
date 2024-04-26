@@ -71,7 +71,7 @@ export default function Footer() {
 
       <section className="bg-gray-100 shadow-lg">
         <div className="flex md:w-[80%] mx-auto pt-5 pb-5">
-          <div className="border-r-2 py-5 px-5 relative">
+          <div className="border-r-2 py-3 px-5 relative">
             <div className="text-[24px] font-bold tracking-wider leading-none">
               GEAR
             </div>
@@ -89,7 +89,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="py-5 px-4 relative w-1/3">
+          <div className="py-3 px-4 relative w-1/3">
             <div className="font-bold text-[17px]">
               SIGN UP FOR EMAIL OFFERS!
             </div>
@@ -108,7 +108,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="border-l-2 py-5 px-5 relative">
+          <div className="border-l-2 py-3 px-5 relative">
             <div className="font-bold text-[17px]">SPECIAL FINANCING!</div>
             <div className="text-[12px] font-light relative">
               <div className="absolute">
@@ -129,20 +129,25 @@ export default function Footer() {
         </div>
       </section>
 
-      <section className="bg-blue-100 relative mt-1">
-        <div className="flex justify-around pt-9 px-10 pb-7 w-[80%] mx-auto">
-          <div className="relative border-r-2 border-gray-700 px-5">
+      <section className="bg-[#dddbd7] relative mt-1">
+        <div className="flex justify-around pt-5 px-10 pb-7 w-[80%] mx-auto">
+          <div className="relative border-r-2 border-[#d1d0cf] px-5">
             <div className="flex">
               <div>IMAGE HERE</div>
-              <div>
-                <div>NEED HELP?</div>
-                <div>Call your Sales Engineer</div>
-                <div>What is a Sales Engineer?</div>
-                <div>(800) 222- 4700</div>
-                <div>Email Us</div>
+              <div className="px-4 pb-3">
+                <div className="font-extrabold tracking-wide">NEED HELP?</div>
+                <div className="text-[13px]">Call your Sales Engineer</div>
+                <div className="text-[11px] leading-5">
+                  What is a Sales Engineer?
+                </div>
+                <div className="font-bold text-[14px] py-1">
+                  (800) 222- 4700
+                </div>
+                <div className="text-[11px]">Email Us</div>
               </div>
             </div>
-            <div>Here come the media icons on the bottom</div>
+            <div className="border-[#d1d0cf] border-t-2"></div>
+            <div className="pt-2">Here come the media icons on the bottom</div>
           </div>
 
           <div className="pl-6 pr-1">
@@ -242,9 +247,53 @@ export default function Footer() {
             </div>
           </div>
         </div>
-          </section>
-          
-          <section>Bottom Footer</section>
+      </section>
+
+      <section className="bg-[#dddbd7] relative border-t-2 border-[#d1d0cf] pb-2">
+        <div className="pt-5">
+          <div className="flex justify-center items-center pb-5">
+            <div className="px-1 text-[9px] font-bold">GuitarCenter Sound</div>
+            <div className="px-1 text-[9px] font-light">
+              5501 U.S. Hwy 30 W.Fort Wayne, IN 46818
+            </div>
+            <div className="px-1 text-[9px]">
+              <a>Get Directions</a> | <a>Phone Hours</a> | <a>Store Hours</a>
+            </div>
+          </div>
+
+          <div className="relative text-center">
+            <div className="font-bold text-[10px]">
+              Explore our commitments to you
+            </div>
+            <div className="flex justify-center items-center">
+              <div className="px-1 text-[9px] font-light">
+                <a>Terms of Use</a>
+              </div>
+              <div className="px-1 text-[9px] font-light">
+                <a>Privacy Policy</a>
+              </div>
+              <div className="px-1 text-[9px] font-light">
+                <a>Phone Recording Policy</a>
+              </div>
+              <div className="px-1 text-[9px] font-light">
+                <a>Accessibility</a>
+              </div>
+              <div className="px-1 text-[9px] font-light">
+                <a>Cookies Settings</a>
+              </div>
+              <div className="px-1 text-[9px] font-light">
+                <a>Do Not Sell Or Share My Information</a>
+              </div>
+            </div>
+            <div className="text-[9px] pb-3 font-light">
+              If you have any questions, please call us at (123) 456-7890
+            </div>
+          </div>
+          <div className="relative text-center pb-7">
+            <div className="text-[8px] font-light">© 2024 GuitarCenter - All Rights Reserved</div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
