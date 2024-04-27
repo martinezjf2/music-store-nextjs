@@ -4,17 +4,19 @@ import HomePage from "@/components/pages/HomePage";
 import Header from "@/components/Header";
 import PopularCategories from "@/components/PopularCategories";
 import GetMore from "@/components/GetMore";
-
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    
-    <HomePage>
+    <>
+      <Head>
+        <title>Jeffrey Home</title>
+      </Head>
       <Header />
       <GetMore />
       <PopularCategories />
-    </HomePage>
+    </>
   );
 }
