@@ -27,7 +27,7 @@ export default function Navbar() {
                 className="absolute top-2 left-1 ml-2 text-sm"
               /> */}
               <input
-                className="flex w-[95%] bg-gray-100 pl-[2.0rem] rounded h-8 text-sm text-[11px]"
+                className="flex w-[95%] bg-gray-100 pl-[1.0rem] rounded h-8 text-sm text-[11px]"
                 type="text"
                 placeholder="Search for sweet gear"
               />

@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Jeffrey Home</title>
+        <title>GuitarStore - Home</title>
       </Head>
       <Header />
       <GetMore />

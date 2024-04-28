@@ -40,7 +40,7 @@ export default function PopularCategories() {
           </div>
         </a>
 
-        <a>
+        <a href="/drums-and-percussion">
           <div className="hover:text-blue-700 mx-6 my-3">
             <div className="flex justify-center items-center">
               <div className="bg-gray-100 w-[100px] h-[100px] rounded-full flex justify-center items-center hover:border-blue-700 hover:border object-fill hover:duration-100 hover:bg-white">
@@ -56,7 +56,7 @@ export default function PopularCategories() {
           </div>
         </a>
 
-        <a>
+        <a href="/bass">
           <div className="hover:text-blue-700 mx-6 my-3">
             <div className="flex justify-center items-center">
               <div className="bg-gray-100 w-[100px] h-[100px] rounded-full flex justify-center items-center hover:border-blue-700 hover:border object-fill hover:duration-100 hover:bg-white">
@@ -72,7 +72,7 @@ export default function PopularCategories() {
           </div>
         </a>
 
-        <a>
+        <a href="/keyboards">
           <div className="hover:text-blue-700 mx-6 my-3">
             <div className="flex justify-center items-center">
               <div className="bg-gray-100 w-[100px] h-[100px] rounded-full flex justify-center items-center hover:border-blue-700 hover:border object-fill hover:duration-100 hover:bg-white">
@@ -88,7 +88,7 @@ export default function PopularCategories() {
           </div>
         </a>
 
-        <a>
+        <a href="/lights">
           <div className="hover:text-blue-700 mx-6 my-3">
             <div className="flex justify-center items-center">
               <div className="bg-gray-100 w-[100px] h-[100px] rounded-full flex justify-center items-center hover:border-blue-700 hover:border object-fill hover:duration-100 hover:bg-white">
@@ -104,7 +104,7 @@ export default function PopularCategories() {
           </div>
         </a>
 
-        <a>
+        <a href="/software">
           <div className="hover:text-blue-700 mx-6 my-3">
             <div className="flex justify-center items-center">
               <div className="bg-gray-100 w-[100px] h-[100px] rounded-full flex justify-center items-center hover:border-blue-700 hover:border object-fill hover:duration-100 hover:bg-white">
@@ -138,7 +138,7 @@ export default function PopularCategories() {
           </div>
         </a>
 
-        <a href="/dj-equipment">
+        <a href="/microphones">
           <div className="hover:text-blue-700 mx-6 my-4">
             <div className="flex justify-center items-center">
               <div className="bg-gray-100 w-[100px] h-[100px] rounded-full flex justify-center items-center hover:border-blue-700 hover:border object-fill hover:duration-100 hover:bg-white">
@@ -154,7 +154,7 @@ export default function PopularCategories() {
           </div>
         </a>
 
-        <a href="/dj-equipment">
+        <a href="/band-and-orchestra">
           <div className="hover:text-blue-700 mx-6 my-4">
             <div className="flex justify-center items-center">
               <div className="bg-gray-100 w-[100px] h-[100px] rounded-full flex justify-center items-center hover:border-blue-700 hover:border object-fill hover:duration-100 hover:bg-white">
@@ -170,7 +170,7 @@ export default function PopularCategories() {
           </div>
         </a>
 
-        <a href="/dj-equipment">
+        <a href="/home-audio">
           <div className="hover:text-blue-700 mx-6 my-4 relative">
             <div className="flex justify-center items-center">
               <div className="bg-gray-100 w-[100px] h-[100px] rounded-full flex justify-center items-center hover:border-blue-700 hover:border object-fill hover:duration-100 hover:bg-white">
@@ -186,7 +186,7 @@ export default function PopularCategories() {
           </div>
         </a>
 
-        <a href="/dj-equipment">
+        <a href="/commercial-and-audio">
           <div className="hover:text-blue-700 mx-6 my-4">
             <div className="flex justify-center items-center">
               <div className="bg-gray-100 w-[100px] h-[100px] rounded-full flex justify-center items-center hover:border-blue-700 hover:border object-fill hover:duration-100 hover:bg-white">
@@ -202,7 +202,7 @@ export default function PopularCategories() {
           </div>
         </a>
 
-        <a href="/dj-equipment">
+        <a href="/accessories">
           <div className="hover:text-blue-700 mx-6 my-4">
             <div className="flex justify-center items-center">
               <div className="bg-gray-100 w-[100px] h-[100px] rounded-full flex justify-center items-center hover:border-blue-700 hover:border object-fill hover:duration-100 hover:bg-white">
@@ -218,7 +218,7 @@ export default function PopularCategories() {
           </div>
         </a>
 
-        <a href="/dj-equipment">
+        <a href="/content-creators">
           <div className="hover:text-blue-700 mx-6 my-4">
             <div className="flex justify-center items-center">
               <div className="bg-gray-100 w-[100px] h-[100px] rounded-full flex justify-center items-center hover:border-blue-700 hover:border object-fill hover:duration-100 hover:bg-white">
