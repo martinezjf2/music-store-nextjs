@@ -4,8 +4,8 @@ import Item from "./Item";
 
 export default function AllList({ store }) {
   // const itemList = store.items.map(item => <Item item={item} />)
-  const contentList = store.content.map((p) => (
-    <p className="font-extralight pb-5">{p}</p>
+  const contentList = store.content.map((p, i) => (
+    <p key={ i } className="font-extralight pb-5">{p}</p>
   ));
 
   return (
@@ -17,9 +17,9 @@ export default function AllList({ store }) {
         <div className="text-[40px] font-bold tracking-wider pt-3 pb-8">
           {store.name}
         </div>
-        <div className="flex">
-          <div className="w-1/6">This is the search section</div>
-          <div className="w-5/6 flex justify-center items-center bg-gray-100 px-3 py-6">
+        <div className="grid grid-cols-4">
+          <div className="col-span-1">This is the search section</div>
+          <div className="col-span-3 grid grid-cols-4 gap-3 justify-center items-center bg-gray-100 px-5 py-6">
             <Item
               item={{
                 name: "Epiphone Thunderbird '64 Bass",
