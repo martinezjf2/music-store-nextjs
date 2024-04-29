@@ -2,7 +2,7 @@ import AllList from "@/components/AllList";
 import Head from "next/head";
 
 export default function BassPage({ musicStore }) {
-  console.log({musicStore})
+  
   return (
     <>
       <Head>
