@@ -141,7 +141,98 @@ export const musicStore = {
   },
   keyboards: {
     name: "Keyboards & Synth",
-    items: [{ name: "", description: "", price: "", image: "", special: "" }],
+    items: [
+      {
+        name: "Yamaha MODX8+ 88-Key Synthesizer",
+        description:
+          "The biggest of the Yamaha MODX+ series with its 88 keys, the MODX8+ synthesizer struts a staggering amount of power and sonic versatility. Ideal for music production and sound design alike, its eight-operator, fully programmable FM-X engine delivers an array of sounds as vast as your imagination. The Yamaha MODX8+ features a semi-weighted, synth-action keyboard that is purpose-designed to stimulate creativity and emotive performance. Much of its muscle comes from the same technology that powers the top-of-the-line Yamaha MONTAGE synth line, blending the ingenious AMW2 (Advanced Wave Memory 2) engine with the sublime synthesis of FM-X (Frequency Modulation) for a limitless cosmos of creative possibilities—with double the polyphony of the original MODX8. Available at Guitar Center, this cutting-edge 5-octave MODX8+ synth keyboard is ready-made to inspire awe and make your ideas a reality.",
+        price: "1999.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/MODX8-88-Key-Synthesizer/L96788000000000-00-264x264.jpg",
+        special: "On Sale",
+      },
+      {
+        name: "Arturia AstroLab Stage Keyboard",
+        description:
+          "The Arturia AstroLab stage keyboard puts a universe of iconic sounds at your fingertips. With over 1,000 expertly crafted presets and the ability to import up to 10,000 of your own sounds using the included Analog Lab, V Collection and Pigments software, the AstroLab gives you complete creative freedom. Whether you need staple vintage keys, evocative synth textures or beautifully authentic acoustic sounds, the AstroLab has you covered.",
+        price: "1599.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/AstroLab-Stage-Keyboard/M10303000000000-00-264x264.jpg",
+        special: "New Arrival",
+      },
+      {
+        name: "Yamaha P-125ABLB Digital Piano With Wooden Stand and Bench",
+        description:
+          "The P-125ABLB digital piano is a sleek yet powerful digital piano combines Yamaha's acclaimed Pure CF Sound Engine and 88-key graded hammer standard keyboard to deliver the rich, nuanced tones of a concert grand piano. Designed for home use, the P-125ABLB includes a furniture-style wooden stand and bench, allowing musicians of all levels to enjoy an authentic acoustic piano experience in an affordable, space-saving package.",
+        price: "949.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/P-125ABLB-Digital-Piano-With-Wooden-Stand-and-Bench/M00913000000000-00-264x264.jpg",
+        special: "Top-Seller",
+      },
+      {
+        name: "Nord Stage 4 88-Key Keyboard",
+        description:
+          "The 88-key Nord Stage 4 has landed at Guitar Center. Creativity and otherworldly sounds are a patch away with this easy-to-use keyboard. Featuring an intuitive panel design, premium 88-key fully weighted triple-sensor keybed and complete effect sections for each Layer, this versatile instrument comes fully equipped for the home, studio and stage.",
+        price: "5699.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/Stage-4-88-Key-Keyboard/M00636000000000-00-264x264.jpg",
+        special: "Top-Seller",
+      },
+      {
+        name: "Nord Grand Stage Piano",
+        description:
+          "The Nord Grand stage piano raises the bar for what a professional stage piano can be. Combining Nord's award winning sound engine and interface with a premium 88 note hammer action keybed, the Nord Grand provides an extraordinary playing experience with its smooth, dynamic touch modeled after world class acoustic grand pianos. Perfect for live gigs or studio work, the Nord Grand gives musicians a powerful set of tools for crafting their signature sound.",
+        price: "3499.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/Grand-Stage-Piano-Red/L57090000001000-00-264x264.jpg",
+        special: "On Sale",
+      },
+      {
+        name: "Sequential Prophet-10 10-Voice Polyphonic Analog Synthesizer",
+        description:
+          "When Dave Smith first created the iconic Prophet-5 synth, he also produced a ten-voice version with the Prophet-10. As Sequential began working on the rerelease of the Prophet-5, they decided it only felt right to recreate this original, too. With only a few in existence today, the Prophet-10 recreation of the ultrarare 1978 synthesizer is a ten-voice version of the Prophet-5. It boasts the same authentic voice and collector-worthy design as the Prophet-5, but with the power of 10.",
+        price: "3499.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/Prophet-10-10-Voice-Polyphonic-Analog-Synthesizer/L79545000000000-00-264x264.jpg",
+        special: "On Sale",
+      },
+      {
+        name: "Novation 49SL MKIII",
+        description:
+          "The Novation 49SL MKIII is the ideal studio centerpiece that can be used to control your whole studio, working perfectly alongside your hardware instruments and your DAW. With MIDI and CV compatibility, the 49SL MKIII makes integrating your hardware easy and creatively rewarding. Construct your next track with a host of creative production features including an 8-track polyphonic sequencer and a host of controls for an immersive hands-on experience. SL MKIII's pads, buttons, eight faders and eight knobs take control of all major music software using InControl. SL MKIII also works with any HUI-compatible DAW.",
+        price: "549.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/49SL-MKIII/L35264000000000-00-264x264.jpg",
+        special: "On Sale",
+      },
+      {
+        name: "Akai Professional MPC Key 61 Production Synthesizer",
+        description:
+          "The Akai Professional MPC Key 61 is a revolutionary standalone production synthesizer keyboard that provides everything you need to create professional tracks. It features a 61-key semi-weighted keybed with aftertouch, allowing you to add expression and dynamics to the 25 cutting-edge plug-in instruments. With over 6,000 presets and genres ranging from electronic to orchestral, you'll have an inspiring palette of sounds at your fingertips.",
+        price: "1499.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/MPC-Key-61-Production-Synthesizer/L95366000000000-00-264x264.jpg",
+        special: "Top-Seller",
+      },
+      {
+        name: "Yamaha MONTAGE M8x 88-Key Synthesizer With Polyphonic Aftertouch",
+        description:
+          "The Yamaha MONTAGE synth workstation was conceived as Yamaha's flagship keyboard for synthesis and production. The MONTAGE M Series workstations might as well have been named the MONTAGE M(ore) Series, with more polyphony, more synthesis engines, more memory, more sounds, more control and more creative fun. Plus, expanded integration with virtual instrument plug-ins and a streamlined workflow, it's easier than ever to get the music that's in your head out into the world.",
+        price: "4499.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/MONTAGE-M8x-88-Key-Synthesizer-With-Polyphonic-Aftertouch/M05081000000000-00-264x264.jpg",
+        special: "Top-Seller",
+      },
+      {
+        name: "Suzuki MDG-300 Black Micro Grand Digital Piano",
+        description:
+          "The Suzuki MDG-300 Micro grand digital piano is an innovative instrument designed for pianists seeking an authentic playing experience with modern connectivity. Boasting 128-note polyphony, it produces a rich, realistic piano sound without dropped notes for complex pieces. Its powerful six-speaker sound system fills your space with dynamic, powerful audio. With Bluetooth and USB connectivity, you can stream music, record your performance and connect to devices. An LCD display screen makes navigating its many features intuitive. Most importantly, its graded hammer action keyboard provides the responsive feel of an acoustic grand piano.",
+        price: "999.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/MDG-300-Black-Micro-Grand-Digital-Piano/J19268000000000-00-264x264.jpg",
+        special: "On Sale",
+      },
+    ],
     content: [
       "One of the best parts of modern music technology is that you can compose and craft a song virtually anywhere given the right tools. With a keyboard workstation, you have the power of entire studio at your fingertips. Whether you want to add to an existing song, or create an entirely new track from scratch, you can do it with a keyboard workstation. With so many options available, it's important that you find the right keyboard workstation for your needs. If you're looking for something that is simple to use and easy to transport, definitely have a look at the Casio WK-225 76-Key Portable Keyboard. This keyboard is fully featured and allows you to experiment with even more sounds and sample but plugging in a mic (via the input) and recording samples.",
       "Maybe you're looking for more of a complete package to kick off your foray into workstations? If so, consider the Yamaha MX49 Synth Package. This set not only comes with the MX49 synthesizer, but also a Live Wire LWS250 Sustain Pedal, a pair of AKG K44 headphones, Kaces' 5KB 49-key keyboard bag, a Live Wire Elite Instrument Cable and a copy of the Hal Leonard - Stuff Good Synth Players Should Know (Book & CD). This package offers tools and tips on how to improve your abilities, making it a valuable option for any young performer. If you're already familiar with keyboard workstations and looking for something a little more advanced, there are plenty of options here for you as well. The Open Labs Miko LXD, for example, offers unparalleled flexibility in the studio. With the ability to create beats and trigger sounds in real-time, it is also quite capable in live environments. Best of all, It is compatible with virtually all third party plug-ins and applications, making your musical options virtually limitless. Whether you're a hobbyist, someone taking their first steps into musical production, or an experienced professional, a keyboard workstation is an invaluable tool. Having one of these powerful instruments on hand will easily take your music to the next level.",
