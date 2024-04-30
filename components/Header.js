@@ -3,6 +3,7 @@ import React from "react";
 export default function Header() {
   return (
     <div className="flex w-[80%] mx-auto my-5">
+
       <div className="relative bg-black text-white h-[18rem] w-8/12 py-11 px-9 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-l from-transparent to-black z-15"></div>
         <a href="/">
@@ -18,7 +19,7 @@ export default function Header() {
           <div className="text-[18px] font-light">
             Deals, Special Financing, New Gear & More
           </div>
-          <div className="absolute -bottom-3/4 ">
+          <div className="absolute -bottom-3/4">
             <button className="bg-red-600 py-1.5 px-8 rounded font-semibold text-[13px]">
               Shop Now
             </button>
@@ -27,7 +28,7 @@ export default function Header() {
         </div>
       </div>
 
-      <div className="bg-white text-[#0273ba] w-4/12 text-center  border-[#0273ba] border-2 ml-3 relative h-[18rem]">
+      <div className="bg-white text-[#0273ba] w-4/12 text-center  border-[#0273ba] border-2 ml-3 relative h-[18rem] overflow-hidden">
         <div className="py-3 px-4">
           <div className="text-[70px] font-extrabold leading-none">
             0<span className="text-[30px]">%</span>
@@ -43,7 +44,7 @@ export default function Header() {
             Now-April 30.
           </div>
         </div>
-        <div className="bg-[#177fc0] bg-gradient-to-r from-[#4fa8df] to-[#0068a8] h-[5.4rem] leading-none">
+        <div className="bg-[#177fc0] bg-gradient-to-r from-[#4fa8df] to-[#0068a8] h-[5.4rem] leading-none relative">
           <div className="">
             <button className="mt-6 bg-white py-2 px-8 text-[13px] rounded font-semibold">
               Shop Now
@@ -51,6 +52,7 @@ export default function Header() {
           </div>
         </div>
       </div>
+
     </div>
   );
 }

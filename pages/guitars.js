@@ -1,8 +1,7 @@
 import AllList from "@/components/AllList";
 import Head from "next/head";
-import { musicStore } from "@/components/data";
 
-export default function GuitarPage() {
+export default function GuitarPage({musicStore}) {
   return (
     <>
       <Head>

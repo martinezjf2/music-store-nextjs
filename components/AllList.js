@@ -22,6 +22,7 @@ export default function AllList({ store }) {
           <div className="col-span-3 grid grid-cols-4 gap-3 justify-center items-center bg-gray-100 px-5 py-6">
             <Item
               item={{
+                special: "On Sale",
                 name: "Epiphone Thunderbird '64 Bass",
                 description:
                   "adfkj asdfkja bds fkjadf kja dfkjasn dfk jan dfkjna df",
@@ -32,6 +33,7 @@ export default function AllList({ store }) {
             />
             <Item
               item={{
+                special: "New Arrival",
                 name: "Epiphone Thunderbird '64 Bass",
                 description:
                   "adfkj asdfkja bds fkjadf kja dfkjasn dfk jan dfkjna df",
@@ -42,6 +44,7 @@ export default function AllList({ store }) {
             />
             <Item
               item={{
+                special: "Top-Seller",
                 name: "Epiphone Thunderbird '64 Bass",
                 description:
                   "adfkj asdfkja bds fkjadf kja dfkjasn dfk jan dfkjna df",
@@ -52,6 +55,7 @@ export default function AllList({ store }) {
             />
             <Item
               item={{
+                special: "On Sale",
                 name: "Epiphone Thunderbird '64 Bass",
                 description:
                   "adfkj asdfkja bds fkjadf kja dfkjasn dfk jan dfkjna df",
