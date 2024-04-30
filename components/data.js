@@ -4,7 +4,8 @@ export const musicStore = {
     items: [
       {
         name: "Epiphone Thunderbird '64 Bass",
-        description: "",
+        description:
+          "The Epiphone Thunderbird '64 bass brings back the iconic look and sound of the classic Thunderbird bass. With its distinctive shape created by legendary car designer Ray Dietrich and its sustain-enhancing neck-through-body construction, the Thunderbird '64 retains all the vintage vibe of the original Thunderbirds. This iconic bass has the distinctive and eye-catching Thunderbird body shape that vintage bassists know and love. Its sustain-enhancing neck-through-body construction provides excellent resonance for a full-bodied tone. This Thunderbird '64 retains vintage-accurate appointments like the three-ply pickguard with the hot-stamped Thunderbird logo, taking you back to the era of the original Thunderbirds. Where the Thunderbird '64 excels is in combining these vintage aesthetics with modern upgrades for rock-solid tuning and playability. The powerful ProBucket humbucker pickups deliver that deep, rich Thunderbird growl, while the Graph Tech nut and accurate Grover tuners keep your bass sounding pitch-perfect. Once you plug it in, you'll be amazed by the deep, rich tone from its powerful humbucker pickups, brought to life with top-notch CTS potentiometers.",
         price: "849.00",
         image:
           "https://media.guitarcenter.com/is/image/MMGS7/Thunderbird-64-Bass-Inverness-Green/M04078000003000-00-264x264.jpg",

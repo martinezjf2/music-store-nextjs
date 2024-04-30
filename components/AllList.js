@@ -3,7 +3,7 @@ import React from "react";
 import Item from "./Item";
 
 export default function AllList({ store }) {
-  const itemList = store.items.map((item, i) => <Item key={ i} item={item} />)
+  const itemList = store.items.map((item, i) => <Item key={i} item={item} storeName={ store.name } />)
   const contentList = store.content.map((p, i) => (
     <p key={ i } className="font-extralight pb-5">{p}</p>
   ));
