@@ -5,8 +5,8 @@ import React from "react";
 export default function Footer() {
   return (
     <>
-      <section className="relative bg-[url(https://media.sweetwater.com/m/include/footer/images/new-gear-day/gear-pattern-optimized-700x700.png?format=webp)] overflow-hidden ">
-        <div className=" h-[170px] bg-[#07629c] bg-opacity-95 w-full bg-repeat bg-fixed flex justify-center items-center">
+      <section className="relative bg-repeat bg-fixed bg-[url(https://media.sweetwater.com/m/include/footer/images/new-gear-day/gear-pattern-optimized-700x700.png?format=webp)] overflow-hidden ">
+        <div className=" h-[170px] bg-[#07629c] bg-opacity-95 w-full  flex justify-center items-center">
           <div className="flex justify-center items-center p-7">
             <div className="bg-gray-200 hover:opacity-100 opacity-85 hover:scale-110 hover:duration-200 h-[120px] w-[135px] border-blue-500 border-4 rounded-full relative overflow-hidden mr-3">
               <img
