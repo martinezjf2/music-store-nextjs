@@ -14,7 +14,11 @@ export default function GetMore() {
         <div className="border relative rounded pt-5 px-2 pb-1 border-gray-200 mx-1 cursor-pointer hover:border-blue-700 hover:shadow-lg hover:scale-105 hover:duration-200 h-[170px] w-[170px]">
           <div className="relative">
             <div className="flex justify-center items-center">
-              <div className="w-[55px] h-[55px] border-gray-200 border bg-white rounded-full absolute -top-12 hover:border-blue-700 hover:shadow-lg hover:scale-105 hover:duration-200 "></div>
+              <div className="absolute -top-12">
+                <div className="w-[55px] h-[55px] border-gray-200 border bg-white rounded-full flex justify-center items-center  hover:border-blue-700 hover:shadow-lg hover:scale-105 hover:duration-200 ">
+                  <div className="">A</div>
+                </div>
+              </div>
             </div>
           </div>
           <div className="text-[12px] text-[#0273ba] pt-5 px-2 pb-1 font-semibold ">
@@ -33,7 +37,11 @@ export default function GetMore() {
         <div className="border relative rounded pt-5 px-2 pb-1 border-gray-200 mx-1 cursor-pointer hover:border-blue-700 hover:shadow-lg hover:scale-105 hover:duration-200 h-[170px] w-[170px]">
           <div className="relative">
             <div className="flex justify-center items-center">
-              <div className="w-[55px] h-[55px] border-gray-200 border bg-white rounded-full absolute -top-12 hover:border-blue-700 hover:shadow-lg hover:scale-105 hover:duration-200 "></div>
+              <div className="absolute -top-12">
+                <div className="w-[55px] h-[55px] border-gray-200 border bg-white rounded-full flex justify-center items-center  hover:border-blue-700 hover:shadow-lg hover:scale-105 hover:duration-200 ">
+                  <div className="">A</div>
+                </div>
+              </div>
             </div>
           </div>
           <div className="text-[12px] text-[#0273ba] pt-5 px-2 pb-1 font-semibold ">
@@ -52,7 +60,11 @@ export default function GetMore() {
         <div className="border relative rounded pt-5 px-2 pb-1 border-gray-200 mx-1 cursor-pointer hover:border-blue-700 hover:shadow-lg hover:scale-105 hover:duration-200 h-[170px] w-[170px]">
           <div className="relative">
             <div className="flex justify-center items-center">
-              <div className="w-[55px] h-[55px] border-gray-200 border bg-white rounded-full absolute -top-12 hover:border-blue-700 hover:shadow-lg hover:scale-105 hover:duration-200 "></div>
+              <div className="absolute -top-12">
+                <div className="w-[55px] h-[55px] border-gray-200 border bg-white rounded-full flex justify-center items-center  hover:border-blue-700 hover:shadow-lg hover:scale-105 hover:duration-200 ">
+                  <div className="">A</div>
+                </div>
+              </div>
             </div>
           </div>
           <div className="text-[12px] text-[#0273ba] pt-5 px-2 pb-1 font-semibold ">
@@ -71,7 +83,11 @@ export default function GetMore() {
         <div className="border relative rounded pt-5 px-2 pb-1 border-gray-200 mx-1 cursor-pointer hover:border-blue-700 hover:shadow-lg hover:scale-105 hover:duration-200 h-[170px] w-[170px]">
           <div className="relative">
             <div className="flex justify-center items-center">
-              <div className="w-[55px] h-[55px] border-gray-200 border bg-white rounded-full absolute -top-12 hover:border-blue-700 hover:shadow-lg hover:scale-105 hover:duration-200 "></div>
+              <div className="absolute -top-12">
+                <div className="w-[55px] h-[55px] border-gray-200 border bg-white rounded-full flex justify-center items-center  hover:border-blue-700 hover:shadow-lg hover:scale-105 hover:duration-200 ">
+                  <div className="">A</div>
+                </div>
+              </div>
             </div>
           </div>
           <div className="text-[12px] text-[#0273ba] pt-5 px-2 pb-1 font-semibold ">
@@ -90,7 +106,11 @@ export default function GetMore() {
         <div className="border relative rounded pt-5 px-2 pb-1 border-gray-200 mx-1 cursor-pointer hover:border-blue-700 hover:shadow-lg hover:scale-105 hover:duration-200 h-[170px] w-[170px]">
           <div className="relative">
             <div className="flex justify-center items-center">
-              <div className="w-[55px] h-[55px] border-gray-200 border bg-white rounded-full absolute -top-12 hover:border-blue-700 hover:shadow-lg hover:scale-105 hover:duration-200 "></div>
+              <div className="absolute -top-12">
+                <div className="w-[55px] h-[55px] border-gray-200 border bg-white rounded-full flex justify-center items-center  hover:border-blue-700 hover:shadow-lg hover:scale-105 hover:duration-200 ">
+                  <div className="">A</div>
+                </div>
+              </div>
             </div>
           </div>
           <div className="text-[12px] text-[#0273ba] pt-5 px-2 pb-1 font-semibold ">
@@ -107,7 +127,11 @@ export default function GetMore() {
         <div className="border relative rounded pt-5 px-2 pb-1 border-gray-200 mx-1 cursor-pointer hover:border-blue-700 hover:shadow-lg hover:scale-105 hover:duration-200 h-[170px] w-[170px]">
           <div className="relative">
             <div className="flex justify-center items-center">
-              <div className="w-[55px] h-[55px] border-gray-200 border bg-white rounded-full absolute -top-12 hover:border-blue-700 hover:shadow-lg hover:scale-105 hover:duration-200 "></div>
+              <div className="absolute -top-12">
+                <div className="w-[55px] h-[55px] border-gray-200 border bg-white rounded-full flex justify-center items-center  hover:border-blue-700 hover:shadow-lg hover:scale-105 hover:duration-200 ">
+                  <div className="">A</div>
+                </div>
+              </div>
             </div>
           </div>
           <div className="text-[12px] text-[#0273ba] pt-5 px-2 pb-1 font-semibold ">

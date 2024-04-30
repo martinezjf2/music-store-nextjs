@@ -1,7 +1,52 @@
 export const musicStore = {
   guitars: {
     name: "Guitars",
-    items: [{ name: "", description: "", price: "", image: "", special: "" }],
+    items: [
+      {
+        name: "Epiphone Thunderbird '64 Bass",
+        description: "",
+        price: "849.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/Thunderbird-64-Bass-Inverness-Green/M04078000003000-00-264x264.jpg",
+        special: "On Sale",
+      },
+      {
+        name: "Fender Tom DeLonge Starcaster Electric Guitar",
+        description:
+          "The Fender Tom DeLonge Starcaster puts riff-fueled power and premium playability at your fingertips, like a rocket ready to launch into space. This offset semi-hollow is loaded with tonal artillery perfect for chunky rhythms and smoking leads. At the same time, it excels at articulate cleans and edge-of-breakup crunch, thanks to smart design choices that preserve the guitar’s natural tone and responsiveness. Whether you’re a fan of DeLonge’s iconic blink-182 sound or just crave a unique instrument with impressive versatility, this signature model possesses all the small things that make it a pleasure to play.",
+        price: "1199.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/Tom-DeLonge-Starcaster-Electric-Guitar-Satin-Shoreline-Gold/M07990000001000-00-264x264.jpg",
+        special: "New Arrival",
+      },
+      {
+        name: "Gibson Les Paul Traditional Pro V Flame Top Electric Guitar",
+        description:
+          "The Gibson Les Paul Traditional Pro V Flame Top electric guitar takes a timeless design to the next level. This Les Paul packs the resonant tone of a mahogany body and maple top with the versatility of advanced electronics for a true player's experience. The mahogany neck has an asymmetrical shape for comfort while the Grover tuners provide rock-solid intonation. The TradBucker pickups deliver the classic Les Paul sound with the ability to split the humbuckers to single coils or tap into different coil configurations via the push/pull controls. Gibson is thrilled to offer this innovative Les Paul.",
+        price: "2499.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/Les-Paul-Traditional-Pro-V-Flame-Top-Electric-Guitar-Transparent-Ebony-Burst/L69587000003000-00-264x264.jpg",
+        special: "On Sale",
+      },
+      {
+        name: "Fender Player Series Telecaster Maple Fingerboard Limited-Edition Electric Guitar Surf Pearl",
+        description:
+          "This limited-edition Fender Player Series Telecaster maple fingerboard electric guitar provides the feel, style and sonic versatility to bring your musical ideas to life. Its Alnico V single-coil pickups deliver everything from twangy Tele tones to saturated rock sounds. The modern C-shaped maple neck and 22-fret fingerboard enable fast, fluid playing.",
+        price: "599.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/Player-Series-Telecaster-Maple-Fingerboard-Limited-Edition-Electric-Guitar-Surf-Pearl/L59796000001000-00-264x264.jpg",
+        special: "On Sale",
+      },
+      {
+        name: "Taylor 814ce Builder's Edition 50th Anniversary Limited-Edition Grand Auditorium Acoustic-Electric Guitar Kona Edgeburst",
+        description:
+          "The Taylor 814ce Builder's Edition 50th Anniversary limited-edition Grand Auditorium acoustic guitar combines two phenomenal tonewoods—Indian rosewood and sinker redwood—to deliver a kaleidoscopic range of tones. This special 50th anniversary model pairs the warm, rich lows of Indian rosewood with the cedar-like warmth and excellent projection of sinker redwood. Together, they produce remarkable tonal complexity that's enhanced by Taylor's advanced V-Class bracing. Visually striking touches like the abalone rosette, gold tuners and Kona burst edge over rosewood celebrate Taylor's five decades of guitar innovation.",
+        price: "4999.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/814ce-Builders-Edition-50th-Anniversary-Limited-Edition-Grand-Auditorium-Acoustic-Electric-Guitar-Kona-Edgeburst/M08663000001000-00-264x264.jpg",
+        special: "Top-Seller",
+      },
+    ],
     content: [
       "No one can deny that the 4-string electric bass guitar is a cornerstone of any band. Together with the percussion, the bassist creates the powerful rhythm that gets the audience moving and becomes the heartbeat of a melody. Being the most common type of bass guitar, the 4-string is essentially the gold standard instrument for the low end, and it's usually tuned to the sound of a double bass. One of the most important things to consider when choosing your new 4-string bass is the body style, and with that, the tonewood that it's made of. For a country or folk bassist looking for rich acoustic character, a semi-hollow body is the perfect way to warm up your tone right from the start. Solid-body basses, on the other hand, are right at home in any genre of music, particularly rock and metal. For either style bass, take a careful look at the wood. Alder is a popular choice due to its well-rounded tone, while a musician looking for added warmth and smoothness might prefer mahogany. If you're a technical player looking for tight sustain to nail fast bass lines, basswood may be right for you.",
       "On the other hand, high-sustain lovers will appreciate the brilliance of maple. Once you've decided on your favorite tonewood, the next step in shaping the sound of the bass is the pickup system. With this instrument, you have your choice of active or passive pickups. The difference is simple: an active pickup contains a small built-in preamp, while a passive pickup sends an untouched signal directly to the output. The end result is that passive pickups deliver a classic, full tone that works well with any amp while active pickups put out bright, clear sounds with added power to push an amp into high overdrive if that's your thing. You can also decide between fretted and fretless styles for your 4-string bass guitar. With a fretted fingerboard, the guitar neck is divided into semi-tones and you've got a visual and tactile guide for your finger placement. This makes fretted models easy to learn on, and the pinpoint contact with the metal frets can impart a clear, precise quality to the bass' sound. A fretless fingerboard, by comparison, is a great choice for experienced players, where you'll take advantage of the smooth surface to slide your fingers for more dynamic sounds. By pressing the string directly against the fingerboard wood, a fretless bass also gives you a slightly softer sound.",
@@ -10,7 +55,17 @@ export const musicStore = {
   },
   studio_and_recording: {
     name: "Studio & Recording",
-    items: [{ name: "", description: "", price: "", image: "", special: "" }],
+    items: [
+      {
+        name: "KRK ROKIT 5 Generation Five Powered Studio Monitor 5 (Each)",
+        description:
+          "KRK ROKIT series monitors are a widely popular choice among musicians, producers and engineers—professional and hobbyist alike. Noted for their exceptional value, impressive sound reproduction and high-quality construction, the Generation Five (G5) KRK ROKITs continue to push the envelope for home, project and pro studio monitoring. The KRK ROKIT G5 5'' speakers uphold the brand’s longstanding reputation, while introducing innovative new features like voicing modes, room-tuning DSP and redesigned drivers for even better performance. The 5'' KRK ROKIT G5s cover a broad frequency range of 43Hz–40kHz, and pump out an impressive maximum SPL of 104dB from a compact package. Generation Five KRK ROKIT 5 speakers are a comprehensive monitoring solution for those who demand flexibility and uncompromising sound quality.",
+        price: "199.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/ROKIT-5-Generation-Five-Powered-Studio-Monitor-5-Each/M06759000000000-00-264x264.jpg",
+        special: "New Arrival",
+      },
+    ],
     content: [
       "When you come right down to it, an audio interface is anything that lets you get audio signals in and out of your computer. The challenge in picking one is that there are so many ways of getting it done, and it will all depend on how you like to work and what you're trying to do. A very basic interface would be simply a box that converted analog audio to digital audio that the recording software in your computer can understand, and convert it back to analog audio when you want to hear it. Such converters are referred to as AD/DA (analog to digital/digital to analog) converters. Better quality converters have what's called 'jitter correction' to compensate for small timing variations.",
       "Most interfaces are far more than just converter boxes. They include mic preamps, multiple I/O (Input/Output) connections—balanced, unbalanced and digital—and even internal DSP (Digital Signal Processing) for effects, EQ and basic monitor or sub-mixing user. Some units can even act as a simple, stand-alone mixer without a computer attached for use as a basic live sound mixer.",
@@ -21,7 +76,17 @@ export const musicStore = {
   },
   drums: {
     name: "Drums & Percussion",
-    items: [{ name: "", description: "", price: "", image: "", special: "" }],
+    items: [
+      {
+        name: "Alesis Strata Prime Electronic Drum Kit",
+        description:
+          "The Strata Prime electronic drum kit from Alesis features an acoustic-like drumming experience with the versatility of a vast library of electronic sounds via the state-of-the-art Prime module. It’s equipped with full-size drum and cymbal pads for a familiar feel, plus the renowned BFD3 sound engine, boasting 75 professionally crafted kits. Edit any parameter on the massive 10.1 inches touchscreen and shape your sound from a vast selection of kits, sounds and tone-tweaking options. It includes mounting hardware for the module, snare, tom and cymbals—just add a hi-hat stand and kick pedal to get grooving.",
+        price: "3499.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/Strata-Prime-Electronic-Drum-Kit/M08825000000000-00-264x264.jpg",
+        special: "New Arrival",
+      },
+    ],
     content: [
       "Drum sets are the backbone of your band. Keeping the pace and driving the rhythm section, the drummer makes sure that everything clicks. With that in mind, it's important that every drummer have a quality drum kit to keep them sounding their absolute best. The real benefit to purchasing a complete kit as opposed to individual components is convenience. You won't have to take the time to pore over separate drums, searching for just the right complementary sounds. These kits are made up of drums that are designed to sound great together from day one, allowing you to focus on your playing.",
       "Regardless of your playing style or skill level, there is a kit here that will suit all your needs. Keep in mind the features that are important to you while you're taking a look around this section and you'll be working out your fills and rolls in no time. For example, if you're looking for your very first drum kit, an option like the Sound Percussion 5-Piece Drum Shell Pack might be just what you need. This kit is full of deep, powerful tone that is sure to get crowds grooving. With memory lock hardware, it's easy to set up and take down, allowing you to get from the jam space to the gig with no issues. Versatile and durable, this is the perfect kit for beginners, as well as established players looking for a second option.",
@@ -31,7 +96,44 @@ export const musicStore = {
   },
   bass: {
     name: "Bass",
-    items: [{ name: "", description: "", price: "", image: "", special: "" }],
+    items: [
+      {
+        name: "Schecter Guitar Research Nadja Peulen NP-4 4-String Electric Bass",
+        description:
+          "The Schecter Nadja Peulen NP-4 signature bass guitar is an instrument as distinctive as the artist who inspired it. Designed through close collaboration with Nadja Peulen of industrial metal icons Coal Chamber, the NP-4 seamlessly blends ergonomic playability with a massive tonal range. Whether you're laying down thick, distorted riffs or nuanced melodic lines, this bass has the power and finesse to make your mark.",
+        price: "1499.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/Nadja-Peulen-NP-4-4-String-Electric-Bass-Red-Syren/M11629000001000-00-264x264.jpg",
+        special: "New Arrival",
+      },
+      {
+        name: "Fender Player Series Saturday Night Special Precision Bass Limited",
+        description:
+          "The Fender Player Series Saturday Night Special Precision Bass is as authentic as it gets when it comes to accessibility, style and the rumbling, seismic sound that has provided the foundation for thousands of hit tracks and albums. Sporting a slick Daytona Blue finish and equipped with a unique Seymour Duncan Saturday Night Special single-coil pickup not found in any other instrument, this workhorse electric bass delivers your creative vision with flair and power. Additional appointments include open-gear tuners, a Modern C neck and a 4-saddle bridge. With a smooth-playing feel and a look that’s built for the spotlight, this thunderous Precision Bass is ready to rock the studio or prowl the stage. The Player Saturday Night Special P Bass is now available exclusively at Guitar Center.",
+        price: "999.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/Player-Series-Saturday-Night-Special-Precision-Bass-Limited-Edition-Daytona-Blue/M06278000001000-00-264x264.jpg",
+        special: "On Sale",
+      },
+      {
+        name: "Jackson Adam Blackstone 'Gladys' Pro Series Signature Concert Bass Guitar",
+        description:
+          "The Jackson Adam Blackstone 'Gladys' Pro Series signature concert bass brings the expertise of Grammy-winning musical director Adam Blackstone to your fingertips. Developed with Jackson, this five-string electric bass has a custom design optimized for the needs of today's performing and recording bassists. The resonant poplar body and graphite-reinforced bolt-on maple neck generate formidable sustain. The custom neck profile and compound 9in–16in radius maple fingerboard offer incredible comfort and playability.",
+        price: "899.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/Adam-Blackstone-Gladys-Pro-Series-Signature-Concert-Bass-Guitar-Black-Stone/M07649000001000-00-264x264.jpg",
+        special: "New Arrival",
+      },
+      {
+        name: "Ernie Ball Music Man StingRay Special H Electric Bass Guitar",
+        description:
+          "The Ernie Ball Music Man StingRay Special H electric bass gets a sonic overhaul with a redesigned neodymium pickup and an upgraded 18V preamp, while also receiving a facelift in sculpture and construction for greater comfort. Originally debuting in 1976, the legendary bass is one of Leo Fender's own designs, and it still sports the iconic 3+1 tuning machine layout and signature oval pickguard. The StingRay Special H features a roasted maple neck and your choice of maple, rosewood or ebony fretboard (based on the body finish you choose), meeting select hardwood bodies at a contoured 5-bolt joint for robust, yet sleek, construction. With an expanded tonal palette and ergonomic updates, the EBMM StingRay Special H brings enhanced performance to the stage and studio.",
+        price: "2499.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/StingRay-Special-H-Electric-Bass-Guitar-Pueblo-Pink/L97747000011000-00-264x264.jpg",
+        special: "",
+      },
+    ],
     content: [
       "The standard bass guitar is one of the music world's most commonly-used and well-loved instruments, played in virtually every genre to contribute the deep, resonant background adding energy to any song. If you're a musician who wants to take things up a notch, however, even an instrument as popular as the bass has room for change. With the 5-string electric bass, that change comes in the form of an added string. This variation on the bass guitar was pioneered in the mid-60s by Fender and quickly began to make waves in the funk, metal and rock scenes, among others. By installing a fifth string, the range of the instrument is expanded, allowing the 5-string bass to play an even bigger role in a melody than its 4-string cousins. Not only does this give you access to more chords and allow you to play higher melodies, it also gives you a wider range that can translate to some amazing bass solos. Like any bass guitar, the selection of tonewood is an important part of shaping the instrument's overall sound. Alder remains the classic choice, giving full, clear and balanced tones for versatility that easily adapts to any genre.",
       "To take full advantage of the 5-string bass' harmonic overtones, ash wood is another great option. Consider basswood if you like your sustain low, or maple if you like it high. Ultimately, the tonewood is a personal choice and it's a good idea to listen to different guitars to let your ear tell you which one is right for your own. Where the wood is one half of the bass' tonal equation, its pickups are the other half. Your 5-string bass guitar will come with either passive or active pickups, and while both types sound great, there is a difference in character to take into account. If you're looking to overdrive your amp for big distortion while maintaining tight control over the sound, you'll want to look at some active pickups. These contain their own mini-preamp to put a big punch behind the signal before it even gets to the main amp. On the other hand, if you want your tone to have classic warmth and fullness or vintage bass sound, passive pickups should top your list. When all is said and done, your goal is to find the 5-string electric bass guitar that perfectly matches your own preferences and is a great fit for the genres you play. Think about the wood and pickups you'd like as well as the wide variety of styles available and you'll find your instrument at the sweet spot where they all come together.",

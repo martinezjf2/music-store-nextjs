@@ -3,7 +3,7 @@ import React from "react";
 import Item from "./Item";
 
 export default function AllList({ store }) {
-  // const itemList = store.items.map(item => <Item item={item} />)
+  const itemList = store.items.map((item, i) => <Item key={ i} item={item} />)
   const contentList = store.content.map((p, i) => (
     <p key={ i } className="font-extralight pb-5">{p}</p>
   ));
@@ -20,57 +20,16 @@ export default function AllList({ store }) {
         <div className="grid grid-cols-4">
           <div className="col-span-1">This is the search section</div>
           <div className="col-span-3 grid grid-cols-4 gap-3 justify-center items-center bg-gray-100 px-5 py-6">
-            <Item
-              item={{
-                special: "On Sale",
-                name: "Epiphone Thunderbird '64 Bass",
-                description:
-                  "adfkj asdfkja bds fkjadf kja dfkjasn dfk jan dfkjna df",
-                price: "849.00",
-                image:
-                  "https://media.guitarcenter.com/is/image/MMGS7/Thunderbird-64-Bass-Inverness-Green/M04078000003000-00-264x264.jpg",
-              }}
-            />
-            <Item
-              item={{
-                special: "New Arrival",
-                name: "Epiphone Thunderbird '64 Bass",
-                description:
-                  "adfkj asdfkja bds fkjadf kja dfkjasn dfk jan dfkjna df",
-                price: "849.00",
-                image:
-                  "https://media.guitarcenter.com/is/image/MMGS7/Thunderbird-64-Bass-Inverness-Green/M04078000003000-00-264x264.jpg",
-              }}
-            />
-            <Item
-              item={{
-                special: "Top-Seller",
-                name: "Epiphone Thunderbird '64 Bass",
-                description:
-                  "adfkj asdfkja bds fkjadf kja dfkjasn dfk jan dfkjna df",
-                price: "849.00",
-                image:
-                  "https://media.guitarcenter.com/is/image/MMGS7/Thunderbird-64-Bass-Inverness-Green/M04078000003000-00-264x264.jpg",
-              }}
-            />
-            <Item
-              item={{
-                special: "On Sale",
-                name: "Epiphone Thunderbird '64 Bass",
-                description:
-                  "adfkj asdfkja bds fkjadf kja dfkjasn dfk jan dfkjna df",
-                price: "849.00",
-                image:
-                  "https://media.guitarcenter.com/is/image/MMGS7/Thunderbird-64-Bass-Inverness-Green/M04078000003000-00-264x264.jpg",
-              }}
-            />
+            
+            {itemList}
+
           </div>
         </div>
       </section>
 
       <section className="pt-9">
         <div className="px-9 pb-9 pt-6 border-t-2 border-gray-200 w-5/6 mx-auto">
-          { contentList }
+          {contentList}
         </div>
       </section>
     </>
