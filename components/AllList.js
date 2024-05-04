@@ -11,8 +11,10 @@ export default function AllList({ store }) {
   return (
     <>
       <section className="mx-auto relative px-10 py-6 ">
-        <div>
-          <a href="/">Home</a> / <span className="font-bold">{store.name}</span>
+        <div className="flex justify-start items-center">
+          <a href="/">Home</a>{" "}
+          <div className="w-[5px] h-[5px] bg-black rounded-full flex justify-center items-center mx-3"></div>{" "}
+          <span className="font-bold">{store.name}</span>
         </div>
         <div className="text-[40px] font-bold tracking-wider pt-3 pb-8">
           {store.name}
@@ -20,9 +22,7 @@ export default function AllList({ store }) {
         <div className="grid grid-cols-4">
           <div className="col-span-1">This is the search section</div>
           <div className="col-span-3 grid grid-cols-4 gap-3 justify-center items-center bg-gray-100 px-5 py-6">
-            
             {itemList}
-
           </div>
         </div>
       </section>
