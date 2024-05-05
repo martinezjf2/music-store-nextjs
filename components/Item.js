@@ -16,9 +16,11 @@ export default function Item({ item, storeName }) {
       className="border border-gray-700 rounded h-[470px] w-full py-5 px-4 relative bg-white hover:shadow-2xl hover:scale-105 transition"
       onClick={handleClick}
     >
-      <div className="absolute">
-        <div className="border p-1 w-[90px] flex justify-center items-center text-sm">{special}</div>
-      </div>
+      { special ?
+        <div className="absolute">
+          <div className="border p-1 w-[90px] flex justify-center items-center text-sm">{special}</div>
+        </div> : null
+      }
       <div className="absolute right-5">
         <FontAwesomeIcon icon={faHeart} className="hover:cursor-pointer" />
       </div>

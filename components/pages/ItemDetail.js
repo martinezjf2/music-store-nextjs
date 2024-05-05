@@ -21,7 +21,7 @@ export default function ItemDetail({ item, storeName }) {
           </span>
         </div>
 
-        <div className="mt-12 flex justify-around py-7 border-t-2 w-11/12 mx-auto border-b-2">
+        <div className="mt-7 flex justify-around py-7 border-t-2 w-11/12 mx-auto border-b-2">
           {/* Image Section */}
           <div className="border-r w-8/12">
             <img src={image} className="w-[800px]" />
@@ -29,11 +29,13 @@ export default function ItemDetail({ item, storeName }) {
 
           {/* Content Section */}
           <div className="w-4/12 text-left pl-9 mt-2">
-            <div
-              className={`border py-1 w-[100px] flex justify-center items-center text-sm font-bold`}
-            >
-              {special}
-            </div>
+            {special ? (
+              <div
+                className={`border py-1 w-[100px] flex justify-center items-center text-sm font-bold`}
+              >
+                {special}
+              </div>
+            ) : null}
 
             <div className="pt-4 font-extrabold tracking-wide text-[32px]">
               {name}
@@ -87,7 +89,10 @@ export default function ItemDetail({ item, storeName }) {
           </div>
         </div>
 
-        <div></div>
+        <div className="py-7 px-9">
+          <div className="font-bold text-[26px] mb-5 text-center">Description</div>
+          <div className="font-extralight leading-7">{description}</div>
+        </div>
       </section>
     </>
   );
