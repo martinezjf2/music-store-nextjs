@@ -1,10 +1,21 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-regular-svg-icons";
+import { SassColor } from "sass";
 
 export default function ItemDetail({ item, storeName }) {
   const { name, description, price, image, special } = item;
 
+    function classForBackgroundColor() {
+      if (special == "New Arrival") {
+        return "bg-blue-600";
+      } else if (special == "On Sale") {
+        return "bg-red-500";
+      } else if (special == "Top-Seller") {
+        return "bg-gray-900";
+      }
+    }
+  
   // console.log({ item });
   return (
     <>
@@ -31,7 +42,7 @@ export default function ItemDetail({ item, storeName }) {
           <div className="w-4/12 text-left pl-9 mt-2">
             {special ? (
               <div
-                className={`border py-1 w-[100px] flex justify-center items-center text-sm font-bold`}
+                className={`border py-1 w-[100px] flex justify-center items-center text-[13px] font-bold tracking-wide text-white ${classForBackgroundColor()}`}
               >
                 {special}
               </div>
