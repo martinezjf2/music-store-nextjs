@@ -84,13 +84,48 @@ export default function ItemDetail({ item, storeName }) {
               </div>
             </div>
             <hr className="font-extrabold"></hr>
-            <div>Here comes more content in flex</div>
+            <div className="flex justify-evenly items-center my-5 py-1 text-center">
+              <div className="text-sm font-light px-1">
+                <FontAwesomeIcon
+                  icon={faHeart}
+                  className="hover:cursor-pointer text-[25px] text-gray-500"
+                />
+                <br></br>
+                <div className="text-sm font-light mt-2">Free Delivery</div>
+              </div>
+              <div className="text-sm font-light px-1 ">
+                <FontAwesomeIcon
+                  icon={faHeart}
+                  className="hover:cursor-pointer text-[25px] text-gray-500"
+                />
+                <br></br>
+                <div className="text-sm font-light mt-2">45 Day Return</div>
+              </div>
+              <div className="text-sm font-light px-1">
+                <FontAwesomeIcon
+                  icon={faHeart}
+                  className="hover:cursor-pointer text-[25px] text-gray-500"
+                />
+                <br></br>
+                <div className="text-sm font-light mt-2">Online Support</div>
+              </div>
+              <div className="text-sm font-light px-1">
+                <FontAwesomeIcon
+                  icon={faHeart}
+                  className="hover:cursor-pointer text-[25px] text-gray-500"
+                />
+                <br></br>
+                <div className="text-sm font-light mt-2">2-Year Warranty</div>
+              </div>
+            </div>
             <hr className="font-extrabold"></hr>
           </div>
         </div>
 
         <div className="py-7 px-9">
-          <div className="font-bold text-[26px] mb-5 text-center">Description</div>
+          <div className="font-bold text-[26px] mb-5 text-center">
+            Description
+          </div>
           <div className="font-extralight leading-7">{description}</div>
         </div>
       </section>

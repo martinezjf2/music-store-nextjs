@@ -11,6 +11,17 @@ export default function Item({ item, storeName }) {
   const handleClick = () => {
     router.push(`/${storeName.toLowerCase()}/${encodeURIComponent(name)}`)
   }
+
+  function classForBackgroundColor() {
+    if (special == "New Arrival") {
+      return "bg-blue-600"
+    } else if (special == "On Sale"){
+      return "bg-red-500"
+    } else if (special == "Top-Seller") {
+      return "bg-gray-900"
+    }
+  }
+
   return (
     <div
       className="border border-gray-700 rounded h-[470px] w-full py-5 px-4 relative bg-white hover:shadow-2xl hover:scale-105 transition"
@@ -18,7 +29,7 @@ export default function Item({ item, storeName }) {
     >
       { special ?
         <div className="absolute">
-          <div className="border p-1 w-[90px] flex justify-center items-center text-sm">{special}</div>
+          <div className={`border p-1 w-[90px] flex justify-center items-center text-[12px] font-bold tracking-wide text-white ${classForBackgroundColor()}`}>{special}</div>
         </div> : null
       }
       <div className="absolute right-5">
