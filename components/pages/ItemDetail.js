@@ -11,7 +11,7 @@ export default function ItemDetail({ item, storeName }) {
         return "bg-blue-600";
       } else if (special == "On Sale") {
         return "bg-red-500";
-      } else if (special == "Top-Seller") {
+      } else if (special == "Top-Seller" || special == "Download") {
         return "bg-gray-900";
       }
     }

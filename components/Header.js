@@ -3,7 +3,6 @@ import React from "react";
 export default function Header() {
   return (
     <div className="flex w-[80%] mx-auto my-5">
-
       <div className="relative bg-black text-white h-[18rem] w-8/12 py-11 px-9 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-l from-transparent to-black z-15"></div>
         <a href="/">
@@ -23,7 +22,7 @@ export default function Header() {
             <button className="bg-red-600 py-1.5 px-8 rounded font-semibold text-[13px]">
               Shop Now
             </button>
-            <span className="ml-6 font-semibold">Ends April 30</span>
+            <span className="ml-6 font-semibold">Ends November 30</span>
           </div>
         </div>
       </div>
@@ -41,7 +40,7 @@ export default function Header() {
           </div>
           <div className="leading-tight text-[14px] mt-1">
             On qualifying products, 48 equal monthly payments required.
-            Now-April 30.
+            Now-November 30.
           </div>
         </div>
         <div className="bg-[#177fc0] bg-gradient-to-r from-[#4fa8df] to-[#0068a8] h-[5.4rem] leading-none relative">
@@ -52,7 +51,6 @@ export default function Header() {
           </div>
         </div>
       </div>
-
     </div>
   );
 }
