@@ -69,16 +69,18 @@ export default function ItemDetail({ item, storeName }) {
               Lease-To-Own Purchase Options
             </div>
             <hr className="font-extrabold"></hr>
-            <div className="my-9 bg-gray-50 p-8">
+            <div className="my-9 bg-gray-50 p-6">
               <div>
-                <div className="text-red-500 tracking-wider text-sm mb-4">
-                  Check store availibity
+                <div className="text-red-500 font-medium tracking-widest text-md mb-4">
+                  <i className="fa-solid fa-store text-black mr-2 text-[22px]"></i>{" "}
+                  Check store availibility
                 </div>
-                <div className="tracking-wider text-sm mb-1">
+                <div className="tracking-widest text-md mb-1">
+                  <i className="fa-solid fa-truck-fast text-black mr-3 text-[22px]"></i>
                   <span className="font-bold">Free Delivery</span> to{" "}
                   <span className="font-bold underline">United States</span>
                 </div>
-                <span className="text-green-800 tracking-wider text-[14px] mt-0 ">
+                <span className="text-green-800 tracking-wider text-md block ml-10">
                   In-stock
                 </span>
               </div>
@@ -97,34 +99,22 @@ export default function ItemDetail({ item, storeName }) {
             <hr className="font-extrabold"></hr>
             <div className="flex justify-evenly items-center my-5 py-1 text-center">
               <div className="text-sm font-light px-1">
-                <FontAwesomeIcon
-                  icon={faHeart}
-                  className="hover:cursor-pointer text-[25px] text-gray-500"
-                />
+                <i class="fa-solid fa-truck hover:cursor-pointer text-[25px] text-gray-800"></i>
                 <br></br>
                 <div className="text-sm font-light mt-2">Free Delivery</div>
               </div>
               <div className="text-sm font-light px-1 ">
-                <FontAwesomeIcon
-                  icon={faHeart}
-                  className="hover:cursor-pointer text-[25px] text-gray-500"
-                />
+                <i class="fa-solid fa-reply hover:cursor-pointer text-[25px] text-gray-800"></i>
                 <br></br>
                 <div className="text-sm font-light mt-2">45 Day Return</div>
               </div>
               <div className="text-sm font-light px-1">
-                <FontAwesomeIcon
-                  icon={faHeart}
-                  className="hover:cursor-pointer text-[25px] text-gray-500"
-                />
+                <i class="fa-solid fa-headset hover:cursor-pointer text-[25px] text-gray-800"></i>
                 <br></br>
                 <div className="text-sm font-light mt-2">Online Support</div>
               </div>
               <div className="text-sm font-light px-1">
-                <FontAwesomeIcon
-                  icon={faHeart}
-                  className="hover:cursor-pointer text-[25px] text-gray-500"
-                />
+                <i class="fa-solid fa-circle-check hover:cursor-pointer text-[25px] text-gray-800"></i>
                 <br></br>
                 <div className="text-sm font-light mt-2">2-Year Warranty</div>
               </div>

@@ -33,7 +33,7 @@ export default function AllList({ store }) {
               </div>
             </div>
             <div className="border-b-2 w-11/12 py-5 px-2 flex justify-between items-center">
-              <div className="font-bold tracking-wide">Availibity</div>
+              <div className="font-bold tracking-wide">Availibility</div>
               <div className="text-gray-600 text-[20px] mr-5 hover:cursor-pointer">
                 +
               </div>

@@ -66,7 +66,7 @@ export default function Navbar() {
 
           <div className="w-1/12 flex justify-center items-center hover:bg-gray-100 hover:text-blue-500 px-4 py-5 cursor-pointer">
             <div className="">
-              <FontAwesomeIcon icon={faCartShopping} className="text-lg" />
+              <FontAwesomeIcon icon={faCartShopping} className="text-[22px]" />
             </div>
           </div>
         </div>
