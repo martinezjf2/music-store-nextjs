@@ -25,6 +25,7 @@ export default function AllList({ store }) {
         </div>
         <div className="grid grid-cols-4">
           <div className="col-span-1">
+            
             <div className="border-b-2 w-11/12 py-5 px-2 flex justify-between items-center">
               <div className="font-bold tracking-wide">Find In Stores</div>
               <div className="text-gray-600 text-[20px] mr-5 hover:cursor-pointer">
