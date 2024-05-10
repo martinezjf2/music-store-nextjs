@@ -1,5 +1,6 @@
 export const musicStore = {
   guitars: {
+    primary_name: "guitars",
     name: "Guitars",
     items: [
       {
@@ -55,6 +56,7 @@ export const musicStore = {
     ],
   },
   studio_and_recording: {
+    primary_name: "studio_and_recording",
     name: "Studio & Recording",
     items: [
       {
@@ -75,7 +77,8 @@ export const musicStore = {
       "In addition to the mainstream audio interfaces described above, our GC Pro team of experts offers hands-on sales and support for professional solutions such as Avid HDX Systems and the Focusrite Rednet series. These solutions are typically used in recording studios, post facilities and other professional settings.",
     ],
   },
-  drums: {
+  drums_and_percussion: {
+    primary_name: "drums_and_percussion",
     name: "Drums & Percussion",
     items: [
       {
@@ -96,6 +99,7 @@ export const musicStore = {
     ],
   },
   bass: {
+    primary_name: "bass",
     name: "Bass",
     items: [
       {
@@ -141,7 +145,8 @@ export const musicStore = {
     ],
   },
   keyboards: {
-    name: "Keyboards & Synth",
+    primary_name: "keyboards",
+    name: "Keyboards",
     items: [
       {
         name: "Yamaha MODX8+ 88-Key Synthesizer",
@@ -239,7 +244,8 @@ export const musicStore = {
       "Maybe you're looking for more of a complete package to kick off your foray into workstations? If so, consider the Yamaha MX49 Synth Package. This set not only comes with the MX49 synthesizer, but also a Live Wire LWS250 Sustain Pedal, a pair of AKG K44 headphones, Kaces' 5KB 49-key keyboard bag, a Live Wire Elite Instrument Cable and a copy of the Hal Leonard - Stuff Good Synth Players Should Know (Book & CD). This package offers tools and tips on how to improve your abilities, making it a valuable option for any young performer. If you're already familiar with keyboard workstations and looking for something a little more advanced, there are plenty of options here for you as well. The Open Labs Miko LXD, for example, offers unparalleled flexibility in the studio. With the ability to create beats and trigger sounds in real-time, it is also quite capable in live environments. Best of all, It is compatible with virtually all third party plug-ins and applications, making your musical options virtually limitless. Whether you're a hobbyist, someone taking their first steps into musical production, or an experienced professional, a keyboard workstation is an invaluable tool. Having one of these powerful instruments on hand will easily take your music to the next level.",
     ],
   },
-  sound: {
+  live_sound_and_lights: {
+    primary_name: "live_sound_and_lights",
     name: "Live Sound & Lights",
     items: [
       {
@@ -406,6 +412,7 @@ export const musicStore = {
     ],
   },
   software: {
+    primary_name: "software",
     name: "Software",
     items: [
       {
@@ -431,7 +438,8 @@ export const musicStore = {
       "For notation and composition work, some of the common choices are Avid Sibelius 7, Makemusic Finale and PG Music Band-in-a-Box. Or, for DJ-ing and remixing, check out the Native Instruments Traktor series, Avid Torq or the software packages from Venue Magic. There truly are dozens of options available for you to take advantage of the benefits digital editing has to offer. Whether you're an independent artist mixing tracks on your own laptop or a professional sound editor working on a major TV series or indie film, the right music software is here to handle your needs.",
     ],
   },
-  dj: {
+  dj_equipment: {
+    primary_name: "dj_equipment",
     name: "DJ Equipment",
     items: [
       {
@@ -464,6 +472,7 @@ export const musicStore = {
     ],
   },
   microphones: {
+    primary_name: "microphones",
     name: "Microphones",
     items: [
       {
@@ -498,7 +507,8 @@ export const musicStore = {
       "There are hundreds of outstanding iOS devices for any number of requirements outside of recording and live shows: sound mixing, karaoke machines, Bluetooth, cables, cases and so much more. It's fair to say whatever your high-tech needs are, there's a user-friendly, compact and ultra-convenient Apple product to help make your life easier.",
     ],
   },
-  band: {
+  band_and_orchestra: {
+    primary_name: "band_and_orchestra",
     name: "Band & Orchestra",
     items: [
       {
@@ -537,6 +547,7 @@ export const musicStore = {
     ],
   },
   home_audio: {
+    primary_name: "home_audio",
     name: "Home Audio & Electronics",
     items: [
       {
@@ -568,7 +579,8 @@ export const musicStore = {
       "If you have a lot of low-end frequencies in your sound, go for monitors with bigger woofers to make sure they deliver the punchiest bass. Finally, since some monitors are sold individually and others are sold in a pair, make sure you're picking up two for a stereo setup. A good studio monitor isn't limited to just the studio—you can use it anywhere you want high-quality playback, whether that's for recreational listening at home or professional sound booth use. Powerful enough monitors can even stand in for a speaker stack in smaller venues. However you plan to put them to use, your monitors are as personal a choice as your mixing gear, controllers and instruments, so finding the best ones to suit your needs is just as crucial.",
     ],
   },
-  commercial: {
+  commercial_and_audio: {
+    primary_name: "commercial_and_audio",
     name: "Commercial Audio & Install",
     items: [
       {
@@ -600,6 +612,7 @@ export const musicStore = {
     ],
   },
   accessories: {
+    primary_name: "accessories",
     name: "Accessories",
     items: [
       {
@@ -632,7 +645,8 @@ export const musicStore = {
       "Another aspect of strings to consider in your decision is coating. Traditional coated strings have a smoother feel than their uncoated cousins and usually last much longer, but they're also wider and that can make them sound different. If you like the idea of coated strings, but don't want to give up the tone you get with uncoated ones, then check out Elixir and Cleartone strings: these two manufacturers have mastered the art of ultra-thin, 'barely-there' coatings that behave more like traditional strings. We've only just scratched the surface of what's available in this section, and there's a lot to see no matter what instrument you play. Different materials and gauges, coated or uncoated - it's up to you. You can buy your strings one at a time, go for a set or even stock up with multiple sets of strings at once. Still not sure where to begin? Try starting with the top-selling and best-rated strings and go from there. Finding the perfect set will probably take some experimentation, but there's no better guide than other musicians to get you on the right track.",
     ],
   },
-  content_creator: {
+  content_creators: {
+    primary_name: "content_creators",
     name: "Content Creators",
     items: [
       {

@@ -7,7 +7,7 @@ export default function BandOrchestraPage({ musicStore }) {
       <Head>
         <title>Band & Orchestra</title>
       </Head>
-      <AllList store={musicStore.band} />
+      <AllList store={musicStore.band_and_orchestra} />
     </>
   );
 }

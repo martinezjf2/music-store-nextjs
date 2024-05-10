@@ -7,7 +7,7 @@ export default function LightsPage({ musicStore }) {
       <Head>
         <title>Live Sound and Lights</title>
       </Head>
-      <AllList store={musicStore.sound} />
+      <AllList store={musicStore.live_sound_and_lights} />
     </>
   );
 }

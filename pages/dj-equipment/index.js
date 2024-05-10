@@ -7,7 +7,7 @@ export default function DJPage({ musicStore }) {
       <Head>
         <title>DJ Equipment</title>
       </Head>
-      <AllList store={musicStore.dj} />
+      <AllList store={musicStore.dj_equipment} />
     </>
   );
 }

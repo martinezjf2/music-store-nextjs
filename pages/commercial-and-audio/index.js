@@ -7,7 +7,7 @@ export default function CommercialPage({ musicStore }) {
       <Head>
         <title>Commercial</title>
       </Head>
-      <AllList store={musicStore.commercial} />
+      <AllList store={musicStore.commercial_and_audio} />
     </>
   );
 }

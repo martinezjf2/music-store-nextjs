@@ -32,9 +32,9 @@ export default function ItemDetail({ item, storeName }) {
           </span>
         </div>
 
-        <div className="mt-7 flex justify-around py-7 border-t-2 w-11/12 mx-auto border-b-2">
+        <div className="mt-7 flex justify-around pt-16 pb-10 border-t-2 w-11/12 mx-auto border-b-2">
           {/* Image Section */}
-          <div className="border-r w-8/12">
+          <div className="border-r-2 w-8/12">
             <img src={image} className="w-[800px]" />
           </div>
 
@@ -86,7 +86,7 @@ export default function ItemDetail({ item, storeName }) {
               </div>
             </div>
             <div className="flex mb-7">
-              <div className="w-10/12 flex justify-center items-center tracking-wider bg-red-600 text-white font-bold p-3 rounded shadow-lg">
+              <div className="w-10/12 flex justify-center items-center tracking-wider bg-red-600 text-white font-bold p-3 rounded shadow-lg hover:cursor-pointer">
                 Add to Cart
               </div>
               <div className="w-2/12 flex justify-center items-center">
@@ -99,22 +99,22 @@ export default function ItemDetail({ item, storeName }) {
             <hr className="font-extrabold"></hr>
             <div className="flex justify-evenly items-center my-5 py-1 text-center">
               <div className="text-sm font-light px-1">
-                <i class="fa-solid fa-truck hover:cursor-pointer text-[25px] text-gray-800"></i>
+                <i className="fa-solid fa-truck hover:cursor-pointer text-[25px] text-gray-800"></i>
                 <br></br>
                 <div className="text-sm font-light mt-2">Free Delivery</div>
               </div>
               <div className="text-sm font-light px-1 ">
-                <i class="fa-solid fa-reply hover:cursor-pointer text-[25px] text-gray-800"></i>
+                <i className="fa-solid fa-reply hover:cursor-pointer text-[25px] text-gray-800"></i>
                 <br></br>
                 <div className="text-sm font-light mt-2">45 Day Return</div>
               </div>
               <div className="text-sm font-light px-1">
-                <i class="fa-solid fa-headset hover:cursor-pointer text-[25px] text-gray-800"></i>
+                <i className="fa-solid fa-headset hover:cursor-pointer text-[25px] text-gray-800"></i>
                 <br></br>
                 <div className="text-sm font-light mt-2">Online Support</div>
               </div>
               <div className="text-sm font-light px-1">
-                <i class="fa-solid fa-circle-check hover:cursor-pointer text-[25px] text-gray-800"></i>
+                <i className="fa-solid fa-circle-check hover:cursor-pointer text-[25px] text-gray-800"></i>
                 <br></br>
                 <div className="text-sm font-light mt-2">2-Year Warranty</div>
               </div>

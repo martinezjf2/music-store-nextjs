@@ -88,7 +88,7 @@ export default function PopularCategories() {
           </div>
         </a>
 
-        <a href="/lights">
+        <a href="/live-sound-and-lights">
           <div className="hover:text-blue-700 mx-6 my-3">
             <div className="flex justify-center items-center">
               <div className="bg-gray-100 w-[100px] h-[100px] rounded-full flex justify-center items-center hover:border-blue-700 hover:border object-fill hover:duration-100 hover:bg-white">

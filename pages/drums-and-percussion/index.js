@@ -7,7 +7,7 @@ export default function DrumsPage({ musicStore }) {
       <Head>
         <title>Drums and Percussion</title>
       </Head>
-      <AllList store={musicStore.drums} />
+      <AllList store={musicStore.drums_and_percussion} />
     </>
   );
 }

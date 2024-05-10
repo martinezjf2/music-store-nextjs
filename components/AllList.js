@@ -4,7 +4,7 @@ import Item from "./Item";
 
 export default function AllList({ store }) {
   const itemList = store.items.map((item, i) => (
-    <Item key={i} item={item} storeName={store.name} />
+    <Item key={i} item={item} storeName={store.name} storePrimaryKey={ store.primary_name} />
   ));
   const contentList = store.content.map((p, i) => (
     <p key={i} className="font-extralight pb-5">

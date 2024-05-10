@@ -7,7 +7,7 @@ export default function ContentPage({ musicStore }) {
       <Head>
         <title>Content Creators</title>
       </Head>
-      <AllList store={musicStore.content_creator} />
+      <AllList store={musicStore.content_creators} />
     </>
   );
 }

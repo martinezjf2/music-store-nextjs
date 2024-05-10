@@ -4,12 +4,14 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-regular-svg-icons";
 
-export default function Item({ item, storeName }) {
+export default function Item({ item, storeName, storePrimaryKey }) {
   const { name, description, price, image, special } = item;
   const router = useRouter()
 
   const handleClick = () => {
-    router.push(`/${storeName.toLowerCase()}/${encodeURIComponent(name)}`)
+    // Need to iterate through the storePrimaryKey and replace all underscores and switch them to dash
+    let modifiedWord = storePrimaryKey.replace(/_/g, "-");
+    router.push(`/${modifiedWord.toLowerCase()}/${encodeURIComponent(name)}`)
   }
 
   function classForBackgroundColor() {
