@@ -3,7 +3,7 @@ export default function CheckoutPage({ cartArray }) {
     <section className="w-7/12 mx-auto">
       <div className="mt-3 flex">
         <div className="bg-[#015c96] text-white py-[7px] flex justify-center items-center w-11 rounded-tl-md">
-          <i class="fa-solid fa-cart-shopping text-[22px]"></i>
+          <i className="fa-solid fa-cart-shopping text-[22px]"></i>
         </div>
         <div className="bg-[#0072bb] text-white text-[20px] font-semibold tracking-wider px-2 flex justify-left items-center w-full rounded-tr-md">
           Shopping Cart
