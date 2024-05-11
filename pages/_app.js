@@ -9,7 +9,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <HomePage>
-        <Component {...pageProps} musicStore={ musicStore} />
+        <Component {...pageProps} musicStore={ musicStore } />
       </HomePage>
     </>
   );
