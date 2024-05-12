@@ -6,7 +6,7 @@ import SecondNavbar from "../SecondNavbar";
 export default function HomePage(props) {
     return (
         <>
-            <Navbar />
+            <Navbar count={props.count} />
             <SecondNavbar />
             {props.children}
             <Footer />

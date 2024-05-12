@@ -7,16 +7,15 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 
-
-
-export default function Navbar() {
+export default function Navbar({ count }) {
+  console.log({count})
     return (
       <div className="relative">
         <div className="flex justify-center items-center bg-white shadow">
           <div className="w-2/12 px-9 flex justify-center items-center cursor-pointer container">
             <div className="relative z-2 font-bold text-[20px] text-[#0273ba] tracking-wider text-stroke">
               <a href="/">GuitarStore</a>
-            {/* <div className="h-2 bottom-1 inset-2 z-1 absolute w-full bg-red-600 rounded-md"></div> */}
+              {/* <div className="h-2 bottom-1 inset-2 z-1 absolute w-full bg-red-600 rounded-md"></div> */}
             </div>
           </div>
 
@@ -66,7 +65,15 @@ export default function Navbar() {
 
           <div className="w-1/12 flex justify-center items-center hover:bg-gray-100 hover:text-blue-500 px-4 py-5 cursor-pointer">
             <div className="">
-              <a href="/checkout"><FontAwesomeIcon icon={faCartShopping} className="text-[22px]" /></a>
+              <a href="/checkout" className="relative">
+                <FontAwesomeIcon
+                  icon={faCartShopping}
+                  className="text-[25px] text-[#3b7d1b]"
+                />
+                <div className="absolute -top-[6px] right-[9px] text-white text-[10px]">
+                  {count}
+                </div>
+              </a>
             </div>
           </div>
         </div>

@@ -57,13 +57,13 @@ export default function CheckoutPage({ cartArray }) {
           </div>
         </div>
         <div className="flex justify-end w-2/12">
-          <div className="w-6/12 text-right font-bold text-[14px] mr-1">
+          <div className="w-6/12 text-right font-bold text-[14px] mr-4">
             1 <br></br>{" "}
             <span className="text-[#0a3b6b] hover:underline hover:cursor-pointer text-[10px] font-light">
               Remove
             </span>
           </div>
-          <div className="w-6/12 text-right font-bold text-[14px] mr-1">
+          <div className="w-6/12 text-right font-bold text-[14px] mr-2">
             ${item.price}
           </div>
         </div>
