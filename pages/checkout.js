@@ -1,15 +1,93 @@
-export default function CheckoutPage({ cartArray }) {
+
+import { useContext, useEffect, useState } from "react";
+import { useCart } from "../context/CartContext";
+
+
+
+export default function CheckoutPage(props) {
+  const { cart, removeItemFromCart, calculateTotal } = useCart()
+  const [ total, setTotal ] = useState(0)
+
+  console.log(cart);
+
+
+
+  const allItems = cart.map((item, index) => {
+    
+
+    function handleRemovingItem(e) {
+      e.preventDefault();
+      removeItemFromCart(item);
+      console.log("removing item", item);
+    }
+
+    return (
+      <div key={index}>
+        <div className="flex mb-5 mt-4 mx-1">
+          <div className="w-2/12 ml-2 mr-6 flex justify-center items-center">
+            <img src={item.image} />
+          </div>
+          <div className="w-8/12">
+            <div className="font-bold text-[16px] text-[#0a3b6b] hover:underline hover:cursor-pointer">
+              {item.name}
+            </div>
+            <div className="text-[9px] mt-1 font-light">
+              {item.description.length > 150
+                ? item.description.substring(0, 135) + "..."
+                : item.description}
+            </div>
+            <div className="text-[10px] mt-1 flex justify-start">
+              <div>Condition: {item.condition}</div>
+              <div className="ml-4">Price: ${item.price}</div>
+            </div>
+            <div className="text-red-600 text-[10px] mt-1">
+              <span className="font-bold">Promo: 36 Month</span> Promotional
+              Financing Available.
+            </div>
+            <div className="text-red-600 text-[10px]">
+              Or earn <span className="font-bold">$65.00 back</span> in Bonus
+              Bucks when you use you GuitarStore Card.
+            </div>
+          </div>
+          <div className="flex justify-end w-2/12">
+            <div className="w-6/12 text-right font-bold text-[14px] mr-4">
+              1 <br></br>{" "}
+              <span
+                className="text-[#0a3b6b] hover:underline hover:cursor-pointer text-[10px] font-light"
+                onClick={handleRemovingItem}
+              >
+                Remove
+              </span>
+            </div>
+            <div className="w-6/12 text-right font-bold text-[14px] mr-2">
+              ${item.price}
+            </div>
+          </div>
+        </div>
+        <hr></hr>
+      </div>
+    );
+  })
   // useState for the totalAmount as float
-  let item = {
-    name: "Epiphone Thunderbird '64 Bass",
-    description:
-      "The Epiphone Thunderbird '64 bass brings back the iconic look and sound of the classic Thunderbird bass. With its distinctive shape created by legendary car designer Ray Dietrich and its sustain-enhancing neck-through-body construction, the Thunderbird '64 retains all the vintage vibe of the original Thunderbirds. This iconic bass has the distinctive and eye-catching Thunderbird body shape that vintage bassists know and love. Its sustain-enhancing neck-through-body construction provides excellent resonance for a full-bodied tone. This Thunderbird '64 retains vintage-accurate appointments like the three-ply pickguard with the hot-stamped Thunderbird logo, taking you back to the era of the original Thunderbirds. Where the Thunderbird '64 excels is in combining these vintage aesthetics with modern upgrades for rock-solid tuning and playability. The powerful ProBucket humbucker pickups deliver that deep, rich Thunderbird growl, while the Graph Tech nut and accurate Grover tuners keep your bass sounding pitch-perfect. Once you plug it in, you'll be amazed by the deep, rich tone from its powerful humbucker pickups, brought to life with top-notch CTS potentiometers.",
-    price: "849.00",
-    image:
-      "https://media.guitarcenter.com/is/image/MMGS7/M04078000003000-00-600x600.jpg",
-    special: "On Sale",
-    condition: "New",
-  };
+  // let item = {
+  //   name: "Epiphone Thunderbird '64 Bass",
+  //   description:
+  //     "The Epiphone Thunderbird '64 bass brings back the iconic look and sound of the classic Thunderbird bass. With its distinctive shape created by legendary car designer Ray Dietrich and its sustain-enhancing neck-through-body construction, the Thunderbird '64 retains all the vintage vibe of the original Thunderbirds. This iconic bass has the distinctive and eye-catching Thunderbird body shape that vintage bassists know and love. Its sustain-enhancing neck-through-body construction provides excellent resonance for a full-bodied tone. This Thunderbird '64 retains vintage-accurate appointments like the three-ply pickguard with the hot-stamped Thunderbird logo, taking you back to the era of the original Thunderbirds. Where the Thunderbird '64 excels is in combining these vintage aesthetics with modern upgrades for rock-solid tuning and playability. The powerful ProBucket humbucker pickups deliver that deep, rich Thunderbird growl, while the Graph Tech nut and accurate Grover tuners keep your bass sounding pitch-perfect. Once you plug it in, you'll be amazed by the deep, rich tone from its powerful humbucker pickups, brought to life with top-notch CTS potentiometers.",
+  //   price: "849.00",
+  //   image:
+  //     "https://media.guitarcenter.com/is/image/MMGS7/M04078000003000-00-600x600.jpg",
+  //   special: "On Sale",
+  //   condition: "New",
+  // };
+
+  
+
+  // Make a function for handling removing an item when the remove button is clicked. Iterate through all the items within the cart state.
+  // Also create a section if there is not any items within the cart, let the user know that there are no items within the cart.
+
+  // if (props.cart.length == 0) {
+  //   return <h1>There is nothing in the cart!</h1>
+  // }
 
   return (
     <section className="w-8/12 mx-auto shadow-2xl rounded-bl-md mb-8 rounded-br-md relative">
@@ -29,47 +107,9 @@ export default function CheckoutPage({ cartArray }) {
         </div>
       </div>
 
-      {/* This is one item */}
-      <div className="flex mb-5 mt-4 mx-1">
-        <div className="w-2/12">
-          <img src={item.image} />
-        </div>
-        <div className="w-8/12">
-          <div className="font-bold text-[16px] text-[#0a3b6b] hover:underline hover:cursor-pointer">
-            {item.name}
-          </div>
-          <div className="text-[9px] mt-1 font-light">
-            {item.description.length > 150
-              ? item.description.substring(0, 135) + "..."
-              : item.description}
-          </div>
-          <div className="text-[10px] mt-1 flex justify-start">
-            <div>Condition: {item.condition}</div>
-            <div className="ml-4">Price: ${item.price}</div>
-          </div>
-          <div className="text-red-600 text-[10px] mt-1">
-            <span className="font-bold">Promo: 36 Month</span> Promotional
-            Financing Available.
-          </div>
-          <div className="text-red-600 text-[10px]">
-            Or earn <span className="font-bold">$65.00 back</span> in Bonus
-            Bucks when you use you GuitarStore Card.
-          </div>
-        </div>
-        <div className="flex justify-end w-2/12">
-          <div className="w-6/12 text-right font-bold text-[14px] mr-4">
-            1 <br></br>{" "}
-            <span className="text-[#0a3b6b] hover:underline hover:cursor-pointer text-[10px] font-light">
-              Remove
-            </span>
-          </div>
-          <div className="w-6/12 text-right font-bold text-[14px] mr-2">
-            ${item.price}
-          </div>
-        </div>
-      </div>
+     
+      {allItems}
 
-      <hr></hr>
       <div className="flex justify-end text-right mt-3 mb-4">
         <div className="mr-6 mt-1">
           <div className="font-bold text-[10px]">SUBTOTAL</div>
@@ -79,7 +119,7 @@ export default function CheckoutPage({ cartArray }) {
           </div>
         </div>
         <div className="mr-4 ">
-          <div className="font-bold text-[14px]">$1,299.00</div>
+          <div className="font-bold text-[14px]">${ calculateTotal().toFixed(2) }</div>
           <div className="text-red-600 font-extrabold text-[14px]">FREE</div>
         </div>
       </div>

@@ -1,21 +1,58 @@
-import React from "react";
+import React, { useState, useContext } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-regular-svg-icons";
-import { SassColor } from "sass";
+// import { CartContext } from '../../context/CartContext'
+import { useCart } from "../../context/CartContext";
 
-export default function ItemDetail({ item, storeName }) {
+export default function ItemDetail({
+  item,
+  storeName,
+  setCount,
+}) {
   const { name, description, price, image, special } = item;
+  const [isActive, setIsActive] = useState(false);
+  const { updateCart, removeItemFromCart } = useCart();
 
-    function classForBackgroundColor() {
-      if (special == "New Arrival") {
-        return "bg-blue-600";
-      } else if (special == "On Sale") {
-        return "bg-red-500";
-      } else if (special == "Top-Seller" || special == "Download") {
-        return "bg-gray-900";
-      }
+  function handleActivateButton(e) {
+    e.preventDefault();
+    if (isActive == false) {
+      setIsActive((prev) => !prev);
+      console.log("adding to the cart");
+      const currentCart = JSON.parse(localStorage.getItem("cart")) || [];
+
+      // Add new item to cart
+      const newCart = [...currentCart, item];
+
+      // Update cart data in localStorage
+      updateCart(newCart);
+    } else {
+      setIsActive((prev) => !prev);
+      console.log("removing from cart");
+      // const currentCart = JSON.parse(localStorage.getItem("cart")) || [];
+
+      // // Remove item from cart
+      // const newCart = currentCart.filter((cartItem) => cartItem.name !== item.name);
+
+      // // Update cart data in localStorage
+      // removeItemFromCart(newCart);
     }
-  
+
+    // console.log("This button has been clicked");
+    // console.log("item", item);
+  }
+
+  // Create a function that would handle a button state set to false. If the button is active and true, add to the cart, else remove it from the cart, also within the same function, increase the count for how many items are in the cart.
+
+  function classForBackgroundColor() {
+    if (special == "New Arrival") {
+      return "bg-blue-600";
+    } else if (special == "On Sale") {
+      return "bg-red-500";
+    } else if (special == "Top-Seller" || special == "Download") {
+      return "bg-gray-900";
+    }
+  }
+
   // console.log({ item });
   return (
     <>
@@ -86,8 +123,13 @@ export default function ItemDetail({ item, storeName }) {
               </div>
             </div>
             <div className="flex mb-7">
-              <div className="w-10/12 flex justify-center items-center tracking-wider bg-red-600 text-white font-bold p-3 rounded shadow-lg hover:cursor-pointer">
-                Add to Cart
+              <div
+                className={`w-10/12 flex justify-center items-center tracking-wider  text-white font-bold p-3 rounded shadow-lg hover:cursor-pointer ${
+                  isActive ? "bg-green-600" : "bg-red-600"
+                }`}
+                onClick={handleActivateButton}
+              >
+                {isActive ? "Item Added" : "Add to Cart"}
               </div>
               <div className="w-2/12 flex justify-center items-center">
                 <FontAwesomeIcon

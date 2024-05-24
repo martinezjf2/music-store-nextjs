@@ -266,7 +266,7 @@ export default function Footer() {
       <section className="bg-[#dddbd7] relative border-t-2 border-[#d1d0cf] pb-2">
         <div className="pt-5">
           <div className="flex justify-center items-center pb-5">
-            <div className="px-1 text-[9px] font-bold">GuitarCenter Sound</div>
+            <div className="px-1 text-[9px] font-bold">GuitarStore</div>
             <div className="px-1 text-[9px] font-light">
               5501 U.S. Hwy 30 W.Fort Wayne, IN 46818
             </div>
@@ -306,7 +306,7 @@ export default function Footer() {
 
           <div className="relative text-center pb-7">
             <div className="text-[8px] font-light">
-              © 2024 GuitarCenter - All Rights Reserved
+              © 2024 GuitarStore - All Rights Reserved
             </div>
           </div>
         </div>

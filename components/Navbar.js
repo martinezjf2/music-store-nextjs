@@ -8,7 +8,7 @@ import {
 
 
 export default function Navbar({ count }) {
-  console.log({count})
+  // console.log({count})
     return (
       <div className="relative">
         <div className="flex justify-center items-center bg-white shadow">

@@ -2,9 +2,10 @@
 import React from "react";
 import Item from "./Item";
 
-export default function AllList({ store }) {
+export default function AllList({ store, cart, onItemSubmit, setCount, onItemRemove }) {
+  
   const itemList = store.items.map((item, i) => (
-    <Item key={i} item={item} storeName={store.name} storePrimaryKey={ store.primary_name} />
+    <Item key={i} item={item} storeName={store.name} storePrimaryKey={store.primary_name} setCount={ setCount} onItemRemove={ onItemRemove} onItemSubmit={ onItemSubmit} />
   ));
   const contentList = store.content.map((p, i) => (
     <p key={i} className="font-extralight pb-5">
