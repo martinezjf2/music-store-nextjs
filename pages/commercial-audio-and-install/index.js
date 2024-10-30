@@ -12,7 +12,7 @@ export default function GuitarPage() {
         <title>Guitars</title>
       </Head>
       <AllList
-        store={musicStore.software}
+        store={musicStore.commercial_audio_and_install}
         cart={[]} // Replace with the cart state if needed
         onItemSubmit={() => {}} // Add your actual function here
         setCount={setCount}

@@ -25,9 +25,9 @@ export async function getServerSideProps({ params }) {
   const { item: itemName } = params;
 
   console.log("Looking for item:", itemName);
-  console.log("Available items:", musicStore.dj_equipment.items); // Log all available items
+  console.log("Available items:", musicStore.home_audio_and_electronics.items); // Log all available items
 
-  const item = musicStore.dj_equipment.items.find(
+  const item = musicStore.home_audio_and_electronics.items.find(
     (item) => item.name === decodeURIComponent(itemName.replace(/%20/g, " "))
   );
 
@@ -36,7 +36,7 @@ export async function getServerSideProps({ params }) {
   return {
     props: {
       item: item || null,
-      storeName: musicStore.dj_equipment.name,
+      storeName: musicStore.home_audio_and_electronics.name,
     },
   };
 }

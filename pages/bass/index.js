@@ -1,14 +1,23 @@
+// pages/guitars/index.js
 import AllList from "@/components/AllList";
 import Head from "next/head";
+import { useAppState } from "@/context/StateContext";
 
-export default function BassPage({ musicStore }) {
-  
+export default function GuitarPage() {
+  const { musicStore, count, setCount } = useAppState();
+
   return (
     <>
       <Head>
-        <title>Bass</title>
+        <title>Guitars</title>
       </Head>
-      <AllList store={musicStore.bass} />
+      <AllList
+        store={musicStore.bass}
+        cart={[]} // Replace with the cart state if needed
+        onItemSubmit={() => {}} // Add your actual function here
+        setCount={setCount}
+        onItemRemove={() => {}} // Add your actual function here
+      />
     </>
   );
 }

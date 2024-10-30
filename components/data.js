@@ -917,8 +917,8 @@ export const musicStore = {
       "And this selection of orchestral strings goes far beyond the examples mentioned above. Whether you're a student musician in search of their first violin, a cellist looking for a spare set of strings or a harpist who needs a case for their instrument, you're going to find exactly what you want right here.",
     ],
   },
-  home_audio: {
-    primary_name: "home_audio",
+  home_audio_and_electronics: {
+    primary_name: "home_audio_and_electronics",
     name: "Home Audio & Electronics",
     items: [
       {
@@ -1035,8 +1035,8 @@ export const musicStore = {
       "If you have a lot of low-end frequencies in your sound, go for monitors with bigger woofers to make sure they deliver the punchiest bass. Finally, since some monitors are sold individually and others are sold in a pair, make sure you're picking up two for a stereo setup. A good studio monitor isn't limited to just the studio—you can use it anywhere you want high-quality playback, whether that's for recreational listening at home or professional sound booth use. Powerful enough monitors can even stand in for a speaker stack in smaller venues. However you plan to put them to use, your monitors are as personal a choice as your mixing gear, controllers and instruments, so finding the best ones to suit your needs is just as crucial.",
     ],
   },
-  commercial_and_audio: {
-    primary_name: "commercial_and_audio",
+  commercial_audio_and_install: {
+    primary_name: "commercial_audio_and_install",
     name: "Commercial Audio & Install",
     items: [
       {

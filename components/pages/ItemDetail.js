@@ -43,7 +43,14 @@ export default function ItemDetail({ item, storeName }) {
       <div className="flex justify-start items-center">
         <a href="/">Home</a>
         <div className="w-[5px] h-[5px] bg-black rounded-full flex justify-center items-center mx-3"></div>
-        <a href={`/${storeName.toLowerCase()}`}>{storeName}</a>
+        <a
+          href={`/${storeName
+            .toLowerCase()
+            .replace(/&/g, "and")
+            .replace(/\s+/g, "-")}`}
+        >
+          {storeName}
+        </a>
         <div className="w-[5px] h-[5px] bg-black rounded-full flex justify-center items-center mx-3"></div>
         <span className="font-bold">
           {name.length > 50 ? name.substring(0, 45) + "..." : name}
