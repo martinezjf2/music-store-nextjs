@@ -1,29 +1,42 @@
-import { useRouter } from "next/router";
-import ItemDetail from "@/components/pages/ItemDetail" // Assuming you have a component named ItemDetail
+// pages/guitars/[item].js
+import ItemDetail from "@/components/pages/ItemDetail"; // Assuming you have a component named ItemDetail
 import { musicStore } from "@/components/data.js"; // Import your music store data
+import { CartProvider } from "@/context/CartContext"; // Adjust the import to match your CartContext path
 
-export default function ItemPage(props) {
+export default function ItemPage({ item, storeName }) {
   return (
-    <div>
-      <ItemDetail item={props.item} storeName={props.storeName} cart={props.cart } onItemRemove={ props.onItemRemove} onItemSubmit={ props.onItemSubmit} setCount={props.setCount } />
-    </div>
+    <CartProvider>
+      {" "}
+      {/* Wrap your component in CartProvider */}
+      <div>
+        <ItemDetail
+          item={item}
+          storeName={storeName}
+          // The following props can be removed since they are not used in ItemDetail:
+          // cart, onItemRemove, onItemSubmit, setCount
+        />
+      </div>
+    </CartProvider>
   );
 }
 
 export async function getServerSideProps({ params }) {
-  console.log(params)
+  console.log("Received params:", params);
   const { item: itemName } = params;
 
-  // Access the item data directly from your musicStore
+  console.log("Looking for item:", itemName);
+  console.log("Available items:", musicStore.guitars.items); // Log all available items
+
   const item = musicStore.guitars.items.find(
-    (item) => item.name === decodeURIComponent(itemName)
+    (item) => item.name === decodeURIComponent(itemName.replace(/%20/g, " "))
   );
+
+  console.log("Found item:", item); // Log the found item or null if not found
 
   return {
     props: {
       item: item || null,
       storeName: musicStore.guitars.name,
-      // Return null if item is not found
     },
   };
 }
