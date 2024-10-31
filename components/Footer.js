@@ -1,6 +1,8 @@
 // Include the New Gear Day, Subscriptions. and the footer
 
 import React from "react";
+import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -9,21 +11,42 @@ export default function Footer() {
         <div className=" h-[170px] bg-[#07629c] bg-opacity-95 w-full  flex justify-center items-center">
           <div className="flex justify-center items-center p-7">
             <div className="bg-gray-200 hover:opacity-100 opacity-85 hover:scale-110 hover:duration-200 h-[120px] w-[135px] border-blue-500 border-4 rounded-full relative overflow-hidden mr-3">
-              <img
+              {/* <img
                 src="https://media.sweetwater.com/m/include/footer/images/new-gear-day/10.jpg?format=webp"
                 className="w-[130px] m-auto"
+              /> */}
+              <Image
+                src="https://media.sweetwater.com/m/include/footer/images/new-gear-day/10.jpg?format=webp"
+                className="w-[130px] m-auto"
+                width={200}
+                height={200}
+                alt="new gear day"
               />
             </div>
             <div className="bg-gray-200 hover:opacity-100 opacity-85 hover:scale-110 hover:duration-200 h-[120px] w-[135px] border-blue-500 border-4 rounded-full relative overflow-hidden mr-3">
-              <img
+              {/* <img
                 src="https://media.sweetwater.com/m/include/footer/images/new-gear-day/18.jpg?format=webp"
                 className="w-[130px] m-auto"
+              /> */}
+              <Image
+                src="https://media.sweetwater.com/m/include/footer/images/new-gear-day/18.jpg?format=webp"
+                className="w-[130px] m-auto"
+                width={200}
+                height={200}
+                alt="new gear day image"
               />
             </div>
             <div className="bg-gray-200 hover:opacity-100 opacity-85 hover:scale-110 hover:duration-200 h-[120px] w-[135px] border-blue-500 border-4 rounded-full relative overflow-hidden mr-3">
-              <img
+              {/* <img
                 src="https://media.sweetwater.com/m/include/footer/images/new-gear-day/19.jpg?format=webp"
                 className="w-[130px] m-auto"
+              /> */}
+              <Image
+                src="https://media.sweetwater.com/m/include/footer/images/new-gear-day/19.jpg?format=webp"
+                className="w-[130px] m-auto"
+                width={200}
+                height={200}
+                alt="new gear day image"
               />
             </div>
           </div>
@@ -40,29 +63,53 @@ export default function Footer() {
               </div>
 
               <div className="text-center">
-                <a href="#" className="text-white hover:underline">
+                {/* <a href="#" className="text-white hover:underline">
                   Learn More about New Gear Day.
-                </a>
+                </a> */}
+                <Link href="/" className="text-white hover:underline">
+                  Learn More about New Gear Day.
+                </Link>
               </div>
             </div>
           </div>
           <div className="flex justify-center items-center p-7">
             <div className="bg-gray-200 hover:opacity-100 h-[120px]  opacity-85 hover:scale-110 hover:duration-200 w-[135px] border-blue-500 border-4 rounded-full relative overflow-hidden mr-3">
-              <img
+              {/* <img
                 src="https://media.sweetwater.com/m/include/footer/images/new-gear-day/16.jpg?format=webp"
                 className="w-[130px] m-auto"
+              /> */}
+              <Image
+                src="https://media.sweetwater.com/m/include/footer/images/new-gear-day/16.jpg?format=webp"
+                className="w-[130px] m-auto"
+                width={200}
+                height={200}
+                alt="image 4"
               />
             </div>
             <div className="bg-gray-200 hover:opacity-100 h-[120px]  opacity-85 hover:scale-110 hover:duration-200 w-[135px] border-blue-500 border-4 rounded-full relative overflow-hidden mr-3">
-              <img
+              {/* <img
                 src="https://media.sweetwater.com/m/include/footer/images/new-gear-day/6.jpg?format=webp"
                 className="w-[130px] m-auto"
+              /> */}
+              <Image
+                src="https://media.sweetwater.com/m/include/footer/images/new-gear-day/6.jpg?format=webp"
+                className="w-[130px] m-auto"
+                width={200}
+                height={200}
+                alt="image 5"
               />
             </div>
             <div className="bg-gray-200 hover:opacity-100 h-[120px]  opacity-85 hover:scale-110 hover:duration-200 w-[135px] border-blue-500 border-4 rounded-full relative overflow-hidden mr-3">
-              <img
+              {/* <img
                 src="https://media.sweetwater.com/m/include/footer/images/new-gear-day/3.jpg?format=webp"
                 className="w-[130px] m-auto"
+              /> */}
+              <Image
+                src="https://media.sweetwater.com/m/include/footer/images/new-gear-day/3.jpg?format=webp"
+                className="w-[130px] m-auto"
+                width={200}
+                height={200}
+                alt="image 6"
               />
             </div>
           </div>
@@ -83,9 +130,12 @@ export default function Footer() {
               Exchange!
             </div>
             <div className="text-[12px] absolute bottom-0">
-              <a href="#">
+              {/* <a href="#">
                 Take me there <span>{">"}</span>
-              </a>
+              </a> */}
+              <Link href="/">
+                Take me there <span>{">"}</span>
+              </Link>
             </div>
           </div>
 
@@ -115,15 +165,25 @@ export default function Footer() {
                 Now is the perfect time to get the gear you want with simple,
                 promotional financing.
               </div>
-              <img
+              {/* <img
                 src="https://media.sweetwater.com/api/i/q-60__w-180/resources/sweetwater-synchrony-card.png"
                 className="absolute -right-40 -top-3 w-5/6"
+              /> */}
+              <Image
+                src="https://media.sweetwater.com/api/i/q-60__w-180/resources/sweetwater-synchrony-card.png"
+                className="absolute -right-40 -top-3 w-5/6"
+                width={200}
+                height={200}
+                alt="synchrony card"
               />
             </div>
             <div className="absolute bottom-0 text-[12px]">
-              <a>
+              {/* <a>
                 Take me there <span>{">"}</span>
-              </a>
+              </a> */}
+              <Link href="/" className="">
+                Take me there <span>{">"}</span>
+              </Link>
             </div>
           </div>
         </div>
@@ -135,9 +195,16 @@ export default function Footer() {
             <div className="flex">
               <div className="bg-white w-[80px] h-[80px] rounded-full relative overflow-hidden">
                 <div className=" absolute bottom-0">
-                  <img
+                  {/* <img
                     src="https://media.sweetwater.com/api/i/w-180__q-50/include/ses/left/tim-holsinger.png"
                     className=""
+                  /> */}
+                  <Image
+                    src="https://media.sweetwater.com/api/i/w-180__q-50/include/ses/left/tim-holsinger.png"
+                    className=""
+                    width={200}
+                    height={200}
+                    alt="tim"
                   />
                 </div>
               </div>
@@ -167,97 +234,124 @@ export default function Footer() {
           <div className="pl-6 pr-1">
             <div className="font-bold text-[13px] pb-2">ABOUT GUITARSTORE</div>
             <div className="text-[12px] leading-7">
-              <a href="/">Careers</a>
+              {/* <a href="/">Careers</a> */}
+              <Link href="/">Careers</Link>
             </div>
             <div className="text-[12px] leading-7">
-              <a href="/">Environmental & Social Responsibility</a>
+              {/* <a href="/">Environmental & Social Responsibility</a> */}
+              <Link href="/">Environmental & Social Responsibility</Link>
             </div>
             <div className="text-[12px] leading-7">
-              <a href="/">Our Sales Engineers</a>
+              {/* <a href="/">Our Sales Engineers</a> */}
+              <Link href="/">Our Sales Engineers</Link>
             </div>
             <div className="text-[12px] leading-7">
-              <a href="/">Why Choose GuitarStore?</a>
+              {/* <a href="/">Why Choose GuitarStore?</a> */}
+              <Link href="/">Why Choose GuitarStore?</Link>
             </div>
             <div className="text-[12px] leading-7">
-              <a href="/">Tour Our Campus</a>
+              {/* <a href="/">Tour Our Campus</a> */}
+              <Link href="/">Tour Our Campus</Link>
             </div>
             <div className="text-[12px] leading-7">
-              <a href="/">Press Releases</a>
+              {/* <a href="/">Press Releases</a> */}
+              <Link href="/">Press Releases</Link>
             </div>
           </div>
 
           <div className="px-3">
             <div className="font-bold text-[13px] pb-2">CUSTOMER SERVICE</div>
             <div className="text-[12px] leading-7">
-              <a href="/">Free Shipping Policy</a>
+              {/* <a href="/">Free Shipping Policy</a> */}
+              <Link href="/">Free Shipping Policy</Link>
             </div>
             <div className="text-[12px] leading-7">
-              <a href="/">Order Status</a>
+              {/* <a href="/">Order Status</a> */}
+              <Link href="/">Order Status</Link>
             </div>
             <div className="text-[12px] leading-7">
-              <a href="/">Return Policy</a>
+              {/* <a href="/">Return Policy</a> */}
+              <Link href="/">Return Policy</Link>
             </div>
             <div className="text-[12px] leading-7">
-              <a href="/">Sales and Use Tax Policy</a>
+              {/* <a href="/">Sales and Use Tax Policy</a> */}
+              <Link href="/">Sales and Use Tax Policy</Link>
             </div>
             <div className="text-[12px] leading-7">
-              <a href="/">SweetCare Remote</a>
+              {/* <a href="/">SweetCare Remote</a> */}
+              <Link href="/">SweetCare Remote</Link>
             </div>
             <div className="text-[12px] leading-7">
-              <a href="/">GuitarStore Support Articles</a>
+              {/* <a href="/">GuitarStore Support Articles</a> */}
+              <Link href="/">GuitarStore Support Articles</Link>
             </div>
             <div className="text-[12px] leading-7">
-              <a href="/">FAQ</a>
+              {/* <a href="/">FAQ</a> */}
+              <Link href="/">FAQ</Link>
             </div>
             <div className="text-[12px] leading-7">
-              <a href="/">Contact Us</a>
+              {/* <a href="/">Contact Us</a> */}
+              <Link href="/">Contact Us</Link>
             </div>
           </div>
 
           <div className="px-9">
             <div className="font-bold text-[13px] pb-2">ORDERING</div>
             <div className="text-[12px] leading-7">
-              <a href="/">Free Catalog</a>
+              {/* <a href="/">Free Catalog</a> */}
+              <Link href="/">Free Catalog</Link>
             </div>
             <div className="text-[12px] leading-7">
-              <a href="/">Gift Cards</a>
+              {/* <a href="/">Gift Cards</a> */}
+              <Link href="/">Gift Cards</Link>
             </div>
             <div className="text-[12px] leading-7">
-              <a href="/">Bonus Bucks</a>
+              {/* <a href="/">Bonus Bucks</a> */}
+              <Link href="/">Bonus Bucks</Link>
             </div>
             <div className="text-[12px] leading-7">
-              <a href="/">Payment Options</a>
+              {/* <a href="/">Payment Options</a> */}
+              <Link href="/">Payment Options</Link>
             </div>
             <div className="text-[12px] leading-7">
-              <a href="/">Shipping and Delivery Times</a>
+              {/* <a href="/">Shipping and Delivery Times</a> */}
+              <Link href="/">Shipping and Delivery Times</Link>
             </div>
             <div className="text-[12px] leading-7">
-              <a href="/">Gear Exchange</a>
+              {/* <a href="/">Gear Exchange</a> */}
+              <Link href="/">Gear Exchange</Link>
             </div>
           </div>
 
           <div className="pl-0">
             <div className="font-bold text-[13px] pb-2">SERVICES</div>
             <div className="text-[12px] leading-7">
-              <a href="/">Guitar Workshop</a>
+              {/* <a href="/">Guitar Workshop</a> */}
+              <Link href="/">Guitar Workshop</Link>
             </div>
             <div className="text-[12px] leading-7">
-              <a href="/">Electronic Repairs Workshop</a>
+              {/* <a href="/">Electronic Repairs Workshop</a> */}
+              <Link href="/">Electronic Repairs Workshop</Link>
             </div>
             <div className="text-[12px] leading-7">
-              <a href="/">Music Store</a>
+              {/* <a href="/">Music Store</a> */}
+              <Link href="/">Music Store</Link>
             </div>
             <div className="text-[12px] leading-7">
-              <a href="/">Events and Workshops</a>
+              {/* <a href="/">Events and Workshops</a> */}
+              <Link href="/">Events and Workshops</Link>
             </div>
             <div className="text-[12px] leading-7">
-              <a href="/">Guitar Showroom</a>
+              {/* <a href="/">Guitar Showroom</a> */}
+              <Link href="/">Guitar Showroom</Link>
             </div>
             <div className="text-[12px] leading-7">
-              <a href="/">Music Lessons</a>
+              {/* <a href="/">Music Lessons</a> */}
+              <Link href="/">Music Lessons</Link>
             </div>
             <div className="text-[12px] leading-7">
-              <a href="/">Recording Studio</a>
+              {/* <a href="/">Recording Studio</a> */}
+              <Link href="/">Recording Studio</Link>
             </div>
           </div>
         </div>
@@ -271,7 +365,10 @@ export default function Footer() {
               5501 U.S. Hwy 30 W.Fort Wayne, IN 46818
             </div>
             <div className="px-1 text-[9px]">
-              <a>Get Directions</a> | <a>Phone Hours</a> | <a>Store Hours</a>
+              {/* <a>Get Directions</a> | <a>Phone Hours</a> | <a>Store Hours</a> */}
+              <Link href="/">Get Directions</Link> |{" "}
+              <Link href="/">Phone Hours</Link> |{" "}
+              <Link href="/">Store Hours</Link>
             </div>
           </div>
 
@@ -281,22 +378,28 @@ export default function Footer() {
             </div>
             <div className="flex justify-center items-center">
               <div className="px-1 text-[9px] font-light">
-                <a>Terms of Use</a>
+                {/* <a>Terms of Use</a> */}
+                <Link href="/">Terms of Use</Link>
               </div>
               <div className="px-1 text-[9px] font-light">
-                <a>Privacy Policy</a>
+                {/* <a>Privacy Policy</a> */}
+                <Link href="/">Privacy Policy</Link>
               </div>
               <div className="px-1 text-[9px] font-light">
-                <a>Phone Recording Policy</a>
+                {/* <a>Phone Recording Policy</a> */}
+                <Link href="/">Phone Recording Policy</Link>
               </div>
               <div className="px-1 text-[9px] font-light">
-                <a>Accessibility</a>
+                {/* <a>Accessibility</a> */}
+                <Link href="/">Accessibility</Link>
               </div>
               <div className="px-1 text-[9px] font-light">
-                <a>Cookies Settings</a>
+                {/* <a>Cookies Settings</a> */}
+                <Link href="/">Cookies Settings</Link>
               </div>
               <div className="px-1 text-[9px] font-light">
-                <a>Do Not Sell Or Share My Information</a>
+                {/* <a>Do Not Sell Or Share My Information</a> */}
+                <Link href="/">Do Not Sell Or Share My Information</Link>
               </div>
             </div>
             <div className="text-[9px] pb-3 font-light">

@@ -1,5 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { useCart } from "../context/CartContext";
+import Image from "next/image";
 
 export default function CheckoutPage(props) {
   const { cart, removeItemFromCart, calculateTotal } = useCart();
@@ -26,7 +27,8 @@ export default function CheckoutPage(props) {
       <div key={index}>
         <div className="flex mb-5 mt-4 mx-1">
           <div className="w-2/12 ml-2 mr-6 flex justify-center items-center">
-            <img src={item.image} alt={item.name} />
+            {/* <img src={item.image} alt={item.name} /> */}
+            <Image src={item.image} alt={item.name} width={150} height={150} />
           </div>
           <div className="w-8/12">
             <div className="font-bold text-[16px] text-[#0a3b6b] hover:underline hover:cursor-pointer">
@@ -131,9 +133,11 @@ export default function CheckoutPage(props) {
               </div>
             </div>
             <div className="w-[90px] mr-4 mt-4">
-              <img
+              <Image
                 src="https://media.sweetwater.com/m/include/promo/2023/sw-bb-cards-sm.png?width=158&height=100"
                 alt="Bonus Bucks"
+                width={150}
+                height={150}
               />
             </div>
           </div>

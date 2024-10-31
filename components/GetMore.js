@@ -1,6 +1,13 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTruckFast, faHeadset, faGuitar, faPhone, faMedal, faCreditCard } from "@fortawesome/free-solid-svg-icons";
+import {
+  faTruckFast,
+  faHeadset,
+  faGuitar,
+  faPhone,
+  faMedal,
+  faCreditCard,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function GetMore() {
   return (
@@ -102,7 +109,7 @@ export default function GetMore() {
             FREE Sweetwater Support
           </div>
           <div className="text-[9px] px-1 relative">
-            Got a question? We're here to help.
+            Got a question? We&lsquo;re here to help.
           </div>
           <div className="flex justify-center items-center">
             <div className="text-[#0273ba] text-[10px] font-bold mt-6 text-center absolute bottom-5">

@@ -1,11 +1,25 @@
 // Make sure this component is usable for all pages for guitars, drums, and more
 import React from "react";
 import Item from "./Item";
+import Link from "next/link";
 
-export default function AllList({ store, cart, onItemSubmit, setCount, onItemRemove }) {
-  
+export default function AllList({
+  store,
+  cart,
+  onItemSubmit,
+  setCount,
+  onItemRemove,
+}) {
   const itemList = store.items.map((item, i) => (
-    <Item key={i} item={item} storeName={store.name} storePrimaryKey={store.primary_name} setCount={ setCount} onItemRemove={ onItemRemove} onItemSubmit={ onItemSubmit} />
+    <Item
+      key={i}
+      item={item}
+      storeName={store.name}
+      storePrimaryKey={store.primary_name}
+      setCount={setCount}
+      onItemRemove={onItemRemove}
+      onItemSubmit={onItemSubmit}
+    />
   ));
   const contentList = store.content.map((p, i) => (
     <p key={i} className="font-extralight pb-5">
@@ -17,7 +31,7 @@ export default function AllList({ store, cart, onItemSubmit, setCount, onItemRem
     <>
       <section className="mx-auto relative px-10 py-6 ">
         <div className="flex justify-start items-center">
-          <a href="/">Home</a>{" "}
+          <Link href="/">Home</Link>
           <div className="w-[5px] h-[5px] bg-black rounded-full flex justify-center items-center mx-3"></div>{" "}
           <span className="font-bold">{store.name}</span>
         </div>
@@ -26,7 +40,6 @@ export default function AllList({ store, cart, onItemSubmit, setCount, onItemRem
         </div>
         <div className="grid grid-cols-4">
           <div className="col-span-1">
-            
             <div className="border-b-2 w-11/12 py-5 px-2 flex justify-between items-center">
               <div className="font-bold tracking-wide">Find In Stores</div>
               <div className="text-gray-600 text-[20px] mr-5 hover:cursor-pointer">
