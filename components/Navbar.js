@@ -5,6 +5,7 @@ import {
   faCartShopping,
   faMagnifyingGlass,
 } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
 
 export default function Navbar({ count }) {
   // console.log({count})
@@ -13,7 +14,8 @@ export default function Navbar({ count }) {
       <div className="flex justify-center items-center bg-white shadow">
         <div className="w-2/12 px-9 flex justify-center items-center cursor-pointer container">
           <div className="relative z-2 font-bold text-[20px] text-[#0273ba] tracking-wider text-stroke">
-            <a href="/">GuitarStore</a>
+            {/* <a href="/">GuitarStore</a> */}
+            <Link href="/">GuitarStore</Link>
             {/* <div className="h-2 bottom-1 inset-2 z-1 absolute w-full bg-red-600 rounded-md"></div> */}
           </div>
         </div>
@@ -64,15 +66,22 @@ export default function Navbar({ count }) {
 
         <div className="w-1/12 flex justify-center items-center hover:bg-gray-100 hover:text-blue-500 px-4 py-5 cursor-pointer">
           <div className="">
-            <a href="/checkout" className="relative">
+            {/* <a href="/checkout" className="relative">
               <FontAwesomeIcon
                 icon={faCartShopping}
                 className="text-[25px] text-[#3b7d1b]"
               />
+
               <div className="absolute -top-[6px] right-[9px] text-white text-[10px]">
                 {count}
-              </div>
-            </a>
+              </div> 
+            </a>  */}
+            <Link href="/checkout">
+              <FontAwesomeIcon
+                icon={faCartShopping}
+                className="text-[25px] text-[#3b7d1b]"
+              />
+            </Link>
           </div>
         </div>
       </div>

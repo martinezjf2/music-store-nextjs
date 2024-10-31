@@ -26,6 +26,7 @@ export const CartProvider = ({ children }) => {
 
   const updateCart = (newCart) => {
     setCart(newCart);
+    // localStorage.setItem("cart", JSON.stringify(newCart));
   };
 
   const addItemToCart = (item) => {
@@ -34,6 +35,9 @@ export const CartProvider = ({ children }) => {
       updateCart(updatedCart);
       return updatedCart; // Return new cart state
     });
+    setTimeout(() => {
+      router.push("/checkout").then(() => router.reload());
+    }, 1000);
   };
 
   const calculateTotal = () => {

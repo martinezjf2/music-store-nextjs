@@ -1,16 +1,27 @@
 import React from "react";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
   return (
     <div className="flex w-[80%] mx-auto my-5">
       <div className="relative bg-black text-white h-[18rem] w-8/12 py-11 px-9 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-l from-transparent to-black z-15"></div>
-        <a href="/">
+        {/* <a href="/">
           <img
             src="https://www.hollywoodreporter.com/wp-content/uploads/2017/08/gettyimages-687020126_-_h_2017_0.jpg?w=1296"
             className="absolute w-full -top-6 left-0"
           />
-        </a>
+        </a> */}
+        <Link href="/">
+          <Image
+            src="https://www.hollywoodreporter.com/wp-content/uploads/2017/08/gettyimages-687020126_-_h_2017_0.jpg?w=1296"
+            alt="https://www.hollywoodreporter.com/wp-content/uploads/2017/08/gettyimages-687020126_-_h_2017_0.jpg?w=1296"
+            width={200}
+            height={200}
+            className="absolute w-full -top-6 left-0"
+          />
+        </Link>
         <div className="z-20 relative">
           <div className="font-bold text-[48px] mb-1">
             Electric Guitar Month

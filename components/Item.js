@@ -3,20 +3,28 @@ import { useRouter } from "next/router";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-regular-svg-icons";
+import Image from "next/image";
 
-export default function Item({ item, storeName, storePrimaryKey, setCount, onItemRemove, onItemSubmit }) {
+export default function Item({
+  item,
+  storeName,
+  storePrimaryKey,
+  setCount,
+  onItemRemove,
+  onItemSubmit,
+}) {
   const { name, description, price, image, special } = item;
-  const router = useRouter()
+  const router = useRouter();
 
   const handleClick = () => {
     // Need to iterate through the storePrimaryKey and replace all underscores and switch them to dash
     let modifiedWord = storePrimaryKey.replace(/_/g, "-");
-    router.push(`/${modifiedWord.toLowerCase()}/${encodeURIComponent(name)}`)
-  }
+    router.push(`/${modifiedWord.toLowerCase()}/${encodeURIComponent(name)}`);
+  };
 
   function classForBackgroundColor() {
-    if (special == "New Arrival" ) {
-      return "bg-blue-600"
+    if (special == "New Arrival") {
+      return "bg-blue-600";
     } else if (special == "On Sale" || special == "Restock") {
       return "bg-red-500";
     } else if (special == "Top-Seller" || special == "Download") {
@@ -39,7 +47,14 @@ export default function Item({ item, storeName, storePrimaryKey, setCount, onIte
         <FontAwesomeIcon icon={faHeart} className="hover:cursor-pointer" />
       </div>
       <div className="flex justify-center items-center px-4 py-9">
-        <img src={image} width={200} className="pt-3" />
+        {/* <img src={image} width={200} className="pt-3" /> */}
+        <Image
+          src={image}
+          alt={image}
+          width={200}
+          height={200}
+          className="pt-3"
+        />
       </div>
       <div
         className="mb-2 hover:cursor-pointer hover:underline"
