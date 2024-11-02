@@ -19,7 +19,9 @@ export default function Item({
   const handleClick = () => {
     // Need to iterate through the storePrimaryKey and replace all underscores and switch them to dash
     let modifiedWord = storePrimaryKey.replace(/_/g, "-");
-    router.push(`/${modifiedWord.toLowerCase()}/${encodeURIComponent(name)}`);
+    router.push(
+      `/${modifiedWord.toLowerCase()}/item/${encodeURIComponent(name)}`
+    );
   };
 
   function classForBackgroundColor() {

@@ -33,7 +33,7 @@ export default function ItemDetail({ item, storeName }) {
   function classForBackgroundColor() {
     if (special === "New Arrival") {
       return "bg-blue-600";
-    } else if (special === "On Sale") {
+    } else if (special === "On Sale" || special === "Restock") {
       return "bg-red-500";
     } else if (special === "Top-Seller" || special === "Download") {
       return "bg-gray-900";

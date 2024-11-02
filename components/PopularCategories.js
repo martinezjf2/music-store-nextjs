@@ -1,4 +1,6 @@
 import React from "react";
+import Link from "next/link";
+import Image from "next/image";
 
 export default function PopularCategories() {
   return (
@@ -8,13 +10,18 @@ export default function PopularCategories() {
       </div>
 
       <div className="flex justify-center items-center pt-6">
-        <a href="/guitars">
+        <Link href="/guitars">
           <div className="hover:text-blue-700 mx-6 my-3">
             <div className="flex justify-center items-center">
               <div className="bg-gray-100 w-[100px] h-[100px] rounded-full flex justify-center items-center hover:border-blue-700 hover:border object-fill hover:duration-100 hover:bg-white">
-                <img
-                  src="https://media.sweetwater.com/m/home/cats/ENCTEBGH.png?format=jpg&optimize=high&auto=webp&quality=70"
-                  className="w-1/2 "
+                <Image
+                  src={
+                    "https://media.sweetwater.com/m/home/cats/ENCTEBGH.png?format=jpg&optimize=high&auto=webp&quality=70"
+                  }
+                  height={200}
+                  width={200}
+                  className="w-1/2"
+                  alt="Guitars"
                 />
               </div>
             </div>
@@ -22,15 +29,20 @@ export default function PopularCategories() {
               Guitars
             </div>
           </div>
-        </a>
+        </Link>
 
-        <a href="/studio-and-recording">
+        <Link href="/studio-and-recording">
           <div className="hover:text-blue-700 mx-6 my-3">
             <div className="flex justify-center items-center">
               <div className="bg-gray-100 w-[100px] h-[100px] rounded-full flex justify-center items-center hover:border-blue-700 hover:border object-fill hover:duration-100 hover:bg-white">
-                <img
-                  src="https://media.sweetwater.com/m/home/cats/Arrow-small.png?format=jpg&optimize=high&auto=webp&quality=70&width=202"
-                  className="w-1/2 "
+                <Image
+                  src={
+                    "https://media.sweetwater.com/m/home/cats/Arrow-small.png?format=jpg&optimize=high&auto=webp&quality=70&width=202"
+                  }
+                  height={200}
+                  width={200}
+                  className="w-1/2"
+                  alt="Studio"
                 />
               </div>
             </div>
@@ -38,15 +50,20 @@ export default function PopularCategories() {
               Studio & Recording
             </div>
           </div>
-        </a>
+        </Link>
 
-        <a href="/drums-and-percussion">
+        <Link href="/drums-and-percussion">
           <div className="hover:text-blue-700 mx-6 my-3">
             <div className="flex justify-center items-center">
               <div className="bg-gray-100 w-[100px] h-[100px] rounded-full flex justify-center items-center hover:border-blue-700 hover:border object-fill hover:duration-100 hover:bg-white">
-                <img
-                  src="https://media.sweetwater.com/m/home/cats/LM402.png?format=jpg&optimize=high&auto=webp&quality=70&width=202"
-                  className="w-1/2 "
+                <Image
+                  src={
+                    "https://media.sweetwater.com/m/home/cats/LM402.png?format=jpg&optimize=high&auto=webp&quality=70&width=202"
+                  }
+                  height={200}
+                  width={200}
+                  className="w-1/2"
+                  alt="Drums"
                 />
               </div>
             </div>
@@ -54,15 +71,20 @@ export default function PopularCategories() {
               Drums & Percussion
             </div>
           </div>
-        </a>
+        </Link>
 
-        <a href="/bass">
+        <Link href="/bass">
           <div className="hover:text-blue-700 mx-6 my-3">
             <div className="flex justify-center items-center">
               <div className="bg-gray-100 w-[100px] h-[100px] rounded-full flex justify-center items-center hover:border-blue-700 hover:border object-fill hover:duration-100 hover:bg-white">
-                <img
-                  src="https://media.sweetwater.com/m/home/cats/PBassAPR3SB.png?format=jpg&optimize=high&auto=webp&quality=70&width=202"
-                  className="w-1/2 "
+                <Image
+                  src={
+                    "https://media.sweetwater.com/m/home/cats/PBassAPR3SB.png?format=jpg&optimize=high&auto=webp&quality=70&width=202"
+                  }
+                  height={200}
+                  width={200}
+                  className="w-1/2"
+                  alt="Bass"
                 />
               </div>
             </div>
@@ -70,15 +92,20 @@ export default function PopularCategories() {
               Bass
             </div>
           </div>
-        </a>
+        </Link>
 
-        <a href="/keyboards">
+        <Link href="/keyboards">
           <div className="hover:text-blue-700 mx-6 my-3">
             <div className="flex justify-center items-center">
               <div className="bg-gray-100 w-[100px] h-[100px] rounded-full flex justify-center items-center hover:border-blue-700 hover:border object-fill hover:duration-100 hover:bg-white">
-                <img
-                  src="https://media.sweetwater.com/m/home/cats/Matriarch.png?format=jpg&optimize=high&auto=webp&quality=70&width=202"
-                  className="w-1/2 "
+                <Image
+                  src={
+                    "https://media.sweetwater.com/m/home/cats/Matriarch.png?format=jpg&optimize=high&auto=webp&quality=70&width=202"
+                  }
+                  height={200}
+                  width={200}
+                  className="w-1/2"
+                  alt="Keyboards"
                 />
               </div>
             </div>
@@ -86,15 +113,20 @@ export default function PopularCategories() {
               Keyboards & Synth
             </div>
           </div>
-        </a>
+        </Link>
 
-        <a href="/live-sound-and-lights">
+        <Link href="/live-sound-and-lights">
           <div className="hover:text-blue-700 mx-6 my-3">
             <div className="flex justify-center items-center">
               <div className="bg-gray-100 w-[100px] h-[100px] rounded-full flex justify-center items-center hover:border-blue-700 hover:border object-fill hover:duration-100 hover:bg-white">
-                <img
-                  src="https://media.sweetwater.com/m/home/cats/flow8.jpg?format=jpg&optimize=high&auto=webp&quality=70&width=202"
-                  className="w-1/2 "
+                <Image
+                  src={
+                    "https://media.sweetwater.com/m/home/cats/flow8.jpg?format=jpg&optimize=high&auto=webp&quality=70&width=202"
+                  }
+                  height={200}
+                  width={200}
+                  className="w-1/2"
+                  alt="Live Sound"
                 />
               </div>
             </div>
@@ -102,15 +134,20 @@ export default function PopularCategories() {
               Live Sound & Lights
             </div>
           </div>
-        </a>
+        </Link>
 
-        <a href="/software">
+        <Link href="/software">
           <div className="hover:text-blue-700 mx-6 my-3">
             <div className="flex justify-center items-center">
               <div className="bg-gray-100 w-[100px] h-[100px] rounded-full flex justify-center items-center hover:border-blue-700 hover:border object-fill hover:duration-100 hover:bg-white">
-                <img
-                  src="https://media.sweetwater.com/m/home/cats/ptstudioann.jpg?format=jpg&optimize=high&auto=webp&quality=70&width=202"
-                  className="w-1/2 "
+                <Image
+                  src={
+                    "https://media.sweetwater.com/m/home/cats/ptstudioann.jpg?format=jpg&optimize=high&auto=webp&quality=70&width=202"
+                  }
+                  height={200}
+                  width={200}
+                  className="w-1/2"
+                  alt="Software"
                 />
               </div>
             </div>
@@ -118,17 +155,22 @@ export default function PopularCategories() {
               Software & Plug-ins
             </div>
           </div>
-        </a>
+        </Link>
       </div>
 
       <div className="flex justify-center items-center pt-6 ">
-        <a href="/dj-equipment">
+        <Link href="/dj-equipment">
           <div className="hover:text-blue-700 mx-6 my-4">
             <div className="flex justify-center items-center">
               <div className="bg-gray-100 w-[100px] h-[100px] rounded-full flex justify-center items-center hover:border-blue-700 hover:border object-fill hover:duration-100 hover:bg-white">
-                <img
-                  src="https://media.sweetwater.com/m/home/cats/ATLP120XUSBSV.png?format=jpg&optimize=high&auto=webp&quality=70&width=202"
-                  className="w-1/2 "
+                <Image
+                  src={
+                    "https://media.sweetwater.com/m/home/cats/ATLP120XUSBSV.png?format=jpg&optimize=high&auto=webp&quality=70&width=202"
+                  }
+                  height={200}
+                  width={200}
+                  className="w-1/2"
+                  alt="DJ Equipment"
                 />
               </div>
             </div>
@@ -136,15 +178,20 @@ export default function PopularCategories() {
               DJ Equipment
             </div>
           </div>
-        </a>
+        </Link>
 
-        <a href="/microphones">
+        <Link href="/microphones">
           <div className="hover:text-blue-700 mx-6 my-4">
             <div className="flex justify-center items-center">
               <div className="bg-gray-100 w-[100px] h-[100px] rounded-full flex justify-center items-center hover:border-blue-700 hover:border object-fill hover:duration-100 hover:bg-white">
-                <img
-                  src="https://media.sweetwater.com/m/home/cats/SM58-cat.png?format=jpg&optimize=high&auto=webp&quality=70&width=202"
+                <Image
+                  src={
+                    "https://media.sweetwater.com/m/home/cats/SM58-cat.png?format=jpg&optimize=high&auto=webp&quality=70&width=202"
+                  }
+                  height={200}
+                  width={200}
                   className="w-1/2"
+                  alt="Microphones"
                 />
               </div>
             </div>
@@ -152,15 +199,20 @@ export default function PopularCategories() {
               Microphones
             </div>
           </div>
-        </a>
+        </Link>
 
-        <a href="/band-and-orchestra">
+        <Link href="/band-and-orchestra">
           <div className="hover:text-blue-700 mx-6 my-4">
             <div className="flex justify-center items-center">
               <div className="bg-gray-100 w-[100px] h-[100px] rounded-full flex justify-center items-center hover:border-blue-700 hover:border object-fill hover:duration-100 hover:bg-white">
-                <img
-                  src="https://media.sweetwater.com/m/home/cats/KingSlvFlTr.png?format=jpg&optimize=high&auto=webp&quality=70&width=202"
-                  className="w-1/2 "
+                <Image
+                  src={
+                    "https://media.sweetwater.com/m/home/cats/KingSlvFlTr.png?format=jpg&optimize=high&auto=webp&quality=70&width=202"
+                  }
+                  height={200}
+                  width={200}
+                  className="w-1/2"
+                  alt="Band & Orchestra"
                 />
               </div>
             </div>
@@ -168,15 +220,20 @@ export default function PopularCategories() {
               Band & Orchestra
             </div>
           </div>
-        </a>
+        </Link>
 
-        <a href="/home-audio-and-electronics">
+        <Link href="/home-audio-and-electronics">
           <div className="hover:text-blue-700 mx-6 my-4 relative">
             <div className="flex justify-center items-center">
               <div className="bg-gray-100 w-[100px] h-[100px] rounded-full flex justify-center items-center hover:border-blue-700 hover:border object-fill hover:duration-100 hover:bg-white">
-                <img
-                  src="https://media.sweetwater.com/m/home/cats/TourOneM2Bk.png?format=jpg&optimize=high&auto=webp&quality=70&width=202"
-                  className="w-1/2 "
+                <Image
+                  src={
+                    "https://media.sweetwater.com/m/home/cats/TourOneM2Bk.png?format=jpg&optimize=high&auto=webp&quality=70&width=202"
+                  }
+                  height={200}
+                  width={200}
+                  className="w-1/2"
+                  alt="Home Audio"
                 />
               </div>
             </div>
@@ -184,15 +241,20 @@ export default function PopularCategories() {
               Home Audio & <br></br>Electronics
             </div>
           </div>
-        </a>
+        </Link>
 
-        <a href="/commercial-and-audio">
+        <Link href="/commercial-audio-and-install">
           <div className="hover:text-blue-700 mx-6 my-4">
             <div className="flex justify-center items-center">
               <div className="bg-gray-100 w-[100px] h-[100px] rounded-full flex justify-center items-center hover:border-blue-700 hover:border object-fill hover:duration-100 hover:bg-white">
-                <img
-                  src="https://media.sweetwater.com/m/home/cats/Control28.png?format=jpg&optimize=high&auto=webp&quality=70&width=202"
-                  className="w-1/2 "
+                <Image
+                  src={
+                    "https://media.sweetwater.com/m/home/cats/Control28.png?format=jpg&optimize=high&auto=webp&quality=70&width=202"
+                  }
+                  height={200}
+                  width={200}
+                  className="w-1/2"
+                  alt="Commercial"
                 />
               </div>
             </div>
@@ -200,15 +262,20 @@ export default function PopularCategories() {
               Commercial Audio & <br></br>Install
             </div>
           </div>
-        </a>
+        </Link>
 
-        <a href="/accessories">
+        <Link href="/accessories">
           <div className="hover:text-blue-700 mx-6 my-4">
             <div className="flex justify-center items-center">
               <div className="bg-gray-100 w-[100px] h-[100px] rounded-full flex justify-center items-center hover:border-blue-700 hover:border object-fill hover:duration-100 hover:bg-white">
-                <img
-                  src="https://media.sweetwater.com/m/home/cats/M4WP006.png?format=jpg&optimize=high&auto=webp&quality=70&width=202"
-                  className="w-1/2 "
+                <Image
+                  src={
+                    "https://media.sweetwater.com/m/home/cats/M4WP006.png?format=jpg&optimize=high&auto=webp&quality=70&width=202"
+                  }
+                  height={200}
+                  width={200}
+                  className="w-1/2"
+                  alt="Accessories"
                 />
               </div>
             </div>
@@ -216,15 +283,20 @@ export default function PopularCategories() {
               Accessories
             </div>
           </div>
-        </a>
+        </Link>
 
-        <a href="/content-creators">
+        <Link href="/content-creators">
           <div className="hover:text-blue-700 mx-6 my-4">
             <div className="flex justify-center items-center">
               <div className="bg-gray-100 w-[100px] h-[100px] rounded-full flex justify-center items-center hover:border-blue-700 hover:border object-fill hover:duration-100 hover:bg-white">
-                <img
-                  src="https://media.sweetwater.com/m/home/cats/PodMic.png?format=jpg&optimize=high&auto=webp&quality=70&width=202"
-                  className="w-1/2 "
+                <Image
+                  src={
+                    "https://media.sweetwater.com/m/home/cats/PodMic.png?format=jpg&optimize=high&auto=webp&quality=70&width=202"
+                  }
+                  height={200}
+                  width={200}
+                  className="w-1/2"
+                  alt="Content Creators"
                 />
               </div>
             </div>
@@ -232,7 +304,7 @@ export default function PopularCategories() {
               Content Creators
             </div>
           </div>
-        </a>
+        </Link>
       </div>
     </div>
   );
