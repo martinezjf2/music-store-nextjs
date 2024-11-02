@@ -16,6 +16,9 @@ export default function Item({
   const { name, description, price, image, special } = item;
   const router = useRouter();
 
+  console.log({ storeName });
+  console.log({ storePrimaryKey });
+
   const handleClick = () => {
     // Need to iterate through the storePrimaryKey and replace all underscores and switch them to dash
     let modifiedWord = storePrimaryKey.replace(/_/g, "-");

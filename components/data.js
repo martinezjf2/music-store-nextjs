@@ -1,4 +1,4 @@
-export const musicStore = {
+const musicStore = {
   guitars: {
     primary_name: "guitars",
     name: "Guitars",
@@ -1388,3 +1388,5 @@ export const musicStore = {
     ],
   },
 };
+
+module.exports = { musicStore };
