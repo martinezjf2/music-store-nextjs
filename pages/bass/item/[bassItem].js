@@ -16,7 +16,7 @@ export default function ItemPage({ item, storeName }) {
 // Use `getStaticPaths` to pre-generate paths for all items in the store
 export async function getStaticPaths() {
   const paths = musicStore.bass.items.map((item) => ({
-    params: { item: item.name }, // Use item name directly without encoding
+    params: { bassItem: item.name }, // Use item name directly without encoding
   }));
 
   return { paths, fallback: false };
@@ -24,7 +24,7 @@ export async function getStaticPaths() {
 
 // Use `getStaticProps` to fetch item data
 export async function getStaticProps({ params }) {
-  const itemName = params.item;
+  const itemName = params.bassItem;
   const item = musicStore.bass.items.find((i) => i.name === itemName);
 
   if (!item) {
