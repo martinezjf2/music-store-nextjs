@@ -1164,75 +1164,93 @@ const musicStore = {
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Fender Mustang LT25 25W 1x8 Guitar Combo Amp Black",
+        description:
+          "The Fender Mustang LT25 25W 1x8 guitar combo amp is a compact yet capable 25W combo packs decades of Mustang modeling experience into a subway-friendly frame, offering a 'greatest hits' collection of 30 presets spanning the history of electric guitar tone. Whether practicing, performing or recording, the Mustang LT25 delivers amazingly authentic Fender tone in an amp designed for maximum portability and simplicity.",
+        price: "159.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/L47960000001000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Fender Mustang Micro Plus Headphone Amp Black",
+        description:
+          "The Fender Mustang Micro Plus headphone amp is the ultimate tool for guitarists of all levels, offering a complete personal amplifier experience with the convenience of a pocket-sized device. Whether you're a beginner looking to explore new sounds or a pro needing a portable practice solution, the Mustang Micro delivers a wide range of tones inspired by the renowned Mustang series amps. Simply plug it directly into your guitar, connect your favorite wired headphones and dial in your perfect amp and effect settings. It's never been easier to get great sound, whether you're jamming at home, on the go or wherever inspiration strikes.",
+        price: "129.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/M09811000001000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Marshall DSL40CR 40W 1x12 Tube Guitar Combo Amp",
+        description:
+          "Marshall's DSL40CR 40W Combo guitar amplifier is a versatile 1x12 inch combo amp bursting with authentic all-valve tone. Part of Marshall's updated DSL series, it has innovative features for players at every level. The DSL40CR's adjustable power output provides rich, articulate tube sound from bedroom to stage volume. Emulated headphone and line outs deliver 1960 cabinet modeling for silent practice. Reverb, resonance and independent channel volumes offer a wealth of tone-shaping options. Refined EQ provides greater tonal flexibility. The DSL40CR is a formidable amp for novice and pro players alike.",
+        price: "729.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/K64638000000000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Positive Grid Spark 2 50W Guitar Combo Amp Black",
+        description:
+          "The Positive Grid Spark 2 50W guitar combo amp is the ultimate smart amp for modern musicians, offering a groundbreaking combination of tone, versatility and innovation. This 50W amp is powered by Sonic IQ Computational Audio, delivering high-definition amp modeling, precision effects and immersive sound quality that rivals amps many times its size. Whether you're jamming, recording, or performing, the Spark 2 gives you endless tonal possibilities with its onboard looper, AI-powered tone shaping and Bluetooth compatibility. Take your playing to the next level with this advanced tool for creative expression.",
+        price: "299.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/M14809000001000-00-600x600.jpg",
+        special: "New Arrival",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Line 6 Helix LT Guitar Processor",
+        description:
+          "The Line 6 Helix LT guitar processor is a powerful and intuitive multi-effects pedalboard packed with over 300 amps, cabs, and effects modeled from world-class gear. This premium processor puts a vast tonal palette at your fingertips to inspire new creative directions for your playing. The Helix LT features the same high-quality modeling found in the flagship Helix Rack and Helix Floor processors, distilled into a streamlined and gig-ready stompbox form factor.",
+        price: "999.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/J50646000000000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Fender Champion 20 Guitar Combo Amp Black",
+        description:
+          "The Fender Champion 20 guitar combo amp delivers the legendary tone you expect from Fender in an ultra-affordable package. This 20W, 1x8 inch combo amp is ideal for practice and performance, with a range of classic Fender tones served up through a Fender Special Design speaker. The single-channel amp offers selectable voicings—from the iconic chime of Blackface to the grit of British and Metal tones—as well as built-in effects like reverb, delay, chorus and more. Now it's easier than ever to experience the Fender sound with the Champion 20.",
+        price: "119.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/H97921000001000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Fender Tone Master FR-12 1,000W 1x12 FRFR Powered Speaker Cab Black",
+        description:
+          "The Fender Tone Master FR-12 is a full-range, flat response powered speaker cab designed for use with today’s digital guitar amp modelers and profilers. The FR-12 perfectly replicates every detail of your amp simulations and are the ideal solution for players who use modelers at home or on stage. The Tone Master FR-12 feature an integrated 1,000-watt power amp that delivers the volume and headroom needed for even the most demanding live performance. Other features include a 3-band active EQ and high-frequency cut control to allow players to fine tune their stage tone without altering what is sent to the PA. Plus, the FR-12 industrial design is 100% Fender for an authentic backline look and feel.",
+        price: "599.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/M05115000001000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Line 6 HX Stomp Multi-Effects Processor Pedal",
+        description:
+          "The Line 6 HX Stomp packs the power and tone of the flagship Helix into an ultracompact stompbox design. With over 300 amps, cabs and effects modeled from Helix, M-Series and legacy Line 6 products, it provides a studio-quality guitar or bass rig in a rugged metal chassis built for stage and studio. The HX Stomp utilizes the same high-performance DSP chip and HX Modeling technology as Helix for pristine 24-bit/96kHz audio with an incredible 123dB of dynamic range.",
+        price: "699.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/L33919000000000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "HeadRush Prime Multi-Effects Processor Pedal Black",
+        description:
+          "The flagship HeadRush multi-effects pedal, the Prime is chock-full of game-changing features for both guitarists and vocalists that will make you wonder how you ever got by without it. It’s preloaded with an array of guitar-, bass- and vocal-friendly gear emulations, IR (impulse response) capturing power, looper and a slew of advanced effects processors. Take all these advantages and pair them with an exceptionally easy-to-navigate 7 inch touch interface, 12 footswitches with dedicated OLED screens, ruggedly durable built-in expression pedal with toe switch, comprehensive I/O, plus even more bells and whistles, and you’ve got a formidable powerhouse of a rig in the HeadRush Prime.",
+        price: "999.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/L95857000001000-00-600x600.jpg",
+        special: "On Sale",
         condition: "New",
       },
     ],
@@ -1260,123 +1278,153 @@ const musicStore = {
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Road Runner RRGS6 6-Guitar Stand Case Black Tolex",
+        description:
+          "The RRGS6 guitar stand case fits up to six acoustic or electric guitars or basses with a soft, padded interior that ensures your instruments don't get all scuffed up. When not in use, you can collapse it like a traditional guitar case for easy transport to the next spot. Around the neighborhood or around the world, Road Runner bags and cases are built tough to withstand the abuse of the road so your instruments wont have to. In fact, Road Runner is so confident in their products that they back every bag and case with a full repair/replacement guarantee that covers all defects in materials and workmanship.",
+        price: "199.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/J15385000001001-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Proline SPS502 Speaker Stand 2-Pack With Carrying Bag",
+        description:
+          "The Proline SPS502 speaker stand 2-pack with carrying bag is the ideal way to elevate your PA speakers for live performances or presentations. This heavy-duty speaker stand set includes two telescoping tripod stands constructed of rugged steel tubing able to support speakers up to 120 pounds each. Whether you're gigging across town or touring the country, the Proline SPS502 speaker stands are ready for the journey. The tripod bases provide maximum stability on any surface while still collapsing for compact storage in the included carrying bag. Rubber feet prevent slipping while also protecting floors and the locking knobs securely fasten the inner and outer tubes at your desired height. These road-ready stands can handle the demands of frequent setup, takedown and transit without sacrificing an ounce of strength or dependability.",
+        price: "89.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/L18242000000000-00-600x600.jpg",
+        special: "On Sale",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Studio RTA Producer Station Cherry",
+        description:
+          "The Producer Station provides an expansive yet compact workstation for electronic musicians and producers. Its large, tiered surface has room for an 88-key keyboard, computer monitor and other equipment while keeping everything within easy reach. Dual 13-space racks on either side store synths, drum machines and more while smaller racks hold CDs, headphones and cables.",
+        price: "299.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/546553000019000-00-600x600.jpg",
+        special: "On Sale",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "BOSS Instrument/Patch Cable Bundle",
+        description:
+          "The Boss Instrument/Patch cable bundle is an all-in-one cable kit for hooking up your guitar, bass, keyboard or other instrument to your amplifier or pedalboard. Comprised of three high-quality 1/4 inch instrument cables in a variety of lengths, this bundle has you covered for any stage or studio setup. The oxygen-free copper conductors and multi-shielding provide maximum signal transfer and minimum interference for crystal-clear tone.",
+        price: "49.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/L59082000000000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Furman M-8X2 Power Conditioner",
+        description:
+          "The Furman M-8x2 power conditioner protects your electronic equipment by combining high voltage varistor (MOV) surge and transient suppressors. The fast-acting suppression circuit quickly responds and clamps transient voltages to safe levels. An RFI/EMI interference filter works to prevent and suppress noise from fluorescent lights, certain dimmers, radio transmitters, and similar sources of electronic pollution from contaminating the AC line and from there, leaking into sensitive audio, video, or computer circuits. The Furman M-8x2 power conditioner is NRTL/TUV listed.",
+        price: "71.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/712515000000000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "TC Electronic Polytune 3 Pedal Tuner",
+        description:
+          "With the TC Electronic Polytune 3 tuner pedal, you'll never play an out-of-tune note again. This next-generation tuner provides fast, precision tuning for guitarists and bassists. Whether you're performing live, recording in the studio or practicing at home, the Polytune 3 offers versatile tuning modes to suit any situation. The Polytune 3's polyphonic mode lets you strum all your strings at once and see each string's tuning instantly displayed on the bright LED screen. With a single strum, you're ready to rock in seconds. For live playing, the polyphonic mode is a must-have, allowing quick tuning even in dimly lit stages.",
+        price: "99.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/J53111000000000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Ernie Ball John Mayer Silver Slinky Nickel Wound Electric Guitar Strings 6 Pack 10.5 - 47",
+        description:
+          "The Ernie Ball John Mayer Silver Slinky nickel-wound electric guitar strings are meticulously engineered in partnership with legendary guitarist John Mayer. Featuring a never before offered gauge combination (10.5, 13.5, 17.5, 27, 37, 47) and custom Slinky recipes specified uniquely to John's preferences, these strings deliver unmatched performance and playability. Reinforced Plain Strings (RPS) add tuning stability and durability, ensuring these strings stand up to demanding performances and studio sessions. Experience the difference handcrafted, customized strings can make to your tone and playing experience. Includes 6 packs of strings.",
+        price: "54.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/M15095000001000-00-600x600.jpg",
+        special: "New Arrival",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Road Runner RR3SB15 Avenue II 15 inch Speaker Bag",
+        description:
+          "Protect your investment with the Road Runner Avenue II speaker bag, designed to universally and snugly fit 15 inch cabinets. Gigging musicians and live sound engineers prefer convenient solutions that make setting up and tearing down a more seamless process. The Road Runner Avenue II is specifically built to not only securely house live sound and PA speakers, but to also make them as portable as possible. Increased mobility makes loading in and out a breeze—plus, the speakers are safe from dings, dents and scratches associated with the rigors of the road. This accessory from Road Runner is sure to be a quality-of-life improvement for any performer or engineer carrying their own 15 inch speakers between gigs.",
+        price: "59.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/M02843000000000-00-600x600.jpg",
+        special: "On Sale",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Proline PL4KD Double-Braced Keyboard X-Stand",
+        description:
+          "The Proline PL4KD double-braced keyboard X-stand is a sturdy and durable stand designed for use with a variety of keyboards, synthesizers and MIDI controllers. It features a double-braced construction with a heavy-duty design, making it suitable for larger and heavier instruments. The stand is adjustable in height and width, with a range of 27 inch to 38 inch in height and a maximum width of 39 inch, making it suitable for a wide range of keyboard sizes and playing positions. It also includes rubberized end caps and feet, which provide a stable and secure grip on the floor and protect the instrument from scratches and damage.",
+        price: "74.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/J12599000000000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Elixir Phosphor Bronze Acoustic Guitar Strings With NANOWEB Coating, Light (.012-.053)",
+        description:
+          "Strum confidently with the same premium acoustic guitar strings that experienced players worldwide trust to keep their incredible tone longer than any other string available. Unlike other string brands, Elixir Strings coats the whole string. This protects not only the outer string surface, but also the gaps between the windings where common tone-deadening gunk typically builds up in other brands’ coated and uncoated guitar strings. Anti-Rust Plating on plain steel strings ensures longer tone life for the entire set.",
+        price: "15.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/101571000000000-00-600x600.jpg",
+        special: "On Sale",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Proline SPS301 Lightweight Adjustable Speaker Stand With Carrying Bag Black",
+        description:
+          "The Proline SPS301 speaker stand is design for performers, DJs, schools and other venues that utilize portable PA systems. It’s ideal for speakers up to 60 lb., providing an abundance of security and convenience features in a lightweight, easy-to-transport design. The SPS301 adjusts from 31.5” to 45.7” (800 mm–1,160 mm) for optimal speaker placement, with a wide leg spread that mitigates accidental tip-overs. A friction-locking height adjustment defends against shaft slippage, while a backup shaft-ring locking mechanism ensures complete placement safety. Its robust steel bolt, washer and nut keeps the SPS301 stable even under maximum load and handling. And its collapsible legs and shaft, plus the convenient carry bag, make transporting and storing the SPS301 quick and easy.",
+        price: "49.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/L74208000001000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Musician's Gear KS-505-MG Padded Piano Bench Black",
+        description:
+          "The Musician's Gear KS-505-MG Padded Piano Bench has an X-bracing with black finish, adjustable height in three increments. Its faux-leather seat is generously padded, providing comfort and a touch of class.",
+        price: "39.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/J01626000001000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Yamaha HW3 Advanced Lightweight Hardware Pack",
+        description:
+          "Yamaha's HW3 Advanced Lightweight Hardware Pack provides discerning drummers with superior-grade components designed to maximize the potential of any drum set. The HW3 pack contains Yamaha's acclaimed lightweight hardware made from lightweight and durable aluminum for quick and easy setup and teardown. Each piece is ergonomically crafted to provide optimal adjustability and stability for intensive playing. Whether recording in the studio or performing onstage, the HW3 Advanced Lightweight Hardware Pack delivers professional results.",
+        price: "439.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/L21671000000000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Snark Super Snark 3 Clip-on Tuner Black",
+        description:
+          "The Snark Super Snark 3 clip-on tuner, an innovative tuner designed for guitar, bass, violin and more. With an easy-to-read full-color display and advanced tuning functions, the Super Snark 3 provides quick and accurate tuning for beginners and professionals alike.",
+        price: "29.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/L84549000001000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Gator GT-BASS-TPV2 Transit Pro Bass Guitar Gig Bag Slate Gray",
+        description:
+          "The Gator GT-BASS-TPV2 Transit Pro Bass Guitar Gig Bag provides durable, weather-resistant protection for bass guitars. Constructed of a blended fabric exterior and thick rubber bottom, this gig bag shields basses from damage during transport and storage. The interior features rigid walls, 3/4 inch foam padding and plush micro-fleece lining for case-like security. An adjustable three-point interior padding system protects the headstock, neck and bottom.",
+        price: "149.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/L96285000001000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
     ],
