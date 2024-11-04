@@ -28,7 +28,7 @@ export default function Item({
   };
 
   function classForBackgroundColor() {
-    if (special == "New Arrival") {
+    if (special == "New Arrival" || special == "Preorder") {
       return "bg-blue-600";
     } else if (special == "On Sale" || special == "Restock") {
       return "bg-red-500";

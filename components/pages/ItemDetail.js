@@ -78,7 +78,7 @@ export default function ItemDetail({ item, storeName }) {
             width={200}
             height={200}
             alt={image}
-            className="w-[800px]"
+            className="w-[800px] pr-11"
           />
         </div>
 

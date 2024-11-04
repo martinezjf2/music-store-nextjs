@@ -463,13 +463,69 @@ const musicStore = {
         special: "Download",
         condition: "New",
       },
-      { name: "", description: "", price: "", image: "", special: "" },
-      { name: "", description: "", price: "", image: "", special: "" },
-      { name: "", description: "", price: "", image: "", special: "" },
-      { name: "", description: "", price: "", image: "", special: "" },
-      { name: "", description: "", price: "", image: "", special: "" },
-      { name: "", description: "", price: "", image: "", special: "" },
-      { name: "", description: "", price: "", image: "", special: "" },
+      {
+        name: "Avid Pro Tools Ultimate Perpetual License",
+        description:
+          "Take on the biggest, most complex productions with the Pro Tools Ultimate perpetual license from Avid. This top-tier offering is for audio post and music professionals who require the full track and I/O counts, Pro Tools | HDX workflows, guaranteed performance, and advanced features that Pro Tools has to offer. Pro Tools Ultimate provides the complete toolset, plus a massive collection of plugins, sounds and software to maximize your creative possibilities. Create and mix the largest, most complex productions with ease—including Dolby Atmos and Ambisonics.",
+        price: "1499.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/M06503000000000-00-600x600.jpg",
+        special: "Download",
+      },
+      {
+        name: "Universal Audio UAD Ultimate 13",
+        description:
+          "The UAD Ultimate 13 bundle gives you access to Universal Audio's premium collection of 84 plug-ins for transforming your DAW into a virtual analog studio. With recreations of vintage gear from Neve, SSL, Ampex, Fairchild, Helios, Manley, Studer, Empirical Labs, Fender and more, the Ultimate 13 provides the iconic sounds that shaped music history. Whether you're recording vocals, guitars, drums or full mixes, UAD's award-winning modeling technology lets you tap into classic tone and vibe without the maintenance or cost of aging hardware.",
+        price: "999.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/M16814000000000-00-600x600.jpg",
+        special: "Download",
+      },
+      {
+        name: "Native Instruments Komplete 15 Collector's Edition",
+        description:
+          "The Native Instruments Komplete 15 Collectors Edition provides an unparalleled collection of over 165 premium virtual instruments and studio effects for crafting professional productions. This bundle gives you a vast creative palette spanning synths, drums, keys, guitar and bass, orchestral sections and cinematic tools. With over 125 genre-specific Expansion packs, Komplete 15 Collectors Edition supplies over 150,000 sounds straight out of the box.",
+        price: "1799.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/M16068000000000-00-600x600.jpg",
+        special: "New Arrival",
+      },
+      {
+        name: "Universal Audio UAD Signature Bundle V2 Plug-in Collection",
+        description:
+          "The UAD Signature Bundle V2 gives you an extensive collection of professional audio plug-ins to shape your recordings into polished, radio-ready tracks. With authentic emulations of legendary gear used on countless hit records, you'll have an arsenal of high-end analog equipment at your fingertips. The UAD Signature Bundle V2 runs natively on your Mac or PC, integrating seamlessly with your favorite DAW for a streamlined workflow. Whether you want lush reverbs, colorful EQs, rich compressors or vintage synths, the UAD Signature Bundle V2 has everything you need to take your music to the next level.",
+        price: "499.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/M16818000000000-00-600x600.jpg",
+        special: "Download",
+      },
+      {
+        name: "Antares Auto-Tune Pro 11",
+        description:
+          "The Auto-Tune Pro 11 provides unparalleled pitch correction and vocal manipulation capabilities. This advanced edition integrates a 4-part harmony player, enabling you to create, tune, mix and trigger four independent harmonies. With streamlined Graph Mode tools and an updated interface, you'll achieve an efficient workflow. Auto-Tune Pro 11 runs natively on Apple Silicon and includes ARA2 support for seamless integration with your DAW.",
+        price: "459.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/M12178000000000-00-600x600.jpg",
+        special: "Download",
+      },
+      {
+        name: "Celemony Melodyne 5 essential (Software Download)",
+        description:
+          "Ready to edit your tracks, but not sure where to start? Melodyne 5 essential gives you an easy way to begin. With Melodyne 5 essential, you edit your vocals using the basic functions for pitch and timing. Musical, quick and easy. And if you need more, you can always upgrade, paying only the difference.",
+        price: "99.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/L77313000000000-00-600x600.jpg",
+        special: "Download",
+      },
+      {
+        name: "Avid Sibelius Ultimate NEW Perpetual License with 1 Year of Updates + Support for Students/Teachers (Download)",
+        description:
+          "Sibelius is one of the world’s best-selling music notation software programs, offering sophisticated, yet easy-to-use tools that are proven and trusted by composers, arrangers, publishers, educators, and students alike. And coming soon to Sibelius, you can access the software in more affordable ways than ever. Compose with a low-cost subscription. Own the software outright. Manage multiple copies with Sibelius network licensing. Or get started with Sibelius | First. The choice is yours. And with the integrated Annotate feature, multi-touch gestures, Surface Pro 3 pen support, and more coming soon, Sibelius will enable you to express your creativity in brand new ways, whether composing for a live performance, movie, television, media entertainment, or in the classroom.",
+        price: "299.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/K36246000000000-00-600x600.jpg",
+        special: "Download",
+      },
     ],
     content: [
       "The music industry is one that has really felt the effects of the digitalization of the world over the last few decades. In the 1970s and '80s, recording, composing and production work would have been done manually with a complicated series of hardware mixers, synths, sequencers and other devices. Today, all you have to do is plug into a computer running the music software that's relevant to the task. These programs and tools don't only make it possible for you to work faster; you can also get started sooner, since a large selection of software packages are available to download directly. You won't need to wait for shipping: just download and start working.",
@@ -492,115 +548,143 @@ const musicStore = {
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "AlphaTheta XDJ-AZ 4-Channel Professional All-in-One DJ System Black",
+        description:
+          "Perform like a pro with the AlphaTheta XDJ-AZ, an advanced 4-channel DJ system packed with club-standard features. Designed for professional DJs and electronic music producers, this all-in-one system delivers a seamless workflow and premium sound quality. The XDJ-AZ has the familiar layout of Pioneer's flagship CDJ multi-players and DJM mixer, allowing for intuitive operation. Full-size jog wheels like those on the CDJ-3000 provide a natural feel for scratching and pitch bending. The mixer section is modeled after the DJM-A9 with controls positioned for maximum playability. You'll find dedicated buttons for assigning Beat FX on the fly.",
+        price: "3199.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/M16276000000001-00-600x600.jpg",
+        special: "New Arrival",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Pioneer DJ DJM-A9 4-Channel Club Standard DJ Mixer",
+        description:
+          "After several years as Pioneer DJ’s flagship club-style DJ mixer, the DDJ DJM-900NXS2 passes the torch to the state-of-the-art DJM-A9 mixer. Loaded with performance-enhancing features and premium components, the four-channel A9 comprises everything that made the 900NXS2 a mainstay in clubs—with even higher-quality audio, an improved layout, plus a multitude of new effects and livestreaming functionality. It’s optimized for rekordbox and Serato DJ Pro (license sold separately)—as well as their DVS (Digital Vinyl System) components—though will work alongside any DJ software or traditional vinyl you happen to use. From 32-bit A/D (analog-to-digital) and D/A converters, and Bluetooth connectivity, to an intuitive color display and upgraded microphone section, the DJM-A9 is designed to go above and beyond for any kind of mixing workflow.",
+        price: "2699.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/M00277000000000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Pioneer DJ DJM-S11 2-Channel Battle Mixer for Serato DJ & rekordbox With Performance Pads",
+        description:
+          "Pioneer DJ's DJM-S11 is a professional 2-channel, four-deck battle mixer packed with features to help DJs scratch and mix like never before. Building on its popular predecessor, the DJM-S9, the DJM-S11 takes performance to the next level. The high-frame-rate 4.3 inch color touch display shows everything from waveforms to BPM information so you can stay focused on your performance. It's customizable so you can set it to your preferred layout style. With Touch FX, control two effects at once by tracing the screen. Save four sets of effects for instant recall in different scenarios. Touch MIDI controls DJ software functions without touching your laptop.",
+        price: "2099.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/L77650000000000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Pioneer DJ DDJ-REV7-N Professional DJ Controller for Serato DJ Pro in Limited-Edition Gold",
+        description:
+          "Pioneer DJ partnered with Serato to create the limited-edition gold DDJ-REV7-N DJ controller and this device is designed to put the power of professional DJ setups into an affordable, portable package. Whether you're a seasoned pro or just getting started, the DDJ-REV7-N gives you everything you need to craft memorable sets with Serato DJ Pro.",
+        price: "1999.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/L99482000000000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Denon DJ PRIME GO+ Professional 2-Channel Standalone DJ System With Bluetooth",
+        description:
+          "The Denon DJ PRIME GO+ DJ system packs professional-grade features into an ultraportable design, giving you the freedom to mix and stream your music anywhere. Created for DJs on the move, the PRIME GO+ lets you access over 100 million songs through integrated Wi-Fi and Bluetooth connectivity. Whether you're prepping for a gig, practicing your skills or performing at a moment's notice, this grab-and-go DJ device empowers you with cutting-edge technology in the palm of your hand.",
+        price: "999.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/M14891000000000-00-600x600.jpg",
+        special: "New Arrival",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Pioneer DJ XDJ-1000MK2 Digital Performance Multi-Player",
+        description:
+          "The Pioneer DJ XDJ-1000MK2 is a state-of-the-art digital DJ system from the industry leader in professional DJ equipment. The XDJ-1000MK2 provides a standalone setup for DJs looking to elevate their skills without a laptop. This innovative multi-player features dual touchscreens, 16 multicolored performance pads and rekordbox compatibility for an intuitive experience that inspires creativity. The XDJ-1000MK2 is a must have for any serious DJ.",
+        price: "1259.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/J45316000000000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Technics SL-1210GR2 Professional Direct-Drive Turntable Black",
+        description:
+          "The Technics SL-1210GR2 is a professional direct-drive turntable featuring a revolutionary drive control method for smooth, accurate rotational stability, and a new power supply for an exceptionally low noise floor. The SL-1210GR2 model builds on the reputation of the industry-standard SL-1200 design and was developed around the iconic iron-coreless direct-drive motor with its superior rotational precision. The mechanical design of the SL-1210GR2 includes a rock-solid two-layered bottom chassis made of aluminum and BMC (Bulk Moulding Compound), the combination of which enables high resistance against vibrations. Also featured are the two-layered platter made of aluminum and dampened by heavy-weight rubber, high-sensitivity S-shaped aluminum tonearm and effective insulator feet. All of this adds up to an impeccable turntable with an accurate response and extremely low noise floor.",
+        price: "2199.95",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/M06341000000001-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Pioneer DJ PLX-CRSS12 Professional Digital/Analog Turntable Black",
+        description:
+          "The Pioneer DJ PLX-CRSS12 professional digital-analog hybrid turntable is a game-changing deck and the world’s first to offer DVS control of digital music via DJ software as well as analog playback of vinyl records. Never worry about needle skipping again when you use the PLX-CRSS12 in DVS mode with Serato DJ Pro or rekordbox. The tone-arm-free playback means artists can scratch a real analog record as vigorously as they like without fear of missing a beat. And when they want to play a record the traditional way, they can simply switch the deck to Analog mode and use the tone arm as normal.",
+        price: "1399.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/M05053000001000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "RANE TWELVE MKII Motorized Battle-Ready DJ MIDI Controller",
+        description:
+          "The RANE TWELVE MKII Motorized Battle-Ready DJ MIDI Controller brings the classic turntable experience into the digital age. Designed for professional DJs, scratch artists and battle DJs, this innovative controller features a motorized 12 inch platter that provides 3,600 ticks of resolution per rotation for incredibly precise control. Rather than dealing with the downsides of traditional turntables, you get an authentic experience with the flexibility of connecting to various DJ software like Traktor, Virtual DJ and Serato DJ.",
+        price: "899.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/L77468000000000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Phase Phase Essential Digital Needles with 2 Remotes",
+        description:
+          "The Phase Essential digital needles with two remotes gives you advanced control over your turntables without the need for styluses or timecode vinyl. With this innovative DJ controller, you get plug-and-play compatibility with popular DJ software like Serato, Traktor, Rekordbox and Virtual DJ. The included receiver and two remotes let you manipulate audio from your turntables with zero latency for seamless scratching, mixing and beat juggling.",
+        price: "449.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/M13949000000000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Pioneer DJ XDJ-700 Compact Digital Player",
+        description:
+          "The XDJ-700 is a compact multi player that's fully compatible with Pioneer's rekordbox performance DJ software. It comes with a large touchscreen, a familiar club layout and it inherits a host of features from its big brother, the XDJ-1000. Its smaller size and removable stand offer great set-up possibilities for even the tightest club booths or home set-up. With full support for Pioneer's free rekordbox™ software you can prepare and manage your tracks on a PC or Mac before even heading out to the gig.",
+        price: "769.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/J31806000000000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Pioneer DJ DDJ-XP2 DJ Controller for rekordbox dj and Serato DJ Pro",
+        description:
+          "Raise your game with the DDJ-XP2. Whether you use rekordbox dj or Serato DJ Pro, you can get the most from the new features in the latest versions of both DJ applications – released today – with this upgraded DJ controller. The DDJ-XP2 adds to the functionality of the popular DDJ-XP1 but retains the solid build quality and intuitive layout of the original unit. Let your fingers fly with 32 robust, multicolored Performance Pads (16 on each deck) and enjoy lightning-fast responses. Thanks to its sturdy construction, with a non-slip rubber surround, the DDJ-XP2 allows you to finger drum as hard as you like. Get creative with tactile control of the Key Shift and Key Sync features in either of the compatible applications and dynamically apply your chosen effect by running your finger along the Slide FX touch strips.",
+        price: "319.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/L70928000000000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Hercules DJ DJStarter Kit With Controller, Speakers and Headphones",
+        description:
+          "This comprehensive DJ package is easy to use and easy to install. The Hercules DJStarter Kit includes the Hercules DJControl Starlight controller, Hercules DJMonitor32 speakers, HDPDJM40.2 headphones and Serato DJLite. The DJStarter Kit includes everything you need to mix your own DJ sets and improve your skills. With the Hercules DJStarter Kit, you'll be ready for playing out at gigs before you know it.",
+        price: "199.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/L48485000000000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Hercules DJ Hercules DJ Essentials Kit",
+        description:
+          "The Hercules DJ Essentials Kit provides everything an aspiring DJ needs to get started and hone their skills. Featuring the intuitive DJControl Inpulse 300 MK2 controller, powerful DJMonitor 42 monitoring speakers and comfortable HDP DJ60 headphones, this bundle unlocks creativity. With dedicated mixing controls, performance pads and essential connections, you'll be crafting seamless transitions and mashups in no time. The included DJUCED and Serato DJ Lite software offers an easy introduction to digital DJing with helpful tools to build your confidence behind the decks.",
+        price: "399.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/M16409000000000-00-600x600.jpg",
+        special: "New Arrival",
         condition: "New",
       },
     ],
@@ -624,123 +708,153 @@ const musicStore = {
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Xvive U4 In-Ear Monitor Wireless System Set",
+        description:
+          "The U4 In-Ear Monitor Wireless System Set is a revolutionary product that provides personal monitoring solutions for performers on a budget. This all-in-one system features a transmitter that sends your custom monitor mix to a compact receiver within a 90' range using 2.4GHz wireless technology and less than 5ms of latency. Both the transmitter and receiver include rechargeable batteries that last up to 5 hours per charge for worry-free wireless freedom during your entire set.",
+        price: "229.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/L71727000000000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Shure BLX288/SM58 Wireless Dual Vocal System With Two SM58 Handheld Transmitters Band H11",
+        description:
+          "The Shure BLX288/SM58 wireless dual vocal system provides two channels of superior audio quality and 300' of wireless range. Featuring Shure's trusted SM58 vocal microphone capsules, this system delivers the warm and clear sound that has made the SM58 an industry standard. The BLX288 dual-channel receiver offers one-touch QuickScan technology to find the best available frequency for interference-free operation and simple controls for easy setup.",
+        price: "624.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/L69691000004000-00-600x600.jpg",
+        special: "On Sale",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Shure SLXD14D Dual Combo Wireless Microphone System Band H55",
+        description:
+          "The Shure SLXD14D dual combo system provides high-quality wireless audio for a range of uses. Featuring 24-bit digital audio, the system delivers transparent sound with a wide frequency range and minimal noise. The rackmountable 4-channel receiver offers simple setup and flexible operation, allowing you to run up to 32 systems on the same frequency band. With long-lasting rechargeable transmitters and a variety of compatible Shure microphones and inputs, the SLXD14D provides an all-in-one wireless solution for corporate events, houses of worship, education and live sound.",
+        price: "1279.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/L75651000002000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "VocoPro UHF-5800 Plus 4-Mic Wireless System With Mic Bag Band 9",
+        description:
+          "Experience ultimate freedom with the UHF-5800, VocoPro's first 4-channel UHF wireless mic system. With 4 handheld mics, each on their own independent UHF channel, the UHF-5800 gives you maximized vocal options without the fear of frequency interference. Going wireless means that you are free from cables for more active performances that the crowd will never forget. Plus, a 12-hour mic battery life means the party can go all night. KJs will love that each mic channel has its own field-replaceable module that easily slides out, without the need for tools and without affecting the functionality of the other channels. Vocalists, home entertainment enthusiasts and club-goers will all benefit from the reliability and versatility of the UHF-5800.",
+        price: "349.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/H74921000003000-00-600x600.jpg",
+        special: "On Sale",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Xvive U4 In-Ear Wireless Monitor System With Transmitter and 4 Receivers",
+        description:
+          "The XVive U4R4 In-Ear monitor wireless system provides musicians and audio professionals with cutting-edge wireless monitoring. Its transmitter sends 24-bit/48kHz audio to four receivers, each powering a pair of in-ear monitors for pristine, interference-free sound. With a frequency range of 20Hz to 20kHz, the U4R4 delivers audio quality exceeding CD standards for nuanced monitoring during recording, rehearsing or performing.",
+        price: "569.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/L71731000000000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Shure MV7+ Podcast Microphone Black",
+        description:
+          "The Shure MV7+ podcast microphone is designed to capture professional-quality audio for podcasts, streaming and music. With hybrid USB-C and XLR outputs, the MV7+ connects seamlessly to your computer or interface for recording digitally or analog. An LED touch panel lets you customize the look of your mic and monitor your levels at a glance. When paired with the MOTIV Mix desktop app, the MV7+ unlocks powerful DSP tools to shape your sound, including EQ, compression, reverb and more.",
+        price: "249.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/M10302000001000-00-600x600.jpg",
+        special: "On Sale",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Bose Wireless Mic/Line Transmitter - (WT-XLR) for S1 Pro+",
+        description:
+          "Bose encourages you to ditch the cumbersome cables and connect directly to the S1 Pro+ portable PA system using their Wireless Mic/Line Transmitter. Now, it is easier than ever to connect your mixer or microphone with the S1 Pro+ portable system and be truly free of wires, all together. Each day, more people choose Bose for their top-of-the-line gear and truly reliable wireless connection capabilities.",
+        price: "149.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/M01461000000000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Neumann TLM 102 Condenser Microphone Nickel Silver",
+        description:
+          "Neumann's TLM 102 condenser microphone brings the brand's signature sound to home and project studios. This innovative mic that combines a compact, ergonomic design with Neumann's meticulous German engineering. The TLM 102 features a newly developed large-diaphragm capsule to capture vocals, guitars, drums and more with stunning clarity and detail.",
+        price: "655.77",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/584192000232000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Sennheiser XSW IEM Wireless In-Ear Monitoring System Band A",
+        description:
+          "The Sennheiser XSW wireless in-ear monitoring system gives you an affordable, professional way to take control of how you hear yourself on stage. Engineered by audio experts Sennheiser, this all-in-one system uses professional-grade UHF wireless technology for rock-solid signal and stunning detail. An intuitive rackmountable transmitter with simple interface lets you dial in your ideal monitor mix in seconds.",
+        price: "483.40",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/L93241000001000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Shure SM81 Cardioid Condenser Microphone",
+        description:
+          "The Shure SM81 cardioid condenser instrument microphone is a highly acclaimed piece of equipment that has been used by professional musicians and recording studios all over the world. Shure has built a reputation on creating reliable, excellent-sounding products that are a fantastic value. With its wide frequency response, the SM81 does an excellent job at producing clear acoustics for large range of instruments. It also has a unidirectional, cardioid polar pattern that helps to isolate the main source and reduce background noise, making it versatile enough to be used in a live or studio setting.",
+        price: "399.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/270171000000000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Shure BLX24 Handheld Wireless System With PG58 Capsule Band H11",
+        description:
+          "This package includes the BLX4 receiver and the BLX handheld transmitter with a PG58 mic capsule. The BLX transmitter features a popular mic capsule, a rugged and reliable ABS polymer chassis and frame, a 10dB pad, an On/Off ergonomic push-button switch, and a single bi-color LED battery indicator. The BLX4 is a half-rack sized wireless receiver built into a rugged, polymer ABS chassis. It features advanced capabilities usually unavailable in wireless systems in this price range. The PG58 capsule is a popular mid-priced cardioid dynamic microphone capsule.",
+        price: "249.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/H95327000007000-00-600x600.jpg",
+        special: "On Sale",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Xvive U2 Guitar Wireless System Black",
+        description:
+          "Xvive U2 guitar wireless system features digital wireless technology that delivers incredible audio quality, simple setup and is extremely reliable for gigging musicians. It delivers a full 20Hz–20kHz frequency response, so you’ll hear your guitar tone in great detail with only 6 ms of latency. This wireless system operates at 2.4gHz ISM band for crystal-clear broadcasting ensuring the integrity of your signal on stage and covers 70+ feet of range without any signal dropout. The lithium-ion batteries help make the U2 wireless system environmentally friendly and can last up to 5 hours per charge. The chassis is made out of a durable ABS plastic that can withstand the rigors of touring and the harshest of climates. This wireless system is a perfect fit for any pedalboard thanks to its simple and compact design. Go wireless with the Xvive U2 system.",
+        price: "108.43",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/J52433000000001-00-600x600.jpg",
+        special: "On Sale",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Shure SM58S Mic With Switch",
+        description:
+          " Shure's SM58S Dynamic Vocal Microphone with Switch is ready to bring any performance to life. The SM58S delivers exceptional vocal reproduction thanks to its tailored frequency response highlighting the midrange, allowing vocals to cut through the mix. The SM58S's uniform cardioid polar pattern focuses on the main sound source while reducing background noise, capturing vocals with warm, crisp clarity. Its rugged, all-metal construction is built to last through years of live performances. The SM58S's pneumatic shock mount reduces handling noise and its built-in pop filter eliminates breath sounds and wind noise.",
+        price: "109.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/270104000000000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Shure BLX288/B58 Wireless Dual Vocal System With Two BETA 58A Handheld Transmitters Band H10",
+        description:
+          "For singers and vocal groups seeking professional-grade wireless performance, the Shure BLX288/B58 Dual Vocal System delivers. This dual-channel system combines Shure's legendary vocal microphone expertise with cutting-edge wireless technology. Featuring two BLX2/B58 handheld transmitters with integrated Beta 58A supercardioid dynamic mic capsules—renowned for pristine vocal reproduction—the BLX288/B58 empowers singers with the vocal clarity and control they demand.",
+        price: "724.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/L73908000002000-00-600x600.jpg",
+        special: "On Sale",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "RODE NT1 Signature Series (Black) Black",
+        description:
+          "The RØDE NT1 made its way onto the scene in 1991 and hasn’t left since—it’s become one of the world’s most popular studio condenser microphones, a certified staple for everyone from bedroom content creators to professional voice-over actors and Grammy-winning legends in world-class recording studios. Famous for making that warm and silky sonic character usually only found in higher-end mics accessible to the more budget-conscious, the NT1 has evolved over the years and is commemorated in the NT1 Signature Series. Available in multiple colorways with the same classic build, capsule and electronics that have made the NT1 a mainstay the world over, RØDE NT1 Signature Series microphones deliver sublime sound with style.",
+        price: "159.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/M07551000001000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
     ],
@@ -1286,99 +1400,123 @@ const musicStore = {
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Focusrite Vocaster Two Podcasting Interface for Content Creators",
+        description:
+          "The dream scenario for any audio production is to simply walk into the studio and press “Record” without painstaking setup. The Focusrite Vocaster Two audio interface makes that concept a reality for podcasters. With smart gain and audio enhancement features for both host and local guest, simple phone and camera connectivity for remote guests and vlog support, stereo loopback from your computer and a full assortment of powerful podcasting tools, the Focusrite Vocaster audio interfaces take you from idea to on-air in a single, straightforward step. ",
+        price: "99.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/L94724000000000-00-600x600.jpg",
+        special: "On Sale",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Mackie ProFX6v3+ Content Creator Bundle With SM7dB Microphone and SRH440A Headphones",
+        description:
+          "The ProFX6v3+ content creator bundle from Mackie packs all the essentials for podcast, music and video production into one convenient package. With the six-channel Mackie ProFX6v3+ mixer, Shure SM7dB dynamic microphone, Shure SRH440A closed-back headphones, microphone cable and mic boom stand, you've got an all-in-one solution for professional-quality content creation.",
+        price: "959.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/M08029000000000-00-600x600.jpg",
+        special: "On Sale",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "VocoPro Streamer-Live, USB Audio Interface, Condenser Microphone, Boom Stand and LED Ring Light Package for Content Creators",
+        description:
+          "With this powerful content creator package from VocoPro, you've got all you need to capture lasting performances, vlogs, and podcasts at home or on the road. The heart of the Streamer package is the STREAMER USB audio interface. Plug in your PC or smart phone with the included condenser mic to broadcast your content to the world.",
+        price: "149.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/L79498000000000-00-600x600.jpg",
+        special: "On Sale",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Gator Frameworks ID Series All-In-One Content Creator Tree with Light, Mic & Camera Attachments",
+        description:
+          "Ensure that everything you need to create your content is set up, organized and ready to go with the ID Series Creator Tree by Gator Frameworks–your content lifesaver. This completely customizable, adjustable set-up allows creators to configure their workspace to their personal preferences. Keep your cameras, lights, mics and other accessories exactly where you want them with a system that can grow with you. Innovation and design is in every detail. Regain valuable space by clamping the creator tree directly to your desktop and mounting your phone on the included LED ring light and adjusting it to the most flattering angle. A ball-head camera mount with a reversible cold shoe mount will put your camera where you need it. Mounting accessories on the top or the bottom of the extendable arms give you multiple setup options. Put your microphone at the center of the action with the 360-degree rotating mic boom arm. Speed and convenience are crucial to getting your content created and posted in a competitive content market. The Creator Tree organizes the vital components of your content creation station, right there within easy reach.",
+        price: "299.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/L95150000000000-00-600x600.jpg",
+        special: "On Sale",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Behringer WING RACK Rackmount 48-Channel Digital Mixing Engine With 24 Midas PRO Preamps",
+        description:
+          "The Behringer WING RACK digital mixing engine puts professional-grade mixing power in your rack. With 24 Midas PRO mic preamps and eight MIDAS PRO outputs, it delivers pristine audio quality for live sound and recording applications. The 19 inch rackmountable design saves space in your studio or on stage. For fast, intuitive operation, it features a 10.1 inch multi-touch display, eight buttons and four encoders.",
+        price: "1599.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/M16285000000000-00-600x600.jpg",
+        special: "Preorder",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Universal Audio Apollo Twin X DUO Heritage Edition Thunderbolt 3 Audio Interface",
+        description:
+          "The Universal Audio Heritage Edition Apollo Twin X DUO is an elite 10x6 desktop interface for home studios and on-the-go music producers. Featuring a pair of Unison-enabled microphone preamps, a Hi-Z instrument input, dedicated monitor outputs, two line-level outs and 8-channel digital expansion over ADAT, the Twin X is the ideal companion for recording vocals, guitar, bass, synth and more. Two DSP chips let you offload plug-in processing to the Apollo, enabling real-time tracking through Unison preamps and UAD effects with virtually zero latency. This functionality is a hallmark feature of the Apollo interface series, providing musicians, engineers and producers access to authentic analog tone entirely in the box. Capture your purest recordings yet with the UA Apollo Twin X DUO Heritage Edition.",
+        price: "799.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/L81211000000000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Focusrite Scarlett 2i2 USB-C Audio Interface (Gen 4)",
+        description:
+          "One of the world's most recognizable and widely used recording interfaces, the Focusrite Scarlett 2i2, just got some major upgrades and is now available at Guitar Center. The fourth-generation Focusrite Scarlett 2i2 includes a bevy of studio-friendly features that will make your next session come to life with ease thanks to two ultralow-noise mic pres, character-enhancing harmonic saturation, flagship converters and all the software you need to take your productions from cold and stale to red-hot masterpieces.",
+        price: "199.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/M03079000000000-00-600x600.jpg",
+        special: "On Sale",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Shure SM7B Cardioid Dynamic Microphone",
+        description:
+          "The Shure SM7B dynamic microphone consistently delivers a warm, smooth tone which has made it an undisputed industry standard. With decades of design refinement, the SM7B provides unmatched versatility for a wide range of studio and live applications. From podcasts and voiceovers to Grammy-award-winning performances, this mic captures speech and vocals with authoritative richness and clarity.",
+        price: "359.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/270247000000000-00-600x600.jpg",
+        special: "On Sale",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Focusrite Scarlett 18i20 USB Audio Interface (Gen 3)",
+        description:
+          "The Focusrite Scarlett 18i20 USB audio interface (Gen 3) is designed to take your studio setup to the next level. Featuring high-performance analog-to-digital and digital-to-analog conversion up to 24-bit/192kHz, the 18i20 provides pristine audio quality for recording and playback. With 18 inputs and 20 outputs, this third-generation interface offers extensive connectivity for mics, instruments, monitors and more. The Focusrite Scarlett 18i20, a powerful yet intuitive solution for professional and home recording studios alike.",
+        price: "599.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/L56608000000000-00-600x600.jpg",
+        special: "On Sale",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Blackmagic Design Pocket Cinema Camera 6K Pro",
+        description:
+          "The Blackmagic Pocket Cinema GK Pro camera packs an incredible number of high-end digital film features into a miniaturized handheld design. The lightweight camera includes a multifunction handgrip with all controls for recording, ISO, WB and shutter angle right at your fingertips. The sensor is designed to reduce thermal noise and to allow cleaner shadows and higher ISO, plus a large 5 inch LCD makes it possible to get perfect focus at 4K and 6K resolutions. Additional features include a removable battery door, four shock-proof microphones, a heavy-duty lens mount and built-in speaker.",
+        price: "2535.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/L89134000000000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Apogee Duet 3 USB-C Audio Interface & Docking Station Limited-Edition Bundle",
+        description:
+          "Apogee Electronics, a pioneering force in digital audio recording technology since 1985, proudly presents the Duet 3 Limited-Edition Set, available exclusively at Guitar Center in the U.S. This special bundle gives customers an array of innovative tools to shape their recordings and kickstart any project.",
+        price: "699.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/M05414000000000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "QSC TouchMix-16 16-Channel Compact Digital Mixer",
+        description:
+          "The QSC TouchMix-16 16-Channel Compact Digital Mixer puts pro-level live mixing capabilities into an easy-to-use, portable package. This innovative mixer from QSC delivers pristine sound quality and robust routing and effects processing through an intuitive touchscreen interface, ideal for managing medium-format mixing tasks. Musicians and audio engineers alike will appreciate the TouchMix-16's versatile connectivity, including 12 XLR inputs, 4 XLR/1/4 inch hybrid inputs and multiple aux and main outputs to handle a range of input sources.",
+        price: "1699.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/J09775000000000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
     ],

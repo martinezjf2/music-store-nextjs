@@ -57,7 +57,7 @@ export default function Navbar({ count }) {
         </div>
 
         <div className="w-1/12 flex justify-center items-center hover:bg-gray-100 hover:text-blue-500 px-4 py-6 cursor-pointer">
-          <div className="font-semibold text-[13px]">Account</div>
+          <div className="font-semibold text-[13px]">Wishlist</div>
           <FontAwesomeIcon
             icon={faChevronDown}
             className="text-[10px] pl-2 pb-1"
