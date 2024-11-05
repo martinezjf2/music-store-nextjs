@@ -1046,11 +1046,13 @@ const musicStore = {
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Yamaha HS8 8 inch Powered Studio Monitor (Each)",
+        description:
+          "The Yamaha HS8 studio monitor delivers professional-grade audio for your recording space. Yamaha's signature white speaker cones have been the studio standard for decades, trusted by professionals around the world for their flat, accurate response. The HS8 improves on this legendary performance with custom bi-amplified drivers and a scientifically engineered cabinet for vanishingly low distortion. Whether you have a dedicated studio or a bedroom setup, the HS8 gives you the tools to hear every detail of your mix.",
+        price: "398.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/H96225000000000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
