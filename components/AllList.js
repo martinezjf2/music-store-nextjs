@@ -2,6 +2,7 @@
 import React from "react";
 import Item from "./Item";
 import Link from "next/link";
+import Head from "next/head";
 
 export default function AllList({
   store,
@@ -29,6 +30,9 @@ export default function AllList({
 
   return (
     <>
+      <Head>
+        <title>{store.name}</title>
+      </Head>
       <section className="mx-auto relative px-10 py-6 ">
         <div className="flex justify-start items-center">
           <Link href="/">Home</Link>

@@ -880,147 +880,183 @@ const musicStore = {
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Etude ETB-100 Series Student Trombone Lacquer",
+        description:
+          "The Etude ETB-100 Series Student Trombone features a medium bore designed for easy tone production and projection. This trombone also features a brass outer handslide and crook plus a chrome inner handslide for enhanced durability. Including a mouthpiece and case, the ETB-100 displays a great design and reflects Etude's commitment to outstanding construction, resulting in an instrument that will give you years of musical enjoyment and give your student every chance to develop a lifelong association with the love of music.",
+        price: "269.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/H74693000001000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Cremona SV-500 Series Violin Outfit 4/4 Size",
+        description:
+          "The clear, lovely varnish is orange-brown, slightly shaded, and the tone and workmanship are first-rate. Supplied with a lightweight, 4-tuner tailpiece and D'Addario Prelude steel strings, this violin offers the best tone quality for the advanced student. This outfit comes complete with a genuine horsehair bow, a hardshell case and violin care products. Of the many available student violin starter kits available, this one merits particular consideration. Cremona is a respected brand, and the final inspections on these instruments are made by expert violin makers. Each instrument is setup to Cremona standards at their U.S. workshop and is ready to play the day they arrive, adorned with all of the extras you need to get started. There many things that can interrupt a student's development on his or her instrument. The Cremona SV-500 will not be one of them.",
+        price: "339.74",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/J00688000001000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Etude Student Clarinet Model ECL-100 Standard",
+        description:
+          "The Etude ECL-100 Clarinet offers sturdy construction with classic looks and sound. Combining a plastic body with nickel keys, it is designed for easy tone production and durability. With strong projection and smooth, responsive playability, it sounds and feels like a much more expensive instrument Includes case, mouthpiece, cap, and ligature. Etude believes price should not be a barrier to experiencing the growth and joy that comes from making music. That's why Etude offers five of the most popular woodwind and brass instruments at an incredible price: flute, clarinet, alto sax, trumpet, and trombone. And no matter which you choose, you get a great design and outstanding construction that will give you years of musical enjoyment. See for yourself!",
+        price: "199.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/463674000390000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Sound Percussion Labs Birch Marching Quads with Carrier 8/10/12/13 White",
+        description:
+          "Get the most drum configuration options with the SPL Birch Competition Marching Tenor Quads. They feature 7-ply all-birch shells for a bright, highly projected sound while maintaining low-end attack, ideal for halftime shows, parades, pep bands and more. Shells include 8”, 10”, 12” and 13” sizes, and we include a sturdy and rugged carrier to effortlessly carry them all. SPL uses weld-less, triple-flange hoops and Evans System Blue Marching Tenor Series drumheads, creating the open sound and articulation necessary for today’s most discerning marching ensemble. ",
+        price: "369.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/K48274000000001-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Selmer Selmer Alto Saxophone, Lacquer Finish, Lightweight Case, Selmer R402 Mouthpiece Black Nickel Body Gold Lacquer Keys",
+        description:
+          "The Selmer SAS511 alto saxophone brings the legendary Selmer Paris tone to intermediate players. With the same hand-adjusted neck and premium brass body as professional models, the SAS511 produces a rich, complex sound that punches above its class. Its iconic design takes inspiration from vintage Selmer saxophones, featuring post-to-rib construction and a one-piece, hand-hammered bell for incredible resonance. The SAS511 comes in four beautiful lacquer and plating finishes with ornate engraving. For fast passages and demanding solos, it has a light key action with blue steel springs and ergonomic enhancements like an adjustable thumb rest and tilting table keys. The sax goes through Selmer's 3-phase tone hole leveling process for excellent pad seating and stability. To protect the SAS511, a rugged nylon case with backpack straps is included.",
+        price: "3151.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/M10316000002001-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Silver Creek Thumper Upright String Bass Outfit 3/4 Size",
+        description:
+          "The Thumper Upright string bass outfit is a quality 3/4 size bass, perfect for bluegrass. It features a laminated spruce top, laminated maple back and sides, solid maple neck, ebony fingerboard and Helicore Orchestra strings. The nut and saddle are crafted of ebony, and it has an adjustable maple bridge. Inlaid purfling enhance the charm and beauty of the instrument, as does its shaded matte finish.",
+        price: "1449.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/J10303000001000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Bellafina Musicale Series Cello Outfit 4/4 Size",
+        description:
+          "Every musical master starts somewhere. Bellafina's Musicale Series Cello Outfit is the perfect beginner's instrument for launching your child's musical journey. The Musicale cello outfit comes fully equipped with everything needed to start learning and performing. This full-size cello features a solid spruce top and maple back and sides for a warm, resonant tone. The ebony fingerboard, pegs and hand-carved maple bridge provide easy playability and durability. Strung with high-quality D'Addario Prelude steel strings, the Musicale cello produces a rich sound ideal for student orchestras.",
+        price: "899.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/J05783000001000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Zildjian Traditional Orchestral Gong 30 in.",
+        description:
+          "Hand-hammered and crafted to old-world specifications for an unmistakable, classic gong sound. One-piece cast construction crafted in China yields a complex blend of highs and lows with beautiful warm overtones.",
+        price: "899.95",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/441208000000226-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Yamaha YTR-2330 Standard Bb Trumpet Bb Trumpet",
+        description:
+          "The Yamaha YTR-2330 Standard Bb trumpet is the instrument that has assisted in the development of thousands of trumpeters all over the world. The two-piece bell of the YTR-2330 Standard is crafted using state-of-the-art production methods, delivering a consistent, vibrant tone. The balanced weight and addition of an adjustable third valve trigger allows for a natural hand position and promotes proper playing technique, while the water key on the third valve slide adds to the ease of use and over-all playability of the instrument. The durable, yet light, two-piece bell is made of yellow brass for optimal playability and to promote good technique and endurance. Highly durable Monel alloy pistons as well as newly designed piston buttons and bottom caps help lengthen the life of the instrument while also maximizing sound quality. The 2nd and main tuning slides are produced using the same method as high-end Yamaha models, which provides stability, a more refined tonal color and added durability.",
+        price: "1577.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/H82869000001000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Yamaha SV-200 Silent Violin Performance Model Brown",
+        description:
+          "Dual piezo pickups under the bridge provide greater dynamic range. 2 EQ modes for enhanced acoustic tone or dry signal. Repositioned output jack so cable drapes behind player. Studio-quality preamp. A redesigned full lower bout accommodates standard shoulder rest. The neck is left unfinished to feel like a standard acoustic instrument.",
+        price: "1433.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/464051000008000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Sound Percussion Labs Marching Snare Drum With Carrier 13 x 11 in. Black",
+        description:
+          "Sound Percussion Labs’ Standard Marching Snare Drums are designed to fit the needs of any school function – from halftime shows to parades to pep bands and more. These versatile snares feature 7-ply basswood shells, triple flange powder-coated hoops and traditional chrome-plated single-lug style hardware, plus a new heavy-duty forward throw-off and cast but end.",
+        price: "199.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/K48275000002001-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Cremona SV-1500 Master Series Violin Outfit 4/4 Size",
+        description:
+          "This Cremona Master Series Maestro SV-1500 violin is the perfect blend of thousands of years of skilled manufacturing techniques with the best materials possible to create a modern masterpiece. From the premium solid tonewoods, to the polished boxwood trim and ebony fittings, this violin is truly a superb instrument in every aspect. Each violin is setup to Cremona standards at their U.S. workshop.",
+        price: "1176.40",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/J09887000001000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Allora MXPT-5801-BK Black Nickel Series Pocket Trumpet Black Nickel",
+        description:
+          "Its sharp black nickel plate finish makes this pocket trumpet perfect for the player who wants a cool look as well as a great sound. Its compact size makes the Allora 5801especially well suited for travel.",
+        price: "379.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/H25262000001000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "MEINL Brass Marching Cymbal Pair 18 in.",
+        description:
+          "These Meinl Brass Marching Cymbals are perfectly matched pair with a powerful projection and strong high-end. These cymbals also produce quick response with a controlled feel.﻿",
+        price: "179.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/J47504000001000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Levante LV-TR5205 Bb Trumpet Yellow Brass",
+        description:
+          "With improved playability and smooth, responsive action, this Bb trumpet from Levante is ideal for intermediate players, music schools and training bands. Durable and sturdy, this quality trumpet features a warm and rounded performance experience. With a medium-large bore and gold brass leadpipe, This Bb trumpet features a thumb saddle on the first valve slide and a thumb ring on the third valve slide, with a stopper threaded rod, plus two water keys. It includes a 7C silver-plated mouthpiece and soft case.",
+        price: "399.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/L76320000001000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Allora AFL-250 Student Series Flute Offset G C-Foot",
+        description:
+          "A used or extraordinarily cheap instrument can actually lessen your child’s likelihood of continuing in music. With the Allora Student series, you get a quality instrument that will play in tune, withstand student treatment and inspire pride of ownership. Allora instruments are carefully manufactured according to specifications and development accumulated over many years by Allora's team of brass and woodwind buyers. The result is a line of instruments that play well, are durable and possess a satisfying tone and dynamics capability, all with a price that makes it much easier to get involved with music.",
+        price: "349.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/J47539000001001-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Rees Harps Harpsicle Harp Black",
+        description:
+          "The Rees Harps Harpsicle Harp Red, an innovative lever harp that provides full, resonant tone in a lightweight, compact package. Ideal for beginners and professional harpists alike, the Harpsicle Harp Red features 22 DuPont hard nylon strings and a sturdy maple frame that produce rich, melodic sound. With its portable size and ability to be tuned to multiple scales, this harp enables you to make music wherever inspiration strikes.",
+        price: "580.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/475016000901000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Sound Percussion Labs 2-2/3 Octave Xylophone Padauk Wood Bars with Resonators",
+        description:
+          "Unlike traditional bell kits, the SPL 2-2/3 Octave Wooden Practice Xylophone is the ideal instrument that gives you the same sound and feel as a wooden mallet instrument. It' an excellent choice for the beginning mallet player as well as an superior tool for home practice for the experienced player. Some introductory xylophones use a single pin to hold the key to the frame. SPL uses the time-tested method of a Bar Cord with spring tension connectors. This allows precise bar positioning and minimizes the movement of the bar when striking. When learning, the position of the bar is crucial. The traditional pin method allows the bar to move sideways, which does not give true, consistent positioning. Plus, better tonal quality is achieved when the bar is suspended as opposed to pinned to the frame.",
+        price: "549.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/J21715000001001-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
     ],
@@ -1056,91 +1092,113 @@ const musicStore = {
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "PreSonus AudioBox Studio Ultimate Bundle 25th Anniversary Edition",
+        description:
+          "The PreSonus AudioBox Studio Ultimate Bundle 25th Anniversary Edition provides singer-songwriters, podcasters and home studio enthusiasts with an all-in-one solution for creating professional productions. This bundle features PreSonus' reliable AudioBox USB 96 audio interface, user-friendly Studio One Artist digital audio workstation software and high-definition monitoring equipment, allowing you to record up to 24-bit/96kHz audio and mix with virtual instruments and effects.",
+        price: "249.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/L77758000000000-00-600x600.jpg",
+        special: "On Sale",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Focusrite Scarlett 2i2 Studio Pack (Gen 4)",
+        description:
+          "One of the world's most recognizable and widely used recording interfaces, the Focusrite Scarlett 2i2, just got some major upgrades and is now available at Guitar Center. The fourth-generation Focusrite Scarlett 2i2 includes a bevy of studio-friendly features that will make your next session come to life with ease thanks to ultralow-noise mic pres, character-enhancing harmonic saturation and flagship converters. With the Studio pack, Focusrite kicks your workflow up a notch with a studio-quality condenser microphone, pop filter, hyper-accurate closed back headphones, an XLR cable and all the software you need to take your productions from cold and stale to red-hot masterpieces.",
+        price: "299.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/M03077000000000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Apogee Duet 3 USB-C Audio Interface & Docking Station Limited-Edition Bundle",
+        description:
+          "Apogee Electronics, a pioneering force in digital audio recording technology since 1985, proudly presents the Duet 3 Limited-Edition Set, available exclusively at Guitar Center in the U.S. This special bundle gives customers an array of innovative tools to shape their recordings and kickstart any project. This limited-edition set pays homage to the standards set by the iconic original Duet and offers customers the biggest value yet. Creators will receive the Duet 3, the Duet Dock and 3 of the best-selling Apogee plug-ins, providing everything required to break through and fulfill their potential. It includes the added value of $1,000 between the dock attachment and software plug-ins.",
+        price: "699.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/M05414000000000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Focusrite Scarlett Solo Studio Pack (Gen 4)",
+        description:
+          "One of the world’s most recognizable and widely used recording interfaces, the Focusrite Scarlett Solo, just got some major upgrades and is now available at Guitar Center. The fourth-generation Focusrite Scarlett Solo includes a bevy of studio-friendly features that will make your next session come to life with ease thanks to ultralow-noise mic pres, character-enhancing harmonic saturation and flagship converters. With the Studio pack, Focusrite kicks your workflow up a notch with a studio-quality condenser microphone, pop filter, hyper-accurate closed-back headphones, an XLR cable and all the software you need to take your productions from cold and stale to red-hot masterpieces.",
+        price: "249.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/M03078000000000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Universal Audio Apollo x6 Gen 2 16x22 Thunderbolt 3 Audio Interface Essentials",
+        description:
+          "The Apollo x6 Gen 2 16x22 Thunderbolt 3 audio interface, available in Essentials+ and Studio+ versions, from Universal Audio gives you an intuitive way to track and mix in your digital audio workstation. With two Unison mic preamps and HEXA Core DSP, you'll experience classic analog tones and access to UA's library of over 200 plug-ins. The Apollo x6 is ideal for home studios and project studios that need professional-quality sound without extra analog inputs.",
+        price: "2499.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/M15527000000001-00-600x600.jpg",
+        special: "New Arrival",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Yamaha HS8 W 8 inch Powered Studio Monitor (Each), White",
+        description:
+          "Yamaha's HS8 powered studio monitors represent the pinnacle of the brand's nearfield monitor legacy. The HS8 combines cutting-edge components with Yamaha's signature sound to provide an uncolored sonic reference for any studio. Featuring an 8 inch cone woofer and 1 inch dome tweeter in an advanced bi-amplified configuration, the HS8 renders audio with stunning resolution across the frequency spectrum.",
+        price: "398.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/J05610000001000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Universal Audio Volt 2 USB Recording Studio Audio Interface",
+        description:
+          "The Universal Audio Volt 2 recording studio audio interface brings professional-quality results to your home setup. Designed for musicians looking to capture studio-quality recordings, this 2-in/2-out USB audio interface comes equipped with high-quality preamps and AD/DA converters to capture every nuance of your performance. Its vintage-style preamps and tone shaping tools provide the rich, full sound of classic analog gear so you can achieve the warmth and character of your favorite records.",
+        price: "179.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/L88916000000000-00-600x600.jpg",
+        special: "On Sale",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "JBL LSR310S 10 inch Powered Studio Subwoofer (Each)",
+        description:
+          "The JBL LSR310S 10 inch powered studio subwoofer takes your studio monitoring experience into the depths of bass. With a custom-designed 10 inch down-firing driver and Slip Stream port, this powered subwoofer reaches down to an earth-shaking 27Hz, unleashing tight, focused bass that brings tracks to life. Designed as the perfect companion to JBL's LSR studio monitor series, the LSR310S lets you experience the full spectrum of your music.",
+        price: "329.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/J04968000000000-00-600x600.jpg",
+        special: "On Sale",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "PreSonus Eris 3.5BT Studio Monitor (2nd Gen) (Pair)",
+        description:
+          "Second-generation PreSonus Eris 3.5BT desktop monitors, with built-in Bluetooth, cater to a diverse range of users, including music producers, gamers, content creators and entertainment enthusiasts looking for enhanced sound quality and adaptable I/O within a small footprint. The 3.5 inch Eris monitors deliver clear, articulate sound with punchy transient reproduction, a smooth crossover transition and a wide dispersion area. An overall improvement to the speakers’ voicing over the previous generation also allows producers and engineers to log serious hours on mixes with less fatigue, and it supports comfortable casual listening for all types of media. Flagship PreSonus Eris 3.5BT monitors are an ultracontemporary combination of reference-quality sound and convenient wireless connectivity in a trim package.",
+        price: "129.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/M05027000000000-00-600x600.jpg",
+        special: "On Sale",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Solid State Logic SSL 2+ MKII USB Audio Interface",
+        description:
+          "The SSL 2+ MKII USB audio interface gives you a piece of the legendary SSL legacy at an affordable price. Building on the success of the original SSL 2+ with significant upgrades, the MKII delivers professional studio quality for recording and production on the go. Whether you're just starting out or a seasoned pro, the MKII provides stunning sonics and an intuitive design to fuel your creativity.",
+        price: "299.99",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/M15877000000000-00-600x600.jpg",
+        special: "New Arrival",
         condition: "New",
       },
       {
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        special: "",
+        name: "Focal Alpha 80 Evo 8 inch Powered Studio Monitor (Each)",
+        description:
+          "Designed in France by Focal, Alpha 80 Evo monitors give producers high SPL as well as deep low-end extension. They boast a 1/4 inch TRS jack input, a disengageable automatic standby mode and inserts for wall mounting. These fully analog monitors are equipped with two Class-D amplifiers whose high-current capacity allows full control of signal dynamics. They also provide high volumes without distortion, and pick up the slightest subtleties in the mix. Alpha 80 Evo monitors feature a 5/8 inch -thick MDF cabinet and incorporate internal braces to sustain optimal durability, even at the highest levels of acoustic pressure. The bass-reflex design ensures easy acoustic integration in any space. Aesthetically, the traditional cube monitor shape makes way for rounded contours. The side panels give a robust, modern design, while contributing to excellent acoustics.",
+        price: "499.00",
+        image:
+          "https://media.guitarcenter.com/is/image/MMGS7/L92429000000000-00-600x600.jpg",
+        special: "Top-Seller",
         condition: "New",
       },
     ],
