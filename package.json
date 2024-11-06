@@ -28,6 +28,7 @@
     "react-dom": "^18",
     "sass": "^1.75.0",
     "sass-loader": "^14.2.0",
+    "stripe": "^17.3.1",
     "style-loader": "^4.0.0"
   },
   "devDependencies": {
