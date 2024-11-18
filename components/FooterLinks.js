@@ -110,7 +110,7 @@ export default function FooterLinks() {
           ].map((section, index) => (
             <div
               key={index}
-              className="w-full lg:w-auto px-3 pb-5 lg:pb-0 lg:px-5 sm:pt-4 lg:pt-0"
+              className="w-full lg:w-auto px-3 pb-5 lg:pb-0 lg:px-5 sm:pt-7"
             >
               <div className="font-bold text-[13px] pb-2">{section.title}</div>
               {section.links.map((link, idx) => (
