@@ -38,7 +38,7 @@ export default function Item({
   }
 
   return (
-    <div className="border border-gray-700 rounded h-[470px] w-full py-5 px-4 relative bg-white hover:shadow-2xl hover:scale-105 transition">
+    <div className="border border-gray-700 rounded h-full w-full py-5 px-4 relative bg-white hover:shadow-2xl hover:scale-105 transition">
       {special ? (
         <div className="absolute">
           <div
@@ -65,11 +65,11 @@ export default function Item({
         className="mb-2 hover:cursor-pointer hover:underline"
         onClick={handleClick}
       >
-        {name.length > 50 ? name.substring(0, 45) + "..." : name}
+        {name.length > 50 ? name.substring(0, 80) + "..." : name}
       </div>
-      <div>
+      <div className="pb-12">
         {description.length > 50
-          ? description.substring(0, 45) + "..."
+          ? description.substring(0, 85) + "..."
           : description}
       </div>
       <div className="font-bold absolute bottom-3 pt-3">${price}</div>

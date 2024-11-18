@@ -1,4 +1,3 @@
-// Make sure this component is usable for all pages for guitars, drums, and more
 import React from "react";
 import Item from "./Item";
 import Link from "next/link";
@@ -22,6 +21,7 @@ export default function AllList({
       onItemSubmit={onItemSubmit}
     />
   ));
+
   const contentList = store.content.map((p, i) => (
     <p key={i} className="font-extralight pb-5">
       {p}
@@ -33,17 +33,23 @@ export default function AllList({
       <Head>
         <title>{store.name}</title>
       </Head>
-      <section className="mx-auto relative px-10 py-6 ">
+      <section className="mx-auto relative px-10 py-6">
+        {/* Breadcrumb */}
         <div className="flex justify-start items-center">
           <Link href="/">Home</Link>
           <div className="w-[5px] h-[5px] bg-black rounded-full flex justify-center items-center mx-3"></div>{" "}
           <span className="font-bold">{store.name}</span>
         </div>
+
+        {/* Store Title */}
         <div className="text-[40px] font-bold tracking-wider pt-3 pb-8">
           {store.name}
         </div>
+
+        {/* Grid Layout */}
         <div className="grid grid-cols-4">
-          <div className="col-span-1">
+          {/* Sidebar Filters */}
+          <div className="hidden lg:block col-span-1">
             <div className="border-b-2 w-11/12 py-5 px-2 flex justify-between items-center">
               <div className="font-bold tracking-wide">Find In Stores</div>
               <div className="text-gray-600 text-[20px] mr-5 hover:cursor-pointer">
@@ -93,12 +99,15 @@ export default function AllList({
               </div>
             </div>
           </div>
-          <div className="col-span-3 grid grid-cols-4 gap-3 justify-center items-center bg-gray-100 px-5 py-6">
+
+          {/* Item List */}
+          <div className="col-span-4 lg:col-span-3 grid grid-cols-2 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 justify-center items-center bg-gray-100 px-5 py-6">
             {itemList}
           </div>
         </div>
       </section>
 
+      {/* Content Section */}
       <section className="pt-9">
         <div className="px-9 pb-9 pt-6 border-t-2 border-gray-200 w-5/6 mx-auto">
           {contentList}
